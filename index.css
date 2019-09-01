@@ -1,0 +1,9 @@
+p#intro{
+    /* align-content: center; */
+    text-align: center;
+    color: crimson;
+}
+
+div#firstButton{
+    text-align: center;
+}
