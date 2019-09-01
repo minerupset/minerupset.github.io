@@ -4,6 +4,11 @@ p#intro{
     color: crimson;
 }
 
+p#result{
+    text-align:center;
+    color: navy;
+}
+
 div#firstButton{
     text-align: center;
 }
