@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Hello World - Miner Curiosity</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra_css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Miner Curiosity</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">C# <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Hello World</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../python-hello-world/">Hello World</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">JavaScript <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../js-hello-world/">Hello World</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Tools <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../vs-code-tools/">VS Code Tools</a>
+</li>
+                                    
+<li >
+    <a href="../git-github-learnings/">Git / GitHub</a>
+</li>
+                                    
+<li >
+    <a href="../html-and-css/">Basic HTML & CSS</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="disabled">
+                                <a rel="next" >
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../python-hello-world/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#c-some-basics-and-hello-world">C# - Some Basics and Hello World</a></li>
+            <li><a href="#c-value-prop">C# Value Prop</a></li>
+            <li><a href="#basic-c-console-app-hello-world">Basic C# Console App - Hello World</a></li>
+            <li><a href="#resources-and-references">Resources and References</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="c-some-basics-and-hello-world">C# - Some Basics and Hello World</h1>
+<hr>
+
+<h2 id="c-value-prop">C# Value Prop</h2>
+<p>I have a confession to make: I started learning how to code in the most business-like of environments, the VBA window of Excel files. I will forever feel like 'not a real developer' because of this. Since then, I like to think I've advanced some, but at the end of the day, I'm still the same anxious consultant looking to get an accurate answer as fast as possible. VBA was good for that then, because I was almost always crunching Excel data, but now, I would say my go to language is C#. It's a good mix of familiar constructs and powerful tools and libraries, and has a wide range of application.</p>
+<h3>Why C# has worked well for me:</h3>
+
+<ul>
+<li><strong>Strong typing:</strong> Don't get me wrong, I love Python because it 'just works'. But that same beauty has been a major thorn in my side in enterprise settings, making sure things are consistent throughout an application. C# is almost always <a href="#resources-and-references">strongly typed</a>, but does have a type (dynamic) for when something might shift over time.</li>
+<li><strong>Object-oriented structure:</strong> Call me old fashion, but I often think in terms of concrete objects. Actual things that have properties and methods that I can visualize. Not everyone thinks this way, it may even be a crutch to think this way, but it's my default. C# makes working with classes and objects simple, and I can easily visualize my tasks in an intuitive way that I can't as easily with functional programming.</li>
+<li><strong>Wide-spread use:</strong> We all know Python gets a lot of love because it can do anything. And it's well-earned; Python is practically synonymous with machine learning and data science, it stitches together some of the most popular web apps around the world, and it's a great introductory language to boot. But C# is hardly esoteric; ASP.NET still powers many widely used websites, .NET Core can be deployed on Windows, Mac, and Linux, and .NET integrates quite seamlessly with Azure deployment (Amazon's biggest competitor in the space). Throw in some newer toys like ML.NET, and you're hardly limited with C#.</li>
+</ul>
+<h3>Challenges with C#</h3>
+
+<ul>
+<li><strong>Fewer libraries</strong>: It seems like pip for Python and npm for NodeJS have just about every tool you could possibly think of (whether you need it or not). Microsoft's NuGet on the other hand has definitely left me with some headaches in the past. There have been improvements, but it's a far cry from a perfect set up.</li>
+<li><strong>Too Many -azors</strong>: If you've ever seen the movie 'Dodgeball', you may recall <a href="https://youtu.be/LHVIUN8dC9U?t=22">a scene</a> where Ben Stiller's character introduces his mercenary team of pro dodgeballers. I can't look at Razor Pages or Blazor Pages without thinking of this scene, and feeling as confused as the protagonists. I'm all for good front-end templates, but this is one part where Microsoft did lose me. Blazor seems to have been a step in the right direction with its component structure, but it still requires a boatload of configuration to make it work. </li>
+</ul>
+<p><br></p>
+<h2 id="basic-c-console-app-hello-world">Basic C# Console App - Hello World</h2>
+<p><hr>
+Ok, to the meat of it. Let's make a simple Hello World app.</p>
+<p>Assuming you have:</p>
+<ul>
+<li>Downloaded VS Code</li>
+<li>Installed the C# Extension</li>
+</ul>
+<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application. 
+<br></p>
+<h2 id="resources-and-references">Resources and References</h2>
+<hr>
+
+<ol>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/">Static vs. Strong Typing</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22"><code>dotnet new</code> Docs</a></li>
+</ol></div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<p>A training website intended to record learning. Visit <a href="https://www.omulombe.github.io/legal">Legal</a> page
+  for more information. Built with <a href="https://www.mkdocs.org" target="_blank">MkDocs</a></p>
+<p id="random-quote-block"><span id="quotes-quote"></span> - <span id="quotes-author"></span></p>
+
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../extra_js/extra.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

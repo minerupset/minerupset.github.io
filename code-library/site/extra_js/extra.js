@@ -5,7 +5,7 @@ function addQuote() {
     quotes.push({ quote: "That's all it is. You just begin. You do the math. You solve one problem, and you solve the next one, and the next. And if you solve enough problems, you get to come home.", author: "Mark Watney (Andy Weir)" });
     quotes.push({ quote: "You can know the name of a bird in every language, and not know anything about the bird. There is a difference between the name of a thing, and the thing itself", author: "Richard Feynman" });
     quotes.push({ quote: "One man calls you a horse, you punch him in the mouth. A second man does, you call him a jerk. A third man does, maybe it's time to buy a saddle", author: "`Jewish` saying" });
-    quotes.push({ quote: "Listen: Billy Pilgrim has come unstuck in time.", author: "Kurt Vonnegut Jr." });
+    quote.push({ quote: "Listen: Billy Pilgrim has come unstuck in time.", author: "Kurt Vonnegut Jr." });
 
     let currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
