@@ -2,7 +2,7 @@
 <hr>
 We live in a world of lawyers, so here's the deal:
 
-I am putting this code up here for myself, for me to keep track of. If in the process of that, you learn something from it, that's great and genuinely makes me happy, but if you fry your system because you tried some code I wrote and it went sideways for you, that's on you, not on me. Code is inherently a 'dangerous' thing when used inappropriately, so just remember: "Here there be dragons".
+I am putting this code up here for myself, for me to keep track of. If in the process of that, you learn something from it, that's great and genuinely makes me happy, but if you fry your system because you tried some code I wrote and it went sideways for you, _**that's on you, not on me**_. Code is inherently a dangerous thing when used inappropriately, so just remember: Here there be dragons.
 
 Copyright 2019
 
