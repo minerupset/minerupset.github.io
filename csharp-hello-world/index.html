@@ -120,6 +120,7 @@
         <li class="main active"><a href="#c-some-basics-and-hello-world">C# - Some Basics and Hello World</a></li>
             <li><a href="#c-value-prop">C# Value Prop</a></li>
             <li><a href="#basic-c-console-app-hello-world">Basic C# Console App - Hello World</a></li>
+            <li><a href="#what-the-heck-did-i-just-do">What the heck did I just do?</a></li>
             <li><a href="#resources-and-references">Resources and References</a></li>
     </ul>
 </div></div>
@@ -152,8 +153,44 @@ Ok, to the meat of it. Let's make a simple Hello World app.</p>
 <li>Downloaded VS Code</li>
 <li>Installed the C# Extension</li>
 </ul>
-<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application. 
-<br></p>
+<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application. </p>
+<p>When you've done this, you should see a chunk of code that looks roughly like this:</p>
+<pre><code class="csharp">using System;
+
+namespace YOUR_PROJECT
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(&quot;Hello World!&quot;);
+        }
+    }
+}
+</code></pre>
+
+<p>If you run this application with <code>dotnet run</code>, you should see "Hello World!" appear in your terminal. </p>
+<p>Now, this is one of the downsides I find with C#: like Java, there's a lot of additional magic that is required to make it work (what the hell is <code>using System;</code>, and what are <code>args</code>?) This is in contrast to Python, where 'things just work'. While this can be frustrating at first, it doesn't take that long to learn, and once you learn, you begin to see how the guardrails help you.</p>
+<p><br></p>
+<h2 id="what-the-heck-did-i-just-do">What the heck did I just do?</h2>
+<p><hr>
+In order:</p>
+<ul>
+<li><code>using System;</code> tells the machine, "Hey, there's a library of code called System. Please reference this library as I'm writing my code". System contains thing like the console, the filesystem, and a lot of the basics that make a computer run</li>
+<li>Lines in C# end with <code>;</code>. It's a habit you can easily pick up, don't worry about it</li>
+<li>Chunks of code are wrapped in brackets <code>{ }</code>. This helps determine the scope of variables and methods (bigger details for later)</li>
+<li>A <code>namespace</code> is a collection of code. Technically, <code>System</code> is a namespace. It's just a grouping of a bunch of classes. In this code, <code>YOUR_PROJECT</code> may end up containing one class or 20 classes, so a namespace is just a way of collecting them. If you want to use a namespace in your project, you use the <code>using</code> keyword like you did with the System namespace</li>
+<li>I'm not going to go into depth with classes here, as any description I give would be insufficient. In short, classes are templates for objects in the world of object-oriented-programming (OOP). I may cover that later, but not today</li>
+<li><code>static void Main (string[] args)</code> is a mouth full:<ul>
+<li><code>static</code> is a detail of the class - it means we don't need to create an instance of program to run it, we can just run it directly (detail that will make more sense later)</li>
+<li><code>void</code> means the method <code>Main</code> doesn't return anything. It doesn't result in a string or integer or anything else, it just runs a process and stops</li>
+<li><code>Main</code> is the name of the method. It's a keyword here because the complier is going to look for a Main method as the entry point to the program</li>
+<li><code>(string[] args)</code> means that Main takes a in a single argument that is an array <code>[]</code> of strings, and that this array is called <code>args</code></li>
+</ul>
+</li>
+<li><code>Console.WriteLine("Hello World!");</code> means there is an object, the <code>Console</code>, that has a method <code>WriteLine</code>, and the line we want it to write is <code>"Hello World!"</code>. Which is why when you run this, the line "Hello World!" appears on your console
+<br></li>
+</ul>
 <h2 id="resources-and-references">Resources and References</h2>
 <hr>
 
@@ -165,7 +202,7 @@ Ok, to the meat of it. Let's make a simple Hello World app.</p>
 
         <footer class="col-md-12">
 <hr>
-<p>A training website intended to record learning. Visit <a href="https://www.omulombe.github.io/legal">Legal</a> page
+<p>A training website intended to record learning. Visit <a href="https://minerupset.github.io/legal/">Legal</a> page
   for more information. Built with <a href="https://www.mkdocs.org" target="_blank">MkDocs</a></p>
 <p id="random-quote-block"><span id="quotes-quote"></span> - <span id="quotes-author"></span></p>
 
