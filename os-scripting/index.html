@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Hello World - Miner Curiosity</title>
+        <title>Terminal / Shell Scripting - Miner Curiosity</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -47,12 +47,12 @@
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">C# <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li class="active">
-    <a href="./">Hello World</a>
+<li >
+    <a href="../csharp-hello-world/">Hello World</a>
 </li>
                                 </ul>
                             </li>
@@ -74,7 +74,7 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Tools <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -90,8 +90,8 @@
     <a href="../html-and-css/">Basic HTML & CSS</a>
 </li>
                                     
-<li >
-    <a href="../os-scripting/">Terminal / Shell Scripting</a>
+<li class="active">
+    <a href="./">Terminal / Shell Scripting</a>
 </li>
                                 </ul>
                             </li>
@@ -103,13 +103,13 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="../html-and-css/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../python-hello-world/">
+                            <li class="disabled">
+                                <a rel="prev" >
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -121,87 +121,12 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#c-some-basics-and-hello-world">C# - Some Basics and Hello World</a></li>
-            <li><a href="#c-value-prop">C# Value Prop</a></li>
-            <li><a href="#basic-c-console-app-hello-world">Basic C# Console App - Hello World</a></li>
-            <li><a href="#what-the-heck-did-i-just-do">What the heck did I just do?</a></li>
-            <li><a href="#resources-and-references">Resources and References</a></li>
+        <li class="main active"><a href="#scripting-commands">Scripting Commands</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="c-some-basics-and-hello-world">C# - Some Basics and Hello World</h1>
-<hr>
-
-<h2 id="c-value-prop">C# Value Prop</h2>
-<p>I have a confession to make: I started learning how to code in the most business-like of environments, the VBA window of Excel files. I will forever feel like 'not a real developer' because of this. Since then, I like to think I've advanced some, but at the end of the day, I'm still the same anxious consultant looking to get an accurate answer as fast as possible. VBA was good for that then, because I was almost always crunching Excel data, but now, I would say my go to language is C#. It's a good mix of familiar constructs and powerful tools and libraries, and has a wide range of application.</p>
-<h3>Why C# has worked well for me:</h3>
-
-<ul>
-<li><strong>Strong typing:</strong> Don't get me wrong, I love Python because it 'just works'. But that same beauty has been a major thorn in my side in enterprise settings, making sure things are consistent throughout an application. C# is almost always <a href="#resources-and-references">strongly typed</a>, but does have a type (dynamic) for when something might shift over time.</li>
-<li><strong>Object-oriented structure:</strong> Call me old fashion, but I often think in terms of concrete objects. Actual things that have properties and methods that I can visualize. Not everyone thinks this way, it may even be a crutch to think this way, but it's my default. C# makes working with classes and objects simple, and I can easily visualize my tasks in an intuitive way that I can't as easily with functional programming.</li>
-<li><strong>Wide-spread use:</strong> We all know Python gets a lot of love because it can do anything. And it's well-earned; Python is practically synonymous with machine learning and data science, it stitches together some of the most popular web apps around the world, and it's a great introductory language to boot. But C# is hardly esoteric; ASP.NET still powers many widely used websites, .NET Core can be deployed on Windows, Mac, and Linux, and .NET integrates quite seamlessly with Azure deployment (Amazon's biggest competitor in the space). Throw in some newer toys like ML.NET, and you're hardly limited with C#.</li>
-</ul>
-<h3>Challenges with C#</h3>
-
-<ul>
-<li><strong>Fewer libraries</strong>: It seems like pip for Python and npm for NodeJS have just about every tool you could possibly think of (whether you need it or not). Microsoft's NuGet on the other hand has definitely left me with some headaches in the past. There have been improvements, but it's a far cry from a perfect set up.</li>
-<li><strong>Too Many -azors</strong>: If you've ever seen the movie 'Dodgeball', you may recall <a href="https://youtu.be/LHVIUN8dC9U?t=22">a scene</a> where Ben Stiller's character introduces his mercenary team of pro dodgeballers. I can't look at Razor Pages or Blazor Pages without thinking of this scene, and feeling as confused as the protagonists. I'm all for good front-end templates, but this is one part where Microsoft did lose me. Blazor seems to have been a step in the right direction with its component structure, but it still requires a boatload of configuration to make it work. </li>
-</ul>
-<p><br></p>
-<h2 id="basic-c-console-app-hello-world">Basic C# Console App - Hello World</h2>
-<p><hr>
-Ok, to the meat of it. Let's make a simple Hello World app.</p>
-<p>Assuming you have:</p>
-<ul>
-<li>Downloaded VS Code</li>
-<li>Installed the C# Extension</li>
-</ul>
-<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application. </p>
-<p>When you've done this, you should see a chunk of code that looks roughly like this:</p>
-<pre><code class="csharp">using System;
-
-namespace YOUR_PROJECT
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(&quot;Hello World!&quot;);
-        }
-    }
-}
-</code></pre>
-
-<p>If you run this application with <code>dotnet run</code>, you should see "Hello World!" appear in your terminal. </p>
-<p>Now, this is one of the downsides I find with C#: like Java, there's a lot of additional magic that is required to make it work (what the hell is <code>using System;</code>, and what are <code>args</code>?) This is in contrast to Python, where 'things just work'. While this can be frustrating at first, it doesn't take that long to learn, and once you learn, you begin to see how the guardrails help you.</p>
-<p><br></p>
-<h2 id="what-the-heck-did-i-just-do">What the heck did I just do?</h2>
-<p><hr>
-In order:</p>
-<ul>
-<li><code>using System;</code> tells the machine, "Hey, there's a library of code called System. Please reference this library as I'm writing my code". System contains thing like the console, the filesystem, and a lot of the basics that make a computer run</li>
-<li>Lines in C# end with <code>;</code>. It's a habit you can easily pick up, don't worry about it</li>
-<li>Chunks of code are wrapped in brackets <code>{ }</code>. This helps determine the scope of variables and methods (bigger details for later)</li>
-<li>A <code>namespace</code> is a collection of code. Technically, <code>System</code> is a namespace. It's just a grouping of a bunch of classes. In this code, <code>YOUR_PROJECT</code> may end up containing one class or 20 classes, so a namespace is just a way of collecting them. If you want to use a namespace in your project, you use the <code>using</code> keyword like you did with the System namespace</li>
-<li>I'm not going to go into depth with classes here, as any description I give would be insufficient. In short, classes are templates for objects in the world of object-oriented-programming (OOP). I may cover that later, but not today</li>
-<li><code>static void Main (string[] args)</code> is a mouth full:<ul>
-<li><code>static</code> is a detail of the class - it means we don't need to create an instance of program to run it, we can just run it directly (detail that will make more sense later)</li>
-<li><code>void</code> means the method <code>Main</code> doesn't return anything. It doesn't result in a string or integer or anything else, it just runs a process and stops</li>
-<li><code>Main</code> is the name of the method. It's a keyword here because the complier is going to look for a Main method as the entry point to the program</li>
-<li><code>(string[] args)</code> means that Main takes a in a single argument that is an array <code>[]</code> of strings, and that this array is called <code>args</code></li>
-</ul>
-</li>
-<li><code>Console.WriteLine("Hello World!");</code> means there is an object, the <code>Console</code>, that has a method <code>WriteLine</code>, and the line we want it to write is <code>"Hello World!"</code>. Which is why when you run this, the line "Hello World!" appears on your console
-<br></li>
-</ul>
-<h2 id="resources-and-references">Resources and References</h2>
-<hr>
-
-<ol>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/">Static vs. Strong Typing</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22"><code>dotnet new</code> Docs</a></li>
-</ol></div>
+<h1 id="scripting-commands">Scripting Commands</h1></div>
         </div>
 
         <footer class="col-md-12">
