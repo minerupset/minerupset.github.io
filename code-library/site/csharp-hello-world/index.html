@@ -66,7 +66,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Node.js (Back End JS) <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Back End JS (Node.js) <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -75,20 +75,15 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">JS / jQuery <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Front End JS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../js-hello-jquery/">Hello World</a>
+    <a href="../js-hello-jquery/">Hello World - jQuery</a>
 </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">React (Front End) <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../js-hello-react/">Hello World</a>
+    <a href="../js-hello-react/">Hello World - React</a>
 </li>
                                 </ul>
                             </li>
@@ -164,18 +159,18 @@
 
 <ul>
 <li><strong>Fewer libraries</strong>: It seems like pip for Python and npm for NodeJS have just about every tool you could possibly think of (whether you need it or not). Microsoft's NuGet on the other hand has definitely left me with some headaches in the past. There have been improvements, but it's a far cry from a perfect set up.</li>
-<li><strong>Too Many -azors</strong>: If you've ever seen the movie 'Dodgeball', you may recall <a href="https://youtu.be/LHVIUN8dC9U?t=22">a scene</a> where Ben Stiller's character introduces his mercenary team of pro dodgeballers. I can't look at Razor Pages or Blazor Pages without thinking of this scene, and feeling as confused as the protagonists. I'm all for good front-end templates, but this is one part where Microsoft did lose me. Blazor seems to have been a step in the right direction with its component structure, but it still requires a boatload of configuration to make it work. </li>
+<li><strong>Too Many -azors</strong>: If you've ever seen the movie 'Dodgeball', you may recall <a href="https://youtu.be/LHVIUN8dC9U?t=22">a scene</a> where Ben Stiller's character introduces his mercenary team of pro dodgeballers. I can't look at Razor Pages or Blazor Pages without thinking of this scene, and feeling as confused as the protagonists. I'm all for good front-end templates, but this is one part where Microsoft did lose me. Blazor seems to have been a step in the right direction with its component structure, but it still requires a boatload of configuration to make it work.
+  <br></li>
 </ul>
-<p><br></p>
 <h2 id="basic-c-console-app-hello-world">Basic C# Console App - Hello World</h2>
 <p><hr>
 Ok, to the meat of it. Let's make a simple Hello World app.</p>
 <p>Assuming you have:</p>
 <ul>
-<li>Downloaded VS Code</li>
+<li>Downloaded VS Code and,</li>
 <li>Installed the C# Extension</li>
 </ul>
-<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application. </p>
+<p>This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run <a href="#resources-and-references"><code>dotnet new console</code></a>. This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application.</p>
 <p>When you've done this, you should see a chunk of code that looks roughly like this:</p>
 <pre><code class="csharp">using System;
 
@@ -191,9 +186,9 @@ namespace YOUR_PROJECT
 }
 </code></pre>
 
-<p>If you run this application with <code>dotnet run</code>, you should see "Hello World!" appear in your terminal. </p>
-<p>Now, this is one of the downsides I find with C#: like Java, there's a lot of additional magic that is required to make it work (what the hell is <code>using System;</code>, and what are <code>args</code>?) This is in contrast to Python, where 'things just work'. While this can be frustrating at first, it doesn't take that long to learn, and once you learn, you begin to see how the guardrails help you.</p>
-<p><br></p>
+<p>If you run this application with <code>dotnet run</code>, you should see "Hello World!" appear in your terminal.</p>
+<p>Now, this is one of the downsides I find with C#: like Java, there's a lot of additional magic that is required to make it work (what the hell is <code>using System;</code>, and what are <code>args</code>?) This is in contrast to Python, where 'things just work'. While this can be frustrating at first, it doesn't take that long to learn, and once you learn, you begin to see how the guardrails help you.
+<br></p>
 <h2 id="what-the-heck-did-i-just-do">What the heck did I just do?</h2>
 <p><hr>
 In order:</p>
@@ -203,15 +198,13 @@ In order:</p>
 <li>Chunks of code are wrapped in brackets <code>{ }</code>. This helps determine the scope of variables and methods (bigger details for later)</li>
 <li>A <code>namespace</code> is a collection of code. Technically, <code>System</code> is a namespace. It's just a grouping of a bunch of classes. In this code, <code>YOUR_PROJECT</code> may end up containing one class or 20 classes, so a namespace is just a way of collecting them. If you want to use a namespace in your project, you use the <code>using</code> keyword like you did with the System namespace</li>
 <li>I'm not going to go into depth with classes here, as any description I give would be insufficient. In short, classes are templates for objects in the world of object-oriented-programming (OOP). I may cover that later, but not today</li>
-<li><code>static void Main (string[] args)</code> is a mouth full:<ul>
+<li><code>static void Main (string[] args)</code> is a mouth full:</li>
 <li><code>static</code> is a detail of the class - it means we don't need to create an instance of program to run it, we can just run it directly (detail that will make more sense later)</li>
 <li><code>void</code> means the method <code>Main</code> doesn't return anything. It doesn't result in a string or integer or anything else, it just runs a process and stops</li>
 <li><code>Main</code> is the name of the method. It's a keyword here because the complier is going to look for a Main method as the entry point to the program</li>
 <li><code>(string[] args)</code> means that Main takes a in a single argument that is an array <code>[]</code> of strings, and that this array is called <code>args</code></li>
-</ul>
-</li>
 <li><code>Console.WriteLine("Hello World!");</code> means there is an object, the <code>Console</code>, that has a method <code>WriteLine</code>, and the line we want it to write is <code>"Hello World!"</code>. Which is why when you run this, the line "Hello World!" appears on your console
-<br></li>
+  <br></li>
 </ul>
 <h2 id="resources-and-references">Resources and References</h2>
 <hr>

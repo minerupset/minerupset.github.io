@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Hello World - Miner Curiosity</title>
+        <title>Hello World - React - Miner Curiosity</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -66,7 +66,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Node.js (Back End JS) <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Back End JS (Node.js) <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -74,21 +74,16 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">JS / jQuery <b class="caret"></b></a>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Front End JS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../js-hello-jquery/">Hello World</a>
+    <a href="../js-hello-jquery/">Hello World - jQuery</a>
 </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">React (Front End) <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
                                     
 <li class="active">
-    <a href="./">Hello World</a>
+    <a href="./">Hello World - React</a>
 </li>
                                 </ul>
                             </li>
@@ -154,18 +149,18 @@
 <h2 id="what-is-react-and-why-bother">What is React and Why Bother?</h2>
 <p><hr>
 React is a front-end specific library (not framework) for creating responsive user interfaces (UIs). On the back end, it does this by creating a virtual DOM that it can quickly compare over time, and then update the real DOM. This is much cheaper from a CPU and memory perspective than trying to compare the full DOM over time; it's just not realistic.
-<br><br></p>
+<br></p>
 <h2 id="how-react-operates">How React Operates</h2>
 <p><hr>
 React uses a component structure, where a core App component has a number of child components (much like the parent-child relationship in the HTML DOM). These components have two key features that drive them: <strong>state{}</strong> and <strong>render()</strong>.</p>
 <p>A component's state is the data that component owns and controls. State can include simple properties, callbacks to methods, or even other React components. State is different than the properties (props) of a component, which are passed to it from a parent. With this structure, you often see <strong>stateless functional components</strong>. This means that the state is managed by a parent element, and the necessary values are passed down the component tree as props. This helps maintain code integrity, as more of the logic can be stored at a higher shared level.</p>
 <p>Along with state and props, components have a render method. This is what actually generates the markup that will be passed along into the DOM. This is written in JSX (why React files have a .jsx extension) which is very similar to JavaScript, and has some additional elements that allow for an almost HTML like structure when defining pieces for the DOM.</p>
 <p>So, state (and props) manage the data associated with a component, while the render method generates the HTML-like markup. React classes can have other methods associated with the state to generate different values and handle methods, but if a the state should be best managed at a parent level, then the React class can be changed to a React stateless component.
-<br><br></p>
+<br></p>
 <h2 id="react-a-hello-world-equivalent">React - A 'Hello World' Equivalent</h2>
 <hr>
 
-<p><br><br></p>
+<p><br></p>
 <h2 id="react-reminders-to-myself">React - Reminders to Myself</h2>
 <hr>
 
@@ -173,7 +168,7 @@ React uses a component structure, where a core App component has a number of chi
 <li>Use <code>create-react-app</code>. While it's good to understand how React is working in the background, using the out-of-the-box method really does help get things set up and rolling quickly, and you can always use <code>eject</code> later if you need to modify the way it's built.</li>
 <li>Don't be afraid to lift state (or push it down) if you're running into issues with the logic. Being able to quickly modify the structure is surprisingly easy in React, so long as you're passing functions correctly between different elements.</li>
 <li>When in doubt, use arrow functions; there are still weird elements within JavaScript where something may not be flowing through the way you'd expect (e.g. <code>this.setState()</code> suddenly isn't a function) but using arrow functions does seem to resolve that.
-  <br><br></li>
+  <br></li>
 </ul></div>
         </div>
 

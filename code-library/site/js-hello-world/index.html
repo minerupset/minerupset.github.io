@@ -66,7 +66,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Node.js (Back End JS) <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Back End JS (Node.js) <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li class="active">
@@ -75,20 +75,15 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">JS / jQuery <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Front End JS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../js-hello-jquery/">Hello World</a>
+    <a href="../js-hello-jquery/">Hello World - jQuery</a>
 </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">React (Front End) <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../js-hello-react/">Hello World</a>
+    <a href="../js-hello-react/">Hello World - React</a>
 </li>
                                 </ul>
                             </li>
@@ -156,16 +151,16 @@
 
 <p>Honestly, I can't really enumerate reasons here - I'm still learning it myself and it's hard to say. However, there are some key points about JavaScript that make it, at the very least, unavoidable:</p>
 <ul>
-<li><strong>It's the language of the web:</strong> You'll hear that time and again, and it gets a bit old, but it doesn't make it any less true. JavaScript is the language of web browsers, case closed (narrowly beat out Visual Basic of all things back in the days of NetScape). Want proof? In literally any web page in Chrome of Firefox, open the developer tools and look at the console. You're looking at JavaScript. </li>
-<li><strong>It's used both front and back:</strong> You'll hear all kinds of opinions on whether or not Python's Flask or C#'s ASP.NET or Java's Spring make the best API layer for a given page, and that's fine. But at the end of the day, the front of the web runs on JavaScript, and with NodeJS, so can the server layer too. That means that just one language can be used to build and deploy entire websites, soup to nuts. You can do similar things with Django in Python and Blazor/Razor pages in ASP.NET, but for true full stack development, you need to have JavaScript in your toolkit. </li>
+<li><strong>It's the language of the web:</strong> You'll hear that time and again, and it gets a bit old, but it doesn't make it any less true. JavaScript is the language of web browsers, case closed (narrowly beat out Visual Basic of all things back in the days of NetScape). Want proof? In literally any web page in Chrome of Firefox, open the developer tools and look at the console. You're looking at JavaScript.</li>
+<li><strong>It's used both front and back:</strong> You'll hear all kinds of opinions on whether or not Python's Flask or C#'s ASP.NET or Java's Spring make the best API layer for a given page, and that's fine. But at the end of the day, the front of the web runs on JavaScript, and with NodeJS, so can the server layer too. That means that just one language can be used to build and deploy entire websites, soup to nuts. You can do similar things with Django in Python and Blazor/Razor pages in ASP.NET, but for true full stack development, you need to have JavaScript in your toolkit.</li>
 </ul>
 <h3>Challenges with JS</h3>
 
 <ul>
-<li><strong>It wasn't built to last:</strong> JavaScript was originally built in the space of 10 days by one developer (Brendan Eich). Now, Eich did a hell of a job, and there have been a lot of updates to JavaScript since then, but still, the foundations of the house weren't exactly planned out. </li>
-<li><strong>Time is no longer linear:</strong> This is a product less of JavaScript itself but instead the way it's used. Think about it like this; if you send a request to a database for a list of movies on Netflix, does Netflix freeze for the next 2 seconds while it gets that info? No. It still shows you the screen and different buttons to click on, while a little spinning wheel sits there until that database call comes back. This means that things are constantly running asynchronously, with part of the page loading while another part is still being requested. This can make debugging a nightmare, as it's not a clean linear pattern like it is in most desktop-based systems. </li>
+<li><strong>It wasn't built to last:</strong> JavaScript was originally built in the space of 10 days by one developer (Brendan Eich). Now, Eich did a hell of a job, and there have been a lot of updates to JavaScript since then, but still, the foundations of the house weren't exactly planned out.</li>
+<li><strong>Time is no longer linear:</strong> This is a product less of JavaScript itself but instead the way it's used. Think about it like this; if you send a request to a database for a list of movies on Netflix, does Netflix freeze for the next 2 seconds while it gets that info? No. It still shows you the screen and different buttons to click on, while a little spinning wheel sits there until that database call comes back. This means that things are constantly running asynchronously, with part of the page loading while another part is still being requested. This can make debugging a nightmare, as it's not a clean linear pattern like it is in most desktop-based systems.
+  <br></li>
 </ul>
-<p><br></p>
 <h2 id="basic-javascript-console-app-hello-world">Basic JavaScript Console App - Hello World</h2>
 <p><hr>
 Assuming you have:</p>
@@ -174,12 +169,12 @@ Assuming you have:</p>
 <li>Downloaded Node.js to your machine</li>
 </ul>
 <p>Start a new folder in VS Code and add a file called <code>main.js</code> to your folder. There, type the following code:</p>
-<pre><code class="javascript">console.log(&quot;Hello World!&quot;)
+<pre><code class="javascript">console.log(&quot;Hello World!&quot;);
 </code></pre>
 
-<p>To run this, have your terminal in your current VS Code folder and run <code>node main.js</code>. </p>
-<p>Now, this is obviously an incredibly simple program; it accesses the console, uses the log method, and writes 'Hello World!'. Node and JS become significantly more complicated when they start getting into async functions and various API layers with databases, but we'll tackle that later on. For now though, we can quickly get a node module up and running, and it works. </p>
-<p><br></p>
+<p>To run this, have your terminal in your current VS Code folder and run <code>node main.js</code>.</p>
+<p>Now, this is obviously an incredibly simple program; it accesses the console, uses the log method, and writes 'Hello World!'. Node and JS become significantly more complicated when they start getting into async functions and various API layers with databases, but we'll tackle that later on. For now though, we can quickly get a node module up and running, and it works.
+<br></p>
 <h2 id="this-seemed-too-easy-whats-the-catch">This seemed too easy - what's the catch?</h2>
 <p><hr>
 The catch is that JavaScript has a lot of magic principles with it, and it can get weird when you're looking at what's in the browser JavaScript engine vs. what's in the server side JavaScript. Node is a relatively new technology as far as JS is concerned, and while most of its wrinkles have been ironed out, it doesn't work the way you would expect a normal program to run, with <a href="#resources-and-references">each line being executed one at a time<sup>1</sup></a>

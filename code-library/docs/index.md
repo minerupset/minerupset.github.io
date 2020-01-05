@@ -22,7 +22,7 @@ This is, simply put, bad for business. So, I've started to organize different to
 
 I will try and organize topics first by language, and then grouping ideas together. Where relevant, I'll also try and cross reference similar themes from one language to another, whether highlighting similarities or differences. I won't pretend I'll be deeply rigorous on those elements, but I'll try and be as consistent as I can, and cite my sources so that I'm not just a crackpot.
 
-I have historically worked exclusively with Microsoft and Windows, but I am making the push towards UNIX based systems (currently working on a Mac). There may be a bit of cross over between the `Ctrl` key and the `Command` key, but you should be able to figure that out with some quick googling.
+I have historically worked exclusively with Microsoft and Windows, but I am making the push towards UNIX based systems (currently working on a Mac). There may be a bit of cross over between the `Ctrl` key and the `Command` key, but you should be able to figure that out with some quick searching.
 <br>
 
 ## Acknowledgements / Where I Learn the Most
@@ -42,7 +42,7 @@ _Note, I received no compensation for these acknowledgements. I always struggled
 <hr>
 Well, why anyone picks any option - a combination of good-enough and decision fatigue. With MkDocs, it was mostly the former. The boxes it checks for me are:
 
-- Simple writing platform Markdown
+- Simple writing with Markdown
 - Deployment to GitHub Pages is a breeze
 - Basic but powerful search functionality
 - I don't need dates and tags (for now), but instead just need very basic organization
