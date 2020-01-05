@@ -8,7 +8,7 @@ In a nutshell, git is source control. What that means is instead of saving each 
 
 I am of two minds on how to start with git/GitHub: I started with <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> and at the time of this writing, am trying to get better at local git and pushing it to remote repositories on GitHub. While I think that git from the command line is ultimately a useful tool, to be honest, I don't think "in the command line". I'm a visual person, and seeing a desktop app that I can do things from is very helpful. That being said, when you obscure some of the magic behind a UI, it can actually damage your understanding of what exactly you're doing, and git is nuanced enough that I think a strong CLI understanding of its functionality will serve you well.
 
-## Git - Reminders to myself:
+## Git - Reminders to myself
 
 ### How to add an existing project to git/GitHub
 
