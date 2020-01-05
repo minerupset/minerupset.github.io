@@ -5,7 +5,7 @@ We live in a world of lawyers, so here's the deal:
 
 I am putting this code up here for myself, for me to keep track of. If in the process of that, you learn something from it, that's great and genuinely makes me happy, but if you fry your system because you tried some code I wrote and it went sideways for you, _**that's on you, not on me**_. Code is inherently a dangerous thing when used inappropriately, so just remember: Here there be dragons.
 
-As to the references I make to other people's sites: I receive no compensation or advantage by linking to these specific sites, and I do so without guaranteeing that their sites are free of viruses, malware, offensive material, or click-bait. These are references that I have used to help me learn various topics, but if they are broken, hijacked by bots, or generally irksome, I both apologize and accept no responsibility for that. It's their site to maintain, not mine.
+As to the references I make to other people's sites: I receive no compensation or advantage by linking to these specific sites, and I do so without guaranteeing that their sites are free of viruses, malware, offensive material, or worse, click-bait. These are references that I have used to help me learn various topics, but if they are broken, hijacked by bots, or generally irksome, I both apologize and accept no responsibility for that. It's their site to maintain, not mine.
 
 Copyright 2020
 

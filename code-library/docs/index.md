@@ -9,7 +9,6 @@ I started this blog for two reasons:
 2. To maybe one day help other people answer the same questions I've had over my time
 
 I didn't make this explicitly as a training site, so if you don't like the way I explain something / it's not as elegant as it could be, I'm honestly ok with that. That's why I don't have any comments on here - no sense in feeding the trolls. I will however do my best to not post anything that's flat out wrong, though.
-
 <br>
 
 ## How this site is organized
@@ -24,7 +23,6 @@ This is, simply put, bad for business. So, I've started to organize different to
 I will try and organize topics first by language, and then grouping ideas together. Where relevant, I'll also try and cross reference similar themes from one language to another, whether highlighting similarities or differences. I won't pretend I'll be deeply rigorous on those elements, but I'll try and be as consistent as I can, and cite my sources so that I'm not just a crackpot.
 
 I have historically worked exclusively with Microsoft and Windows, but I am making the push towards UNIX based systems (currently working on a Mac). There may be a bit of cross over between the `Ctrl` key and the `Command` key, but you should be able to figure that out with some quick googling.
-
 <br>
 
 ## Acknowledgements / Where I Learn the Most

@@ -2,8 +2,6 @@
 
 <hr>
 
-<br>
-
 ## Useful Shortcuts to Memorize
 
 <hr>

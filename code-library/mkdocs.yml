@@ -5,12 +5,11 @@ nav:
       - Hello World: csharp-hello-world.md
   - Python:
       - Hello World: python-hello-world.md
-  - Node.js (Back End JS):
+  - Back End JS (Node.js):
       - Hello World: js-hello-world.md
-  - JS / jQuery:
-      - Hello World: js-hello-jquery.md
-  - React (Front End):
-      - Hello World: js-hello-react.md
+  - Front End JS:
+      - Hello World - jQuery: js-hello-jquery.md
+      - Hello World - React: js-hello-react.md
   - Other Tools:
       - VS Code Tools: vs-code-tools.md
       - Git / GitHub: git-github-learnings.md

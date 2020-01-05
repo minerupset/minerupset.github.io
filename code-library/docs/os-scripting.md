@@ -29,13 +29,13 @@ echo Hello World!
 - Now it's ready: from the terminal, run the command<br>`./autoDeploy`<br> and the words Hello World! should appear on the terminal
 
 To chain commands together, use &&. For example, in my file I run two commands: a `cd` to my target directory, and then `mkdocs gh-deploy {...more parameters}`. These are two separate commands, but I chain them together so that they will run sequentially
-<br><br>
+<br>
 
 <h4>References:</h4>
 
 - Nice Hello World tutorial <a href="https://www.hastac.org/blogs/joe-cutajar/2015/04/21/how-make-simple-bash-script-mac" target="_blank">can be found here</a>
 - What `chmod 700` actually means <a href="https://www.poftut.com/chmod-755-700/" target="_blank">can be found here</a>
-  <br><br>
+  <br>
 
 ## Scheduled (Cron) Jobs in MacOs
 
@@ -44,12 +44,10 @@ To chain commands together, use &&. For example, in my file I run two commands: 
 <h4>References:</h4>
 
 - Good summary post on mac cron jobs <a href="https://www.techradar.com/how-to/computing/apple/terminal-101-creating-cron-jobs-1305651" target="_blank">can be found here</a>
-  <br><br>
-  <br><br>
+  <br>
 
 ## Command Line Scripting in Windows
 
 <hr>
 
 <br>
-```
