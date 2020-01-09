@@ -32,6 +32,20 @@ const quotes = [
     author: "Marcus Aurelius"
   },
   {
+    quote: "An ounce of prevention is worth a pound of cure.",
+    author: "Benjamin Franklin"
+  },
+  {
+    quote:
+      "Show all your work on math problems, hide all your work in English papers.",
+    author: "Taylor Mali - What Teachers Make"
+  },
+  {
+    quote:
+      "If you and I exchange apples, we each still have an apple. But if we exchange ideas, we each have two ideas.",
+    author: "Benjamin Franklin"
+  },
+  {
     quote:
       "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
     author: "Albus Percival Wulfric Brian Dumbledore"
@@ -47,7 +61,7 @@ function addQuote() {
 }
 
 function sayHiToConsoleGoers() {
-  console.log(`Hello there, friend. I don't think you'll find too much interesting here, but it is good to look around to try and learn new things.
+  console.log(`Hello there, friend. I don't think you'll find too much interesting here, but it is good to look around to try and learn new things. If you're curious, this site is built with MkDocs, which has some great documentation at their site.
     
 Isn't it kinda cool that you're just sending 0s and 1s through fiber optic and copper wires looped all around the world, but the 0s and 1s are coming at a speed your computer is programmed to handle so it can be decoded into actual valuable information? Or random cat videos, whichever you prefer`);
 }

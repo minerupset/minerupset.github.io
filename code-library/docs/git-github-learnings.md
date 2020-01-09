@@ -35,3 +35,8 @@ References:
 - <a href="https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">This guy's tutorial</a>
 - <a href="https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo" target="_blank">This reference on remotes</a>
 - <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">This GitLab reference</a>
+
+### How to login to GitHub via the command line
+
+<hr>
+Now, this one became useful in setting up a Raspberry Pi - I wanted to be able to pull code and just have that work.

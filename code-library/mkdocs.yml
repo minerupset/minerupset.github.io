@@ -15,6 +15,7 @@ nav:
       - Git / GitHub: git-github-learnings.md
       - Basic HTML & CSS: html-and-css.md
       - Terminal / Shell Scripting: os-scripting.md
+      - RPi For Development: rpi-for-development.md
 extra_css:
   - extra_css/extra.css
 extra_javascript:
