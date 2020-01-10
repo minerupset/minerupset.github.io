@@ -5,11 +5,12 @@ nav:
       - Hello World: csharp-hello-world.md
   - Python:
       - Hello World: python-hello-world.md
-  - Back End JS (Node.js):
+  - Node.JS:
       - Hello World: js-hello-world.md
-  - Front End JS:
-      - Hello World - jQuery: js-hello-jquery.md
-      - Hello World - React: js-hello-react.md
+  - React.JS:
+      - Hello World: js-hello-react.md
+  - Other JS:
+      - Hello World: js-hello-jquery.md
   - Other Tools:
       - VS Code Tools: vs-code-tools.md
       - Git / GitHub: git-github-learnings.md
@@ -21,8 +22,12 @@ extra_css:
 extra_javascript:
   - extra_js/extra.js
 theme:
-  name: mkdocs
-  site_favicon: favicon.ico
+  name: material
+  primary: indigo
+  accent: indigo
+  favicon: "docs/img/favicon.ico"
+  logo:
+    icon: build
   custom_dir: custom_theme
 
 shortcuts:

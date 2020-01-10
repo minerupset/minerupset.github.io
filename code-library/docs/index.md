@@ -45,6 +45,7 @@ Well, why anyone picks any option - a combination of good-enough and decision fa
 - Simple writing with Markdown
 - Deployment to GitHub Pages is a breeze
 - Basic but powerful search functionality
+- Simple, effective themes (currently using <a href='https://squidfunk.github.io/mkdocs-material/getting-started/' target='_blank'>Material</a>)
 - I don't need dates and tags (for now), but instead just need very basic organization
 
 Honestly, I'll probably end up upgrading to something else in the future (if you have any recommendations, think them really hard at me, because I don't have any commenting ability) but for now, this is enough for me. Perfect is indeed, the enemy of good.
