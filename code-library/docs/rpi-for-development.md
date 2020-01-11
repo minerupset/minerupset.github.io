@@ -2,7 +2,6 @@
 
 ## Why would I want a Pi?
 
-<hr>
 For those who may not know, a Raspberry Pi is a cheap, tiny computer that typically runs a modified version of the Linux operating system. They cost anywhere from $10 to $40 dollars (give or take, depending on the model), and can be used for all kinds of applications, like server hosting or internet of things (IoT) development.
 
 I've personally found it's very helpful to have a Raspberry Pi in my arsenal for the main reason (with a lot of sub reasons) that it has taught me a boatload about development operations (DevOps). Now, most actual deployment services you'll use (Heroku, Azure, AWS...) will have much easier systems and interfaces than the command line of your Pi. But guess what? If you can figure out all of the necessary shenanigans to get something to work on a Pi and actually access the info you need, you'll be able to get it to work on one of those systems.
@@ -12,10 +11,10 @@ I've personally found it's very helpful to have a Raspberry Pi in my arsenal for
 
 ### Installing Node.js on a Pi
 
-<a href="https://yannickloriot.com/2016/04/install-mongodb-and-node-js-on-a-raspberry-pi/" target="_blank">How to Install MongoDB</a>
-
 <a href="https://www.instructables.com/id/Install-Nodejs-and-Npm-on-Raspberry-Pi/" target="_blank">How to Install Node.JS</a><br>
 Note: I had to change step three from:<br>`tar -xzf` to `tar -xf`<br>I believe because his version had a .gz compression, while Node now uses a .tz compression
+
+<a href="https://yannickloriot.com/2016/04/install-mongodb-and-node-js-on-a-raspberry-pi/" target="_blank">How to Install MongoDB</a>
 
 ### Updating Pi from Python 2 to Python 3
 
@@ -29,8 +28,17 @@ sudo apt-get install build-essential checkinstall
  sudo apt-get install libffi-dev
 ```
 
-You need to run this first otherwise you will have errors in your Python or your pip installs.
+You need to run this first otherwise you will have errors in your Python or your pip installs (I had a major headache with libffi-dev, but that seemed to be the last one for me; python3 was working, but not pip3).
 
-After the install, I wanted to delete the Python-3.8.1 folder that was suddenly in my home directory. A fun Linux trick:<br>
+After the install, I wanted to delete the Python-3.8.1 folder that was floating in my home directory A fun Linux trick:<br>
 `sudo rm -rI Python-3.8.1`<br>
 takes care of this. `sudo` means 'superuser do' (in other words, you have full admin privileges active, so don't do this for every command), `rm` is remove directory, `-r` is to do it recursively (so that you can remove non-empty directories) and `I` stops you from getting prompted all the time about permissions, just the once at the beginning.
+
+### Setting Up a Headless Pi
+
+When using a Pi, it's very inconvenient to have to get out a mouse, keyboard, and monitor just to interact with it. You likely already have one computer that you work on most often; why not just that same infrastructure instead?
+
+Luckily, there are a number of ways to do this: I won't repeat all the tutorial steps here, but generally, you first want to:
+
+1. <a href='https://www.raspberrypi.org/documentation/remote-access/ssh/' target='_blank'>Enable SSH on the Pi</a> (note, Windows may require a 3rd party software like PuTTY to use SSH)
+2. <a href='https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update' target='_blank'>Set a static IP address</a> (for faster sign ons)

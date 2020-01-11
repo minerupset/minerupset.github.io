@@ -1,6 +1,5 @@
 # Scripting Commands
 
-<hr>
 There are times in my life that I love working with my hands. It can be a restorative, meditative break to spend several hours engrossed in a purely physical task and go to bed tired and fulfilled, with a real thing you can point to and say, "See that? I did / made / destroyed that"
 
 This is not true for most activities I do on a computer. Not that I don't love working with and/or developing software: I do. But while I will happily pass a sanding block over a stack of lumber for hours at a time, rerunning the same deploy scripts again and again is not my idea of a day spent well. We use computers to automate and remember for us; I don't want to have to remember all of the specific magic incantations I used to get something to work just right, nor do I want to have to retype it again and again each time I make a change.
@@ -23,9 +22,9 @@ echo Hello World!
 
 ```
 
-- What this does is first, indicate to terminal that this is to be used in the bash shell (more technical details <a href="https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html" target="_blank">available here</a>) and then second, prints the line 'Hello World!' to the terminal (using the `echo` command) <br><br>
-- Now that we have our script ready, we want to run it. To do that, navigate to the folder that contains the file 'autoDeploy' file (obviously you can name your file whatever you'd like)<br><br>
-- In that folder in your terminal, run the command<br>`chmod 700 autoDeploy`<br>. This sets it to be an executable file that only you can run
+- What this does is first, indicate to terminal that this is to be used in the bash shell (more technical details <a href="https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html" target="_blank">available here</a>) and then second, prints the line 'Hello World!' to the terminal (using the `echo` command) <br>
+- Now that we have our script ready, we want to run it. To do that, navigate to the folder that contains the file 'autoDeploy' file (obviously you can name your file whatever you'd like)<br>
+- In that folder in your terminal, run the command<br>`chmod 700 autoDeploy`<br>. This sets it to be an executable file that only you can run<br>
 - Now it's ready: from the terminal, run the command<br>`./autoDeploy`<br> and the words Hello World! should appear on the terminal
 
 To chain commands together, use &&. For example, in my file I run two commands: a `cd` to my target directory, and then `mkdocs gh-deploy {...more parameters}`. These are two separate commands, but I chain them together so that they will run sequentially
