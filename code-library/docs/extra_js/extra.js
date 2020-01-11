@@ -37,13 +37,32 @@ const quotes = [
   },
   {
     quote:
+      "Sucking at something is the first step to being sort of good at something.",
+    author: "Jake the Dog"
+  },
+  {
+    quote:
       "Show all your work on math problems, hide all your work in English papers.",
     author: "Taylor Mali - What Teachers Make"
   },
   {
     quote:
-      "If you and I exchange apples, we each still have an apple. But if we exchange ideas, we each have two ideas.",
-    author: "Benjamin Franklin"
+      "If you and I exchange apples, we each have an apple. But if we exchange ideas, we each have two ideas.",
+    author: "Anonymous"
+  },
+  {
+    quote:
+      "A lump in the oatmeal, a lump in the throat, and a lump in the breast are not the same kind of lump. One needs to learn the difference.",
+    author: "Anonymous"
+  },
+  {
+    quote: "It does not do dwell on dreams and forget to live.",
+    author: "Albus Percival Wulfric Brian Dumbledore"
+  },
+  {
+    quote:
+      "Out of the night that covers me, black as the pit from pole to pole, I thank whatever gods may be, for my unconquerable soul.",
+    author: "William Ernest Henley"
   },
   {
     quote:

@@ -1,3 +1,9 @@
+/* Targets the header */
+/* .md-header {
+  background-color: black;
+} */
+
+/* Targets my custom footer */
 #random-quote-block,
 .footer-p {
   color: white;

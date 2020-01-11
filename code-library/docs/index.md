@@ -32,7 +32,7 @@ I'm a big fan of internet-based learning (obviously), and there are a number of 
 
 - StackOverflow, despite its many flaws and fiefdoms, remains a great place to learn why the f\*\*k something isn't working the way you'd expect. Learning to search for the right question is important, but rarely do I find nothing on the topic.
 - YouTube, and specifically Mosh Hamedani, have been very helpful to me. Mosh makes great videos that go through a good balance of theory with the actual practical application of the next steps, and it's hard to not be impressed with his enthusiasm for the material.
-- Documentation and GitHub issue reports are truly invaluable. They can often be intimidating at first, because it's experienced people talking about complicated things, and it's hard to follow. However, if you take your time, search for things you don't learn, and keep notes to refer back to, you begin to absorb so much more from the docs.
+- Documentation and GitHub issue reports are truly invaluable. They can be intimidating at first, because it's often experienced people talking about complicated things, and it's hard to follow. However, if you take your time, search for things you don't yet know, and keep notes to refer back to, you begin to absorb so much more from the docs.
 
 _Note, I received no compensation for these acknowledgements. I always struggled in finding the best resources, and knowledge is best when shared_
 <br>
