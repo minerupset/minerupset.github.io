@@ -11,12 +11,17 @@ nav:
       - Hello World: js-hello-react.md
   - Other JS:
       - Hello World: js-hello-jquery.md
+  - Git / GitHub:
+      - Git Introduction: git-intro.md
+      - Git Reminders: git-reminders.md
+  - Databases:
+      - Basic DB Information: intro-to-dbs.md
   - Other Tools:
       - VS Code Tools: vs-code-tools.md
-      - Git / GitHub: git-github-learnings.md
       - Basic HTML & CSS: html-and-css.md
       - Terminal / Shell Scripting: os-scripting.md
       - RPi For Development: rpi-for-development.md
+
 extra_css:
   - extra_css/extra.css
 extra_javascript:
@@ -28,7 +33,6 @@ theme:
   accent: indigo
   favicon: "assets/images/favicon.ico"
   logo:
-    #icon: build
     icon: book
   custom_dir: custom_theme
   # Adds top level headers as categories, left side headers as pages, toc on right

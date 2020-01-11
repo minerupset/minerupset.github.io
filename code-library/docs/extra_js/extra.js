@@ -56,7 +56,7 @@ const quotes = [
     author: "Anonymous"
   },
   {
-    quote: "It does not do dwell on dreams and forget to live.",
+    quote: "It does not do to dwell on dreams and forget to live.",
     author: "Albus Percival Wulfric Brian Dumbledore"
   },
   {
