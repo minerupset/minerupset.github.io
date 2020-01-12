@@ -2,7 +2,7 @@
 
 <hr>
 
-## How to add an existing project to git/GitHub
+## Add an existing project to git/GitHub
 
 This one I forget all the time - I'll start futzing around with some code, realize I like where it's going and want to source control it, and then forget the best way to do that.
 
@@ -26,7 +26,23 @@ References:
 - <a href="https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo" target="_blank">This reference on remotes</a>
 - <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">This GitLab reference</a>
 
-## How to login to GitHub via the command line
+## Login to GitHub with the CLI
 
-<hr>
 Now, this one became useful in setting up a Raspberry Pi - I wanted to be able to pull code and just have that work.
+
+References:
+
+- Words
+
+## Create a new branch via git CLI
+
+References:
+
+- <a href='https://stackabuse.com/git-create-a-new-branch/' target='_blank'>This article</a>
+
+## Visualize your repository there
+
+References:
+
+- <a href='https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git' target='_blank'>This SO discussion</a>
+- <a href='https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222' target='_blank'>This tutorial</a>
