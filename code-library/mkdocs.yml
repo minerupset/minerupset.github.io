@@ -5,8 +5,10 @@ nav:
       - Hello World: csharp-hello-world.md
   - Python:
       - Hello World: python-hello-world.md
+      - Working With Files: python-working-with-files.md
   - Node.JS:
       - Hello World: js-hello-world.md
+      - Intro to Webscraping: js-intro-to-webscraping.md
   - React.JS:
       - Hello World: js-hello-react.md
   - Other JS:
@@ -38,6 +40,11 @@ theme:
   # Adds top level headers as categories, left side headers as pages, toc on right
   # feature:
   #   tabs: true
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - admonition
 
 shortcuts:
   search: 83
