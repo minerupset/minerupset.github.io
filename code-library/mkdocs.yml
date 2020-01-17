@@ -13,6 +13,7 @@ nav:
       - Hello World: js-hello-react.md
   - Other JS:
       - Hello World: js-hello-jquery.md
+      - Callbacks, Promises, & Async: js-callbacks-promises-async.md
   - Git / GitHub:
       - Git Introduction: git-intro.md
       - Git Reminders: git-reminders.md

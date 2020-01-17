@@ -2,7 +2,11 @@
 <hr>
 
 ## High Level Intro
-You know what web scraping is, so I don't need to impress you with anything. What you should know is that thanks to a large case, it has been ruled that <a href='https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data' target='_blank'>web scraping is legal</a> (so long as it's what's considered public data) and frankly, web scraping is super helpful. Now, keep in mind; many websites say it directly violates their terms of use, and I am not telling you to go scrape literally anything. I hold no responsibility if you get in trouble scraping. However, if you want to know the mechanics, here are the basics (taken from this <a href=' https://www.youtube.com/watch?v=TzZ3YOUhCxo' target='_blank'>helpful tutorial</a>).
+Web scraping is quite simply the act of having a computer navigate to a website and copy-pasting data freely available from the website to some source of your choice, such as a database for you to reference later. What you should know is that thanks to a large case, it has been ruled that <a href='https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data' target='_blank'>web scraping is legal</a> so long as it's what's considered public data.
+
+Now, keep in mind; many websites say it directly violates their terms of use, and I am not telling you to go scrape literally anything. I hold no responsibility if you get in trouble scraping. However, if you want to know the mechanics, here are the basics (taken from this <a href=' https://www.youtube.com/watch?v=TzZ3YOUhCxo' target='_blank'>helpful tutorial</a>).
+
+Code below, by the idea is you use a 'headless browser', in this case puppeteer, to navigate to URLs of your choice and retrieve elements of the HTML DOM for you. In the example below, I direct the headless browser to a page on this site and have it retrieve the title, the source for an image, and the quote/author that appear in the footer of each of my pages. Take a look.
 
 ```js
 const puppeteer = require("puppeteer");
@@ -36,6 +40,8 @@ async function scrapeUrl(url) {
   const author = await txt4.jsonValue();
 
   //Just logging the objects to the console as objects for now
+  //This is where I'd likely return this object for another method
+  //to handle porting it to the db
   console.log({ pageTitle, imagePath, quote, author });
 
   //Close the browser when you're done
@@ -45,7 +51,7 @@ async function scrapeUrl(url) {
 scrapeUrl("https://minerupset.github.io/intro-to-dbs/");
 ```
 
-Here, I'm scraping this site and accessing an image and 3 different text elements on the given page, and finally logging them to the console. Note I am using the package 'puppeteer', which has to be installed with npm. To be clear, I have not yet done by homework on puppeteer, and am not sure that I am comfortable with all that it includes. However, it seems to be a legitimate enough package, and this is definitely an easy implementation. 
+To be clear, I have not yet done by homework on puppeteer, and am not sure that I am comfortable with all that it includes. However, it seems to be a legitimate enough package, and this is definitely an easy implementation. 
 
 In general, JavaScript is a great language for this kind of work, as it is uniquely designed for quickly traversing the DOM and acquiring information. This step didn't include any level of writing values to a DB for later consumption, but that would be a logical next step.
 
