@@ -1,8 +1,8 @@
 const quotes = [
-  {
-    quote: "Hello World!",
-    author: "CS students around the world"
-  },
+  // {
+  //   quote: "Hello World!",
+  //   author: "CS students around the world"
+  // },
   {
     quote:
       "That's all it is. You just begin. You do the math. You solve one problem, and you solve the next one, and the next. And if you solve enough problems, you get to come home.",

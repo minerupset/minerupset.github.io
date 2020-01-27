@@ -2,28 +2,28 @@ site_name: Miner Curiosity
 
 nav:
   - C#:
-      - Hello World: csharp-hello-world.md
+      - Hello World: csharp/hello-world.md
   - Python:
-      - Hello World: python-hello-world.md
-      - Working With Files: python-working-with-files.md
+      - Hello World: python/hello-world.md
+      - Working With Files: python/working-with-files.md
   - Node.JS:
-      - Hello World: js-hello-world.md
-      - Intro to Webscraping: js-intro-to-webscraping.md
+      - Hello World: js/hello-world.md
+      - Intro to Webscraping: js/intro-to-webscraping.md
   - React.JS:
-      - Hello World: js-hello-react.md
+      - Hello React: js/hello-react.md
   - Other JS:
-      - Hello World: js-hello-jquery.md
-      - Callbacks, Promises, & Async: js-callbacks-promises-async.md
+      - Hello jQuery: js/hello-jquery.md
+      - Callbacks, Promises, & Async: js/callbacks-promises-async.md
   - Git / GitHub:
-      - Git Introduction: git-intro.md
-      - Git Reminders: git-reminders.md
+      - Git Introduction: git/intro.md
+      - Git Reminders: git/reminders.md
   - Databases:
-      - Basic DB Information: intro-to-dbs.md
+      - Basic DB Information: databases/intro-to-dbs.md
   - Other Tools:
-      - VS Code Tools: vs-code-tools.md
-      - Basic HTML & CSS: html-and-css.md
-      - Terminal / Shell Scripting: os-scripting.md
-      - RPi For Development: rpi-for-development.md
+      - VS Code Tools: other/vs-code-tools.md
+      - Basic HTML & CSS: other/html-and-css.md
+      - Terminal / Shell Scripting: other/os-scripting.md
+      - RPi For Development: other/rpi-for-development.md
 
 extra_css:
   - extra_css/extra.css
@@ -46,6 +46,10 @@ markdown_extensions:
   - codehilite:
       linenums: true
   - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
 
 shortcuts:
   search: 83

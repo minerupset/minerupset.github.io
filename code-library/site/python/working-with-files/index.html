@@ -31,21 +31,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="/assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
-        <title>Miner Curiosity</title>
+        <title>Working With Files - Miner Curiosity</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
       
       
     
     
-      <script src="/assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -54,15 +54,17 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="/extra_css/extra.css">
+      <link rel="stylesheet" href="../../extra_css/extra.css">
     
     
       
     
     
+<meta name="robots" content="noindex"/>
+
   </head>
   
     <body dir="ltr">
@@ -77,12 +79,16 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#python-working-with-files" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="/." title="Miner Curiosity" class="md-header-nav__button md-logo">
+        <a href="../.." title="Miner Curiosity" class="md-header-nav__button md-logo">
           
             <i class="md-icon">book</i>
           
@@ -99,7 +105,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                
+                Working With Files
               
             </span>
           
@@ -152,7 +158,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="/." title="Miner Curiosity" class="md-nav__button md-logo">
+    <a href="../.." title="Miner Curiosity" class="md-nav__button md-logo">
       
         <i class="md-icon">book</i>
       
@@ -187,7 +193,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/csharp/hello-world/" title="Hello World" class="md-nav__link">
+    <a href="../../csharp/hello-world/" title="Hello World" class="md-nav__link">
       Hello World
     </a>
   </li>
@@ -202,10 +208,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Python
@@ -223,7 +231,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/python/hello-world/" title="Hello World" class="md-nav__link">
+    <a href="../hello-world/" title="Hello World" class="md-nav__link">
       Hello World
     </a>
   </li>
@@ -233,11 +241,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/python/working-with-files/" title="Working With Files" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Working With Files
+      </label>
+    
+    <a href="./" title="Working With Files" class="md-nav__link md-nav__link--active">
       Working With Files
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reading-and-writing-files" class="md-nav__link">
+    Reading and Writing Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-the-directory" class="md-nav__link">
+    Working with the Directory
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -271,7 +324,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/js/hello-world/" title="Hello World" class="md-nav__link">
+    <a href="../../js/hello-world/" title="Hello World" class="md-nav__link">
       Hello World
     </a>
   </li>
@@ -283,7 +336,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/js/intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
+    <a href="../../js/intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
       Intro to Webscraping
     </a>
   </li>
@@ -319,7 +372,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/js/hello-react/" title="Hello React" class="md-nav__link">
+    <a href="../../js/hello-react/" title="Hello React" class="md-nav__link">
       Hello React
     </a>
   </li>
@@ -355,7 +408,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/js/hello-jquery/" title="Hello jQuery" class="md-nav__link">
+    <a href="../../js/hello-jquery/" title="Hello jQuery" class="md-nav__link">
       Hello jQuery
     </a>
   </li>
@@ -367,7 +420,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/js/callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
+    <a href="../../js/callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
       Callbacks, Promises, & Async
     </a>
   </li>
@@ -403,7 +456,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/git/intro/" title="Git Introduction" class="md-nav__link">
+    <a href="../../git/intro/" title="Git Introduction" class="md-nav__link">
       Git Introduction
     </a>
   </li>
@@ -415,7 +468,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/git/reminders/" title="Git Reminders" class="md-nav__link">
+    <a href="../../git/reminders/" title="Git Reminders" class="md-nav__link">
       Git Reminders
     </a>
   </li>
@@ -451,7 +504,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/databases/intro-to-dbs/" title="Basic DB Information" class="md-nav__link">
+    <a href="../../databases/intro-to-dbs/" title="Basic DB Information" class="md-nav__link">
       Basic DB Information
     </a>
   </li>
@@ -487,7 +540,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/other/vs-code-tools/" title="VS Code Tools" class="md-nav__link">
+    <a href="../../other/vs-code-tools/" title="VS Code Tools" class="md-nav__link">
       VS Code Tools
     </a>
   </li>
@@ -499,7 +552,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/other/html-and-css/" title="Basic HTML & CSS" class="md-nav__link">
+    <a href="../../other/html-and-css/" title="Basic HTML & CSS" class="md-nav__link">
       Basic HTML & CSS
     </a>
   </li>
@@ -511,7 +564,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/other/os-scripting/" title="Terminal / Shell Scripting" class="md-nav__link">
+    <a href="../../other/os-scripting/" title="Terminal / Shell Scripting" class="md-nav__link">
       Terminal / Shell Scripting
     </a>
   </li>
@@ -523,7 +576,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/otherrpi-for-development.md" title="RPi For Development" class="md-nav__link">
+    <a href="../../otherrpi-for-development.md" title="RPi For Development" class="md-nav__link">
       RPi For Development
     </a>
   </li>
@@ -541,12 +594,97 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reading-and-writing-files" class="md-nav__link">
+    Reading and Writing Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-the-directory" class="md-nav__link">
+    Working with the Directory
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+                
+                <h1 id="python-working-with-files">Python - Working With Files</h1>
+<hr>
 
+<h2 id="reading-and-writing-files">Reading and Writing Files</h2>
+<p>A simple yet very useful task that may come up time and again is modifying one (or many hundreds) or text files in a consistent way. Luckily, Python scripting makes this very easy.</p>
+<p>In the following example, I'm going to:</p>
+<ol>
+<li>Read in a file from a path</li>
+<li>Create a new file to write my modified file to</li>
+<li>Make my modification and write it</li>
+</ol>
+<p>(Note, you can't modify files in place: this is a limitation of streams of memory, not of Python).</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;path/to/startingFile.txt&#39;</span>
+<span class="n">newPath</span> <span class="o">=</span> <span class="s1">&#39;/path/to/resultFile.txt&#39;</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">reader</span><span class="p">:</span>
+    <span class="n">startLines</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">newPath</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">startLines</span><span class="p">:</span>
+        <span class="n">newLine</span> <span class="o">=</span> <span class="s1">&#39;&quot;&#39;</span> <span class="o">+</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;&quot;&#39;</span> <span class="o">+</span> <span class="s1">&#39;,</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="n">writer</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">newLine</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
+
+<p>So in lines 4 and 5 we open up the file at <code class="codehilite"><span class="err">path</span></code> and read in the entire contents into a new variable called <code class="codehilite"><span class="err">startLines</span></code>. Then, in lines 7 through 10, we open up a file writer, iterate over those start lines, and make a modification called <code class="codehilite"><span class="err">newLine</span></code> and write this to our new file. You'll notice I haven't talked about the modification I made, because it honestly doesn't matter. You'll need to make your own modifications anyway.</p>
+<div class="admonition note">
+<p class="admonition-title">FYI</p>
+<p>Because you asked, all I did was wrap each line in quotes and add a comma to the end. This is because I needed to add each line of the file to an array for making a VS Code snippet.</p>
+</div>
+<p>This is one of the huge advantages; I saved myself a boatload of time in just 10 lines of code, and I can reuse these chunks of code again and again for all kinds of small but helpful projects. </p>
+<h2 id="working-with-the-directory">Working with the Directory</h2>
+<p>It's all well and good to work with individual files themselves, and there are plenty of times that's helpful, but there are also times where you'll want to work with the filesystem itself. To do this, you'll want to work with Python's built-in <a href='https://docs.python.org/3/library/os.html' target='_blank'>os module</a> that makes operations like this much easier.</p>
+                
+                  
+                
+                
+              
               
                 
 
@@ -557,31 +695,26 @@
         </div>
       </main>
       
-        
-<footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
-      </div>
-      
-    </div>
-  </div>
-</footer>
-      
+<hr />
+<div class="footer-container">
+  <p class="footer-p">
+    A training website intended to record learning. Visit
+    <a href="https://minerupset.github.io/legal/">Legal</a> page for more
+    information. Built with
+    <a href="https://www.mkdocs.org" target="_blank">MkDocs</a>
+  </p>
+  <p id="random-quote-block">
+    <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span>
+  </p>
+</div>
+
     </div>
     
-      <script src="/assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"/"}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="/extra_js/extra.js"></script>
+        <script src="../../extra_js/extra.js"></script>
       
     
   </body>

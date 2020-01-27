@@ -7,6 +7,8 @@ I am putting this code up here for myself, for me to keep track of. If in the pr
 
 As to the references I make to other people's sites: I receive no compensation or advantage by linking to these specific sites, and I do so without guaranteeing that their sites are free of viruses, malware, offensive material, or worse, click-bait. These are references that I have used to help me learn various topics, but if they are broken, hijacked by bots, or generally irksome, I both apologize and accept no responsibility for that. It's their site to maintain, not mine.
 
+Lastly, while I strive to remain GDPR compliant (no Google Analytics or Disqus commenting sections), I do not undergo regular audits to prove this. However, in that same vein, I don't collect any data that I would need to audit anyway, so I think we're all good here. 
+
 Copyright 2020
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
