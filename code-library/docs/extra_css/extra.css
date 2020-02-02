@@ -1,9 +1,17 @@
-/* Targets the header */
-/* .md-header {
-  background-color: black;
-} */
+:root {
+  --header-main-color: rgb(16, 107, 163);
+}
 
-/* Targets my custom footer */
+.md-header {
+  background-color: var(--header-main-color);
+}
+
+@media only screen and (max-width: 76.1875em) {
+  html .md-nav--primary .md-nav__title--site {
+    background-color: var(--header-main-color);
+  }
+}
+
 #random-quote-block,
 .footer-p {
   color: white;

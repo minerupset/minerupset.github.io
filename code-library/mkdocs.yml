@@ -8,6 +8,7 @@ nav:
       - Working With Files: python/working-with-files.md
   - Node.JS:
       - Hello World: js/hello-world.md
+      - Non-blocking and Concurrency: js/non-blocking-vs-concurrent.md
       - Intro to Webscraping: js/intro-to-webscraping.md
   - React.JS:
       - Hello React: js/hello-react.md

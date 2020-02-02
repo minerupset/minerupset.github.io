@@ -78,7 +78,7 @@ ourPromise
     .catch(err => console.log('Error', err.message));
 ```
 
-This is example creates a promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:
+This is example creates a Promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:
 
 - It's an object with a `#!js .then()` method for if it resolves
 - If it errors out for any reason, the `#!js .catch()` method is invoked.
@@ -108,7 +108,7 @@ So, this code reads a little more cleanly. It still isn't quite as clean as comp
 - once you have the posts, get the comments from the first post
 - once you have the comments, log them to the console
 
-This will run patiently and sequentially, waiting until the results are completed before moving on to the next `#!js .then()` statement. This is also referred to as _**chaining**_ our Promise statements together. As well, if an error occurs on _any_ step, it will go to the `#!js .catch()` statement, so there's no need to error handle each then statement on the way down. 
+This will run patiently and sequentially, waiting until the results are completed before moving on to the next `#!js .then()` statement. This is also referred to as _**chaining**_ our Promise statements together. As well, if an error occurs on any step, it will go to the `#!js .catch()` statement, so there's no need to error handle each then statement on the way down. 
 
 ## Calling Multiple Promises: Get All the Promises
 So if you're like me, one of the first things you want to do is run a bunch of Promises simultaneously. I don't mean chaining 3 Promises back to back like we did, but run those 3 chained Promises 100 times to test performance. To do this, you need to put all of the Promise objects into an array, and make use of the `#!js Promise.all()` function. This allows the separate Promise chains to run such that they're not blocking each other (asynchronously), but each individual Promise will follow its own chain of `#!js .then()` statements. 
@@ -146,7 +146,7 @@ This is definitely an area I need to dig more; I won't pretend this is the be-al
 ## Async / Await: Sugar Coated Promises
 We've spent all this time looking at Promise architectures, but now, we're going to get rid of it - Promises are great, and it's important to know how they work, but realistically, they have a very different flow in their structure than does normal code. It would be great to keep writing in a synchronous style, and just have Promises work. This is where `#!js async` and `#!js await` come in (very similar to C#'s use of `#!csharp async` and `#!csharp await` with C# Task objects).
 
-Below is a direct comparison of our same three versions: Callbacks, Promises, and Async/Await
+Below is a direct comparison of our same three versions: Callbacks, Promises, and Async / Await
 ```javascript
 //Callback Based
 getUser(1, (user) => {

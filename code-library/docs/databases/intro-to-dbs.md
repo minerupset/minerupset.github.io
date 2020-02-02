@@ -16,4 +16,4 @@ Databases are specialized systems and storage containers for dealing with large 
 
 ### Join Reference
 
-[![SQL Reference](assets/images/sqlJoins.webp)](assets/images/sqlJoins.webp)
+[![SQL Reference](../assets/images/sqlJoins.webp)](assets/images/sqlJoins.webp)

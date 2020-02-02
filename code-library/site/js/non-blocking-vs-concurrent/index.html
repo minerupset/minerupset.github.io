@@ -36,7 +36,7 @@
     
     
       
-        <title>Git Reminders - Miner Curiosity</title>
+        <title>Non-blocking and Concurrency - Miner Curiosity</title>
       
     
     
@@ -80,7 +80,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#git-reminders-to-myself" tabindex="1" class="md-skip">
+      <a href="#non-blocking-vs-concurrent-code" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -106,7 +106,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Git Reminders
+                Non-blocking and Concurrency
               
             </span>
           
@@ -257,10 +257,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Node.JS
@@ -278,7 +280,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/hello-world/" title="Hello World" class="md-nav__link">
+    <a href="../hello-world/" title="Hello World" class="md-nav__link">
       Hello World
     </a>
   </li>
@@ -288,11 +290,63 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../js/non-blocking-vs-concurrent/" title="Non-blocking and Concurrency" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Non-blocking and Concurrency
+      </label>
+    
+    <a href="./" title="Non-blocking and Concurrency" class="md-nav__link md-nav__link--active">
       Non-blocking and Concurrency
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-these-things" class="md-nav__link">
+    What Are These Things?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-i-care" class="md-nav__link">
+    Why Do I Care?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-can-i-learn-more" class="md-nav__link">
+    Where Can I Learn More?
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -302,7 +356,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
+    <a href="../intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
       Intro to Webscraping
     </a>
   </li>
@@ -338,7 +392,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/hello-react/" title="Hello React" class="md-nav__link">
+    <a href="../hello-react/" title="Hello React" class="md-nav__link">
       Hello React
     </a>
   </li>
@@ -374,7 +428,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/hello-jquery/" title="Hello jQuery" class="md-nav__link">
+    <a href="../hello-jquery/" title="Hello jQuery" class="md-nav__link">
       Hello jQuery
     </a>
   </li>
@@ -386,7 +440,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
+    <a href="../callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
       Callbacks, Promises, & Async
     </a>
   </li>
@@ -401,12 +455,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       Git / GitHub
@@ -424,7 +476,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../intro/" title="Git Introduction" class="md-nav__link">
+    <a href="../../git/intro/" title="Git Introduction" class="md-nav__link">
       Git Introduction
     </a>
   </li>
@@ -434,70 +486,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Git Reminders
-      </label>
-    
-    <a href="./" title="Git Reminders" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../git/reminders/" title="Git Reminders" class="md-nav__link">
       Git Reminders
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#add-an-existing-project-to-gitgithub" class="md-nav__link">
-    Add an existing project to git/GitHub
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#login-to-github-with-the-cli" class="md-nav__link">
-    Login to GitHub with the CLI
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-branch-via-git-cli" class="md-nav__link">
-    Create a new branch via git CLI
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visualize-your-repository-there" class="md-nav__link">
-    Visualize your repository there
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -635,29 +628,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#add-an-existing-project-to-gitgithub" class="md-nav__link">
-    Add an existing project to git/GitHub
+  <a href="#what-are-these-things" class="md-nav__link">
+    What Are These Things?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#login-to-github-with-the-cli" class="md-nav__link">
-    Login to GitHub with the CLI
+  <a href="#why-do-i-care" class="md-nav__link">
+    Why Do I Care?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-a-new-branch-via-git-cli" class="md-nav__link">
-    Create a new branch via git CLI
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visualize-your-repository-there" class="md-nav__link">
-    Visualize your repository there
+  <a href="#where-can-i-learn-more" class="md-nav__link">
+    Where Can I Learn More?
   </a>
   
 </li>
@@ -679,48 +665,35 @@
               
                 
                 
-                <h1 id="git-reminders-to-myself">Git - Reminders to myself</h1>
+                <h1 id="non-blocking-vs-concurrent-code">Non-Blocking vs. Concurrent Code</h1>
 <hr>
 
-<h2 id="add-an-existing-project-to-gitgithub">Add an existing project to git/GitHub</h2>
-<p>This one I forget all the time - I'll start futzing around with some code, realize I like where it's going and want to source control it, and then forget the best way to do that.</p>
-<p>Assuming:</p>
-<ul>
-<li>git is not enabled in your folder (if it is, skip to #4):</li>
-<li>you want it on GitHub, not just local git</li>
-</ul>
-<p>Then take the following steps:</p>
-<ol>
-<li>Make a new repository on GitHub and copy the 'clone' URL (you'll need this in step #5)<br></li>
-<li>Open Terminal (or equivalent for your OS) in the folder you want as the parent folder on git and run the command:<br><code class="codehilite"><span class="err">git init</span></code><br> This sets up git in your local repo<br></li>
-<li>Now that it's ready, you want to add the files you've been working on: run the command <br><code class="codehilite"><span class="err">git add .</span></code><br>This stages all of your files (the parameter <code class="codehilite"><span class="err">.</span></code>) with the command <code class="codehilite"><span class="err">add</span></code> so that you can actually commit them to the repository<br></li>
-<li>Commit the changes you just staged by running: <br><code class="codehilite"><span class="err">git commit -m &quot;YOUR MESSAGE HERE&quot;</span></code><br>The parameter <code class="codehilite"><span class="err">-m</span></code> provides the message you're putting with this specific git commit<br></li>
-<li>Great, now everything is working in your local git. However, you want this on GitHub, right? To do that, you need to point your local git repository at an online target repository. To do that, run the command:<br><code class="codehilite"><span class="err">git remote add origin &lt;YOUR COPIED URL HERE&gt;</span></code><br>What you've just told git is, "Hey, I'm adding a remote that I will call 'origin', and its address is this URL"<br></li>
-<li>Lastly, you need to push your code up. Now, there's one thing here that you only do this one time, otherwise it can cause problems later on. Run the command:<br><code class="codehilite"><span class="err">git push -f origin master</span></code><br> What you did here was say:<br> "git, push this code up to the origin (that I previously specified) and push it to the branch master. And do it forcefully (<code class="codehilite"><span class="err">-f</span></code>) because I know what I'm doing"<br><br>Note: you only want to use the <code class="codehilite"><span class="err">-f</span></code> parameter when you for sure want to overwrite what's going on, so only use this when you know what the results will be. In this case, because we know that the repository we made on GitHub is empty, there's no issue here, but best to confirm before doing this.<br></li>
-</ol>
-<p>References:</p>
-<ul>
-<li><a href="https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">This guy's tutorial</a></li>
-<li><a href="https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo" target="_blank">This reference on remotes</a></li>
-<li><a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">This GitLab reference</a></li>
-</ul>
-<h2 id="login-to-github-with-the-cli">Login to GitHub with the CLI</h2>
-<p>Now, this one became useful in setting up a Raspberry Pi - I wanted to be able to pull code and just have that work.</p>
-<p>References:</p>
-<ul>
-<li>Words</li>
-</ul>
-<h2 id="create-a-new-branch-via-git-cli">Create a new branch via git CLI</h2>
-<p>References:</p>
-<ul>
-<li><a href='https://stackabuse.com/git-create-a-new-branch/' target='_blank'>This article</a></li>
-</ul>
-<h2 id="visualize-your-repository-there">Visualize your repository there</h2>
-<p>References:</p>
-<ul>
-<li><a href='https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git' target='_blank'>This SO discussion</a></li>
-<li><a href='https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222' target='_blank'>This tutorial</a></li>
-</ul>
+<h2 id="what-are-these-things">What Are These Things?</h2>
+<p>Node has a rather unique architectural setup in that it is entirely asynchronous, or non-blocking in its operations. This means that code does not block the execution of the next line of code. Here's an example in Python vs. Node.js</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="c1">#Python Version</span>
+<span class="n">wait_input_number_of_seconds</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="c1">#Takes 5 seconds to complete this task</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;I finished&#39;</span><span class="p">)</span> <span class="c1">#Prints &#39;I finished&#39; once those 5 seconds are done</span>
+</pre></div>
+</td></tr></table>
+
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="c1">//JavaScript Version</span>
+<span class="nx">waitInputNumberOfSeconds</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span> <span class="c1">//Starts some task that will take 5 seconds</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;I finished&#39;</span><span class="p">);</span> <span class="c1">//Logs to the console almost immediately</span>
+</pre></div>
+</td></tr></table>
+
+<p>So what gives? Our python code was polite and everyone waited their turn (like most other languages), while in JavaScript, line 2 seemed to jump the line and log to the console immediately. This is because Node is non-blocking. It is built specifically for the web, and knows that things may take an indeterminate amount of time to finish. Rather than wait in a holding pattern, Node is essentially just constantly queueing tasks up to be run at a certain time, and doesn't really wait for their execution. </p>
+<p>In our example above, the single thread in Node queues up our <code class="codehilite"><span class="nx">waitInputNumberOfSeconds</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span></code> method, then jumps to the next line. If we had given that method a callback, in 5 seconds it would call it back, but not before. This single threaded architecture allows Node to respond very quickly to user requests because no single request ever distracts Node for very long. </p>
+<p>Think about a web server and a user on your site: if your user sends in an HTTP request that might take 5 seconds to complete. You don't want that user to box out every other request that might come in. On the other hand, you don't want to maintain enough threads every single user that might be clicking at any given moment; that's a lot of parallel (or concurrent) threads. Node solves this by having a single thread that is essentially a project manager. It's not doing any of the actual work: it's coordinating and delegating work to databases, microservices, and other systems, and it has a really good internal clock to check back in on those tasks. This keeps you able to service many users quickly and reliably, with minimal horizontal scaling (going and buying more server space). </p>
+<h2 id="why-do-i-care">Why Do I Care?</h2>
+<p>This architecture really does drive some of Node's value, but highlights some serious limitations. Because Node has a single thread, you would not want it to be handling a CPU intensive task. That would be a nightmare, because that single thread would constantly be getting tied up in complicated tasks. However, for input / output (I/O) tasks where you're constantly moving data in and out of a database but not manipulating it, Node is perfect: it throws a task (usually in the form of a Promise) at a database, goes and handles the next request, and when the first request comes back with an answer, Node is ready to quickly pass the result to the first user. </p>
+<p>Let's pretend it takes ~2 seconds for your service to process a login request with authentication and everything. And let's say User1 (U1) and U2 both submit logins just a couple milliseconds apart. If this were run on a Python API, U1 would would take 2 seconds, U2 would hang there for those 2 seconds, then it would take 2 seconds to process their request. So U1 got their info in 2 seconds, and U2 waited 4 seconds. If we run the same scenario in Node, U1 would send off their request, and almost simultaneously U2 would kick off their request, and both would be handled in 2 seconds. This assumes that your Node application is not handling the requests itself, but instead is passing this task off to a different part of your architecture (likely a database). </p>
+<h2 id="where-can-i-learn-more">Where Can I Learn More?</h2>
+<p>Though it's a few years old, this <a href='https://www.youtube.com/watch?v=8aGhZQkoFbQ' target='_blank'>this widely shared video</a> is honestly one of the best sources you'll find on the event-loop and how Node handles the queue. It's incredibly valuable to understanding just what's going on under the hood of a JavaScript application and why Node (or any kind of browser-based engine) might be good or bad for certain tasks. </p>
                 
                   
                 
