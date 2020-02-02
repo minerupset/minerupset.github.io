@@ -64,6 +64,7 @@
     
     
 <meta name="robots" content="noindex"/>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
   </head>
   
@@ -279,6 +280,18 @@
   <li class="md-nav__item">
     <a href="../hello-world/" title="Hello World" class="md-nav__link">
       Hello World
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../non-blocking-vs-concurrent/" title="Non-blocking and Concurrency" class="md-nav__link">
+      Non-blocking and Concurrency
     </a>
   </li>
 
@@ -597,7 +610,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../otherrpi-for-development.md" title="RPi For Development" class="md-nav__link">
+    <a href="../../other/rpi-for-development/" title="RPi For Development" class="md-nav__link">
       RPi For Development
     </a>
   </li>
@@ -782,7 +795,7 @@
 </pre></div>
 </td></tr></table>
 
-<p>This is example creates a promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:</p>
+<p>This is example creates a Promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:</p>
 <ul>
 <li>It's an object with a <code class="codehilite"><span class="p">.</span><span class="nx">then</span><span class="p">()</span></code> method for if it resolves</li>
 <li>If it errors out for any reason, the <code class="codehilite"><span class="p">.</span><span class="k">catch</span><span class="p">()</span></code> method is invoked.</li>
@@ -823,7 +836,7 @@
 <li>once you have the posts, get the comments from the first post</li>
 <li>once you have the comments, log them to the console</li>
 </ul>
-<p>This will run patiently and sequentially, waiting until the results are completed before moving on to the next <code class="codehilite"><span class="p">.</span><span class="nx">then</span><span class="p">()</span></code> statement. This is also referred to as <em><strong>chaining</strong></em> our Promise statements together. As well, if an error occurs on <em>any</em> step, it will go to the <code class="codehilite"><span class="p">.</span><span class="k">catch</span><span class="p">()</span></code> statement, so there's no need to error handle each then statement on the way down. </p>
+<p>This will run patiently and sequentially, waiting until the results are completed before moving on to the next <code class="codehilite"><span class="p">.</span><span class="nx">then</span><span class="p">()</span></code> statement. This is also referred to as <em><strong>chaining</strong></em> our Promise statements together. As well, if an error occurs on any step, it will go to the <code class="codehilite"><span class="p">.</span><span class="k">catch</span><span class="p">()</span></code> statement, so there's no need to error handle each then statement on the way down. </p>
 <h2 id="calling-multiple-promises-get-all-the-promises">Calling Multiple Promises: Get All the Promises</h2>
 <p>So if you're like me, one of the first things you want to do is run a bunch of Promises simultaneously. I don't mean chaining 3 Promises back to back like we did, but run those 3 chained Promises 100 times to test performance. To do this, you need to put all of the Promise objects into an array, and make use of the <code class="codehilite"><span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">()</span></code> function. This allows the separate Promise chains to run such that they're not blocking each other (asynchronously), but each individual Promise will follow its own chain of <code class="codehilite"><span class="p">.</span><span class="nx">then</span><span class="p">()</span></code> statements. </p>
 <p>Let's look at how I handled this in my example:</p>
@@ -872,7 +885,7 @@
 <p>This is definitely an area I need to dig more; I won't pretend this is the be-all end-all explanation of Promises, but instead a means of investigating them. I'm sure I'll be building this out as I go.</p>
 <h2 id="async-await-sugar-coated-promises">Async / Await: Sugar Coated Promises</h2>
 <p>We've spent all this time looking at Promise architectures, but now, we're going to get rid of it - Promises are great, and it's important to know how they work, but realistically, they have a very different flow in their structure than does normal code. It would be great to keep writing in a synchronous style, and just have Promises work. This is where <code class="codehilite"><span class="nx">async</span></code> and <code class="codehilite"><span class="nx">await</span></code> come in (very similar to C#'s use of <code class="codehilite"><span class="k">async</span></code> and <code class="codehilite"><span class="k">await</span></code> with C# Task objects).</p>
-<p>Below is a direct comparison of our same three versions: Callbacks, Promises, and Async/Await</p>
+<p>Below is a direct comparison of our same three versions: Callbacks, Promises, and Async / Await</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3

@@ -64,6 +64,7 @@
     
     
 <meta name="robots" content="noindex"/>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
   </head>
   
@@ -281,6 +282,18 @@
   <li class="md-nav__item">
     <a href="../hello-world/" title="Hello World" class="md-nav__link">
       Hello World
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../non-blocking-vs-concurrent/" title="Non-blocking and Concurrency" class="md-nav__link">
+      Non-blocking and Concurrency
     </a>
   </li>
 
@@ -569,7 +582,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../otherrpi-for-development.md" title="RPi For Development" class="md-nav__link">
+    <a href="../../other/rpi-for-development/" title="RPi For Development" class="md-nav__link">
       RPi For Development
     </a>
   </li>
@@ -630,7 +643,7 @@
 <h2 id="high-level-intro">High Level Intro</h2>
 <p>Web scraping is quite simply the act of having a computer navigate to a website and copy-pasting data freely available from the website to some source of your choice, such as a database for you to reference later. What you should know is that thanks to a large case, it has been ruled that <a href='https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data' target='_blank'>web scraping is legal</a> so long as it's what's considered public data.</p>
 <p>Now, keep in mind; many websites say it directly violates their terms of use, and I am not telling you to go scrape literally anything. I hold no responsibility if you get in trouble scraping. However, if you want to know the mechanics, here are the basics (taken from this <a href=' https://www.youtube.com/watch?v=TzZ3YOUhCxo' target='_blank'>helpful tutorial</a>).</p>
-<p>Code below, by the idea is you use a 'headless browser', in this case puppeteer, to navigate to URLs of your choice and retrieve elements of the HTML DOM for you. In the example below, I direct the headless browser to a page on this site and have it retrieve the title, the source for an image, and the quote/author that appear in the footer of each of my pages. Take a look.</p>
+<p>Code below, by the idea is you use a "headless browser", in this case <code class="codehilite"><span class="nx">puppeteer</span></code>, to navigate to URLs of your choice and retrieve elements of the HTML DOM for you. In the example below, I direct the headless browser to a page on this site and have it retrieve the title, the source for an image, and the quote/author that appear in the footer of each of my pages. Take a look.</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -709,7 +722,7 @@
   <span class="nx">browser</span><span class="p">.</span><span class="nx">close</span><span class="p">();</span>
 <span class="p">}</span>
 
-<span class="nx">scrapeUrl</span><span class="p">(</span><span class="s2">&quot;https://minerupset.github.io/intro-to-dbs/&quot;</span><span class="p">);</span>
+<span class="nx">scrapeUrl</span><span class="p">(</span><span class="s2">&quot;https://minerupset.github.io/databases/intro-to-dbs/&quot;</span><span class="p">);</span>
 </pre></div>
 </td></tr></table>
 
