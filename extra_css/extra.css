@@ -6,6 +6,7 @@
   background-color: var(--header-main-color);
 }
 
+/* Handles the menu bar when the screen is on a phone or just small*/
 @media only screen and (max-width: 76.1875em) {
   html .md-nav--primary .md-nav__title--site {
     background-color: var(--header-main-color);

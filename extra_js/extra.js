@@ -1,8 +1,4 @@
 const quotes = [
-  // {
-  //   quote: "Hello World!",
-  //   author: "CS students around the world"
-  // },
   {
     quote:
       "That's all it is. You just begin. You do the math. You solve one problem, and you solve the next one, and the next. And if you solve enough problems, you get to come home.",
@@ -68,6 +64,11 @@ const quotes = [
     quote:
       "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
     author: "Albus Percival Wulfric Brian Dumbledore"
+  },
+  {
+    quote:
+      "Remember: if you can't be replaced, you can't be promoted. So train your replacement and prove you can be a good manager. ",
+    author: "Unsourced (Anonymous)"
   }
 ];
 
