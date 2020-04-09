@@ -1,16 +1,14 @@
 # C# - Some Basics and Hello World
 
-<hr>
-
 ## C# Value Prop
 
 I have a confession to make: I started learning how to code in the most business-like of environments, the VBA window of Excel files. I will forever feel like 'not a real developer' because of this. Since then, I like to think I've advanced some, but at the end of the day, I'm still the same anxious consultant looking to get an accurate answer as fast as possible. VBA was good for that then, because I was almost always crunching Excel data, but now, I would say my go to language is C#. It's a good mix of familiar constructs and powerful tools and libraries, and has a wide range of application.
 
 <h3>Why C# has worked well for me:</h3>
 
-- **Strong typing:** Don't get me wrong, I love Python because it 'just works'. But that same beauty has been a major thorn in my side in enterprise settings, making sure things are consistent throughout an application. C# is almost always [strongly typed](`#`resources-and-references), but does have a type (dynamic) for when something might shift over time.
+- **Strong typing:** Don't get me wrong, I love Python because it 'just works'. But that same beauty has been a major thorn in my side in enterprise settings, making sure things are consistent throughout an application. C# is almost always [strongly typed](#resources-and-references), but does have a type (dynamic) for when something might shift over time.
 - **Object-oriented structure:** Call me old fashion, but I often think in terms of concrete objects. Actual things that have properties and methods that I can visualize. Not everyone thinks this way, it may even be a crutch to think this way, but it's my default. C# makes working with classes and objects simple, and I can easily visualize my tasks in an intuitive way that I can't as easily with functional programming.
-- **Wide-spread use:** We all know Python gets a lot of love because it can do anything. And it's well-earned; Python is practically synonymous with machine learning and data science, it stitches together some of the most popular web apps around the world, and it's a great introductory language to boot. But C# is hardly esoteric; ASP.NET still powers many widely used websites, .NET Core can be deployed on Windows, Mac, and Linux, and .NET integrates quite seamlessly with Azure deployment (Amazon's biggest competitor in the space). Throw in some newer toys like ML.NET, and you're hardly limited with C#.
+- **Wide-spread use:** We all know Python gets a lot of love because it can do anything. And it's well-earned; Python is practically synonymous with machine learning and data science, it stitches together some of the most popular web apps around the world, and it's a great introductory language to boot. But C# is hardly esoteric; .NET (dotNet) has a huge ecosystem, ASP.NET still powers many widely used websites, .NET Core can be deployed on Windows, Mac, and Linux, and .NET integrates quite seamlessly with Azure deployment (Amazon's biggest competitor in the space). Throw in some newer toys like ML.NET, and you're hardly limited with C#.
 
 <h3>Challenges with C#</h3>
 
@@ -28,7 +26,7 @@ Assuming you have:
 - Downloaded VS Code and,
 - Installed the C# Extension
 
-This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run [`dotnet new console`](`#`resources-and-references). This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application.
+This is actually relatively simple. Open the terminal window (Ctrl + ~), navigate to the directory of choice, and run [`dotnet new console`](#resources-and-references). This should create the necessary files you need, such as your bin folder, your .csproj file, and your Program.cs file, which will be the main code entry point into your application.
 
 When you've done this, you should see a chunk of code that looks roughly like this:
 

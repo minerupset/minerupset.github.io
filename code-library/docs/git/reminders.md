@@ -46,3 +46,16 @@ References:
 
 - <a href='https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git' target='_blank'>This SO discussion</a>
 - <a href='https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222' target='_blank'>This tutorial</a>
+
+## Roll back to a previous commit
+
+`#!bash git log`<br>gives us the status
+
+`#!bash git revert [HASH OF THE FIRST BAD COMMIT]`<br> What this does is take your branch, and back it up one commit. It basically says, 'This current commit was garbage and I want it to be better.
+
+Note that you don't run it to the last good commit, you run it to the first bad commit, because it goes to the beginning of that commit. 
+
+**Here there be dragons**<br>
+`#!bash git reset --hard [HASH OF THE FIRST BAD COMMIT]` 
+
+References: <a href='https://stackabuse.com/git-revert-to-a-previous-commit/' target='_blank'>This tutorial is helpful</a>

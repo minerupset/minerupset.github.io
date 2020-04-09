@@ -1,16 +1,12 @@
 # JavaScript - Introduction to React
 
-<hr>
-
 ## What is React and Why Bother?
 
-<hr>
 React is a front-end specific library (not framework) for creating responsive user interfaces (UIs). On the back end, it does this by creating a virtual DOM that it can quickly compare over time, and then update the real DOM. This is much cheaper from a CPU and memory perspective than trying to compare the full DOM over time; it's just not realistic.
 <br>
 
 ## How React Operates
 
-<hr>
 React uses a component structure, where a core App component has a number of child components (much like the parent-child relationship in the HTML DOM). These components have two key features that drive them: **state{}** and **render()**.
 
 A component's state is the data that component owns and controls. State can include simple properties, callbacks to methods, or even other React components. State is different than the properties (props) of a component, which are passed to it from a parent. With this structure, you often see **stateless functional components**. This means that the state is managed by a parent element, and the necessary values are passed down the component tree as props. This helps maintain code integrity, as more of the logic can be stored at a higher shared level.
@@ -22,13 +18,9 @@ So, state (and props) manage the data associated with a component, while the ren
 
 ## React - A 'Hello World' Equivalent
 
-<hr>
-
-<br>
+Ok, so I'm still working on this. I have a couple of examples, but I'm trying to cook up a good clean one to show here. Sit tight. 
 
 ## React - Reminders to Myself
-
-<hr>
 
 - Use `create-react-app`. While it's good to understand how React is working in the background, using the out-of-the-box method really does help get things set up and rolling quickly, and you can always use `eject` later if you need to modify the way it's built.
 - Don't be afraid to lift state (or push it down) if you're running into issues with the logic. Being able to quickly modify the structure is surprisingly easy in React, so long as you're passing functions correctly between different elements.

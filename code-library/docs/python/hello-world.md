@@ -1,10 +1,7 @@
 # Python - Some Basics and Hello World
 
-<hr>
-
 ## Python Value Prop
 
-<hr>
 Python has been one of the fastest growing languages of the past decade. With a low barrier to entry, widespread use across operating systems, and a massive library of available modules, it's easy to understand why. Python may not always be the best language for whatever task you're tackling, but chances are there is someway it can handle the task.Python brings with it some interesting features that make it both a valuable and useful language, but can provide some headaches:
 
 <h3>The Good</h3>
@@ -24,7 +21,6 @@ Python has been one of the fastest growing languages of the past decade. With a 
 
 ## Basic Python - Hello World
 
-<hr>
 Assuming you have:
 
 - Downloaded VS Code and,

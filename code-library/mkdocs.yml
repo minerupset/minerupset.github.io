@@ -12,8 +12,8 @@ nav:
       - Intro to Webscraping: js/intro-to-webscraping.md
   - React.JS:
       - Hello React: js/hello-react.md
-  - Other JS:
-      - Hello jQuery: js/hello-jquery.md
+  - Vanilla JS:
+      - Basic Web Interactivity: js/basic-web-js.md
       - Callbacks, Promises, & Async: js/callbacks-promises-async.md
   - Git / GitHub:
       - Git Introduction: git/intro.md
@@ -22,7 +22,8 @@ nav:
       - Basic DB Information: databases/intro-to-dbs.md
   - Other Tools:
       - VS Code Tools: other/vs-code-tools.md
-      - Basic HTML & CSS: other/html-and-css.md
+      - Basic HTML: other/html.md
+      - Basic CSS: other/css.md
       - Terminal / Shell Scripting: other/os-scripting.md
       - RPi For Development: other/rpi-for-development.md
 
@@ -36,8 +37,8 @@ theme:
   primary: indigo
   accent: indigo
   favicon: "assets/images/favicon.ico"
-  logo:
-    icon: book
+  icon:
+    logo: material/book
   custom_dir: custom_theme
   # Adds top level headers as categories, left side headers as pages, toc on right
   # feature:

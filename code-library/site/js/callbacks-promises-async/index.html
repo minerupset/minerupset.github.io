@@ -694,8 +694,6 @@
                 
                 
                 <h1 id="javascript-callbacks-promises-and-async">JavaScript - Callbacks, Promises, and Async</h1>
-<hr>
-
 <h2 id="why-does-js-need-any-of-this">Why does JS need any of this?</h2>
 <p>Unlike local desktop applications, websites have to deal with the reality of decentralized systems. Decentralized systems are great for parallel processing and spreading data around, but what happens if one of your partner systems is down? Or if your internet is slow? You can't have a website just not load at all - users would stop coming. Instead, the web had to be built on the fundamentals of asynchronous actions. This means that a process might finish in half a second, 5 seconds, or 15 seconds, and your website still has to function. </p>
 <p>JavaScript, being the language of the web, needs to handle this, and handle it cleanly. The methods for doing this have changed over time, starting with callbacks, then Promises, then async/await functions. I'll approach them chronologically here, but don't spend too much time on callbacks. They should be avoided when possible because of the anti-patterns they create. If you're maintaining legacy code, you should replace your callbacks with at least Promises, if not async/await functions. </p>
@@ -795,7 +793,7 @@
 </pre></div>
 </td></tr></table>
 
-<p>This is example creates a Promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:</p>
+<p>This example creates a Promise that essentially flips a coin and if it's 0, it's heads, if it's 1, it's tails. But let's look at our Promise:</p>
 <ul>
 <li>It's an object with a <code class="codehilite"><span class="p">.</span><span class="nx">then</span><span class="p">()</span></code> method for if it resolves</li>
 <li>If it errors out for any reason, the <code class="codehilite"><span class="p">.</span><span class="k">catch</span><span class="p">()</span></code> method is invoked.</li>
