@@ -15,7 +15,7 @@
     
     
       
-        <title>Git Introduction - Miner Curiosity</title>
+        <title>Basic Web Interactivity - Miner Curiosity</title>
       
     
     
@@ -53,7 +53,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git-and-github" class="md-skip">
+        <a href="#javascript-basic-web-interaction" class="md-skip">
           Skip to content
         </a>
       
@@ -81,7 +81,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Git Introduction
+              Basic Web Interactivity
             
           </span>
         </div>
@@ -276,7 +276,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/hello-world/" title="Hello World" class="md-nav__link">
+    <a href="../hello-world/" title="Hello World" class="md-nav__link">
       Hello World
     </a>
   </li>
@@ -288,7 +288,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/non-blocking-vs-concurrent/" title="Non-blocking and Concurrency" class="md-nav__link">
+    <a href="../non-blocking-vs-concurrent/" title="Non-blocking and Concurrency" class="md-nav__link">
       Non-blocking and Concurrency
     </a>
   </li>
@@ -300,7 +300,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
+    <a href="../intro-to-webscraping/" title="Intro to Webscraping" class="md-nav__link">
       Intro to Webscraping
     </a>
   </li>
@@ -342,7 +342,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/hello-react/" title="Hello React" class="md-nav__link">
+    <a href="../hello-react/" title="Hello React" class="md-nav__link">
       Hello React
     </a>
   </li>
@@ -357,10 +357,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       Vanilla JS
@@ -382,11 +384,94 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../js/basic-web-js/" title="Basic Web Interactivity" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Basic Web Interactivity
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Basic Web Interactivity" class="md-nav__link md-nav__link--active">
       Basic Web Interactivity
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-js-can-do-for-you" class="md-nav__link">
+    What JS can do for you
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-js-in-the-web" class="md-nav__link">
+    Basic JS in the Web
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic JS in the Web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#including-js-on-a-page" class="md-nav__link">
+    Including JS on a page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-elements-on-a-webpage" class="md-nav__link">
+    Accessing elements on a webpage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-new-elements" class="md-nav__link">
+    Creating new elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binding-this-correctly-to-functions-in-classes" class="md-nav__link">
+    Binding this correctly to functions in classes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -396,7 +481,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
+    <a href="../callbacks-promises-async/" title="Callbacks, Promises, & Async" class="md-nav__link">
       Callbacks, Promises, & Async
     </a>
   </li>
@@ -411,12 +496,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       Git / GitHub
@@ -438,53 +521,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Git Introduction
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="Git Introduction" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../git/intro/" title="Git Introduction" class="md-nav__link">
       Git Introduction
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#quick-overview" class="md-nav__link">
-    Quick Overview
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -494,7 +535,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../reminders/" title="Git Reminders" class="md-nav__link">
+    <a href="../../git/reminders/" title="Git Reminders" class="md-nav__link">
       Git Reminders
     </a>
   </li>
@@ -663,9 +704,50 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-overview" class="md-nav__link">
-    Quick Overview
+  <a href="#what-js-can-do-for-you" class="md-nav__link">
+    What JS can do for you
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-js-in-the-web" class="md-nav__link">
+    Basic JS in the Web
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic JS in the Web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#including-js-on-a-page" class="md-nav__link">
+    Including JS on a page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-elements-on-a-webpage" class="md-nav__link">
+    Accessing elements on a webpage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-new-elements" class="md-nav__link">
+    Creating new elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binding-this-correctly-to-functions-in-classes" class="md-nav__link">
+    Binding this correctly to functions in classes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -685,12 +767,136 @@
                   
                 
                 
-                <h1 id="git-and-github">Git and GitHub</h1>
-<h2 id="quick-overview">Quick Overview</h2>
-<p>There are a boatload of tutorials on git and GitHub across the internet, so I'm not going to waste a lot of time here - this <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">tutorial here</a> from GitLab is a great introductory one to using git on the command line.</p>
-<p>In a nutshell, git is source control. What that means is instead of saving each version of your files as "_v1", "_v2", etc., you instead track changes with git, which can compare different versions and branches of files over time. Now, git itself only runs locally on your machine, but that's why you extend git with GitHub (where this site is hosted as of this writing, in fact). GitHub allows you to push your code repositories to an online site (or Hub, one might call it), that allows you to work on the same code from multiple machines, share code with friends and teammates, or even deploy from a single spot.</p>
-<p>I am of two minds on how to start with git/GitHub: I started with <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> and at the time of this writing, am trying to get better at local git and pushing it to remote repositories on GitHub. While I think that git from the command line is ultimately a useful tool, to be honest, I have not historically thought "in the command line". I'm a visual person, and seeing a desktop app that I can do click and push is very helpful. That being said, when you obscure some of the magic behind a UI, it can actually damage your understanding of what exactly you're doing. Git is nuanced enough that I think a strong CLI understanding of its functionality will serve you well, so I recommend, if not starting with the git CLI, definitely don't avoid it.
-<br></p>
+                <h1 id="javascript-basic-web-interaction">JavaScript - Basic Web Interaction</h1>
+<h2 id="what-js-can-do-for-you">What JS can do for you</h2>
+<p>Fundamentally, JavaScript is the language of the web. You'll see this again and again, but it is. Almost any dynamic element you see on a page, any form of interactivity, chances are it has some level of JavaScript at the wheel.</p>
+<p>In the past, vanilla JavaScript (Vanilla JS) didn't have a strong enough API to be very user friendly, and so a number of libraries sprang up that helped to manage the code. jQuery has been a very popular one (often characterized by the use of <code class="highlight"><span class="nx">$</span></code> before function calls) but the standard library has expanded to include many powerful elements that, while not rendering jQuery useless, do threaten its relevance. </p>
+<h2 id="basic-js-in-the-web">Basic JS in the Web</h2>
+<p>When dealing with web JS (vs. say, NodeJS) you deal with the <code class="highlight"><span class="nb">window</span></code> and <code class="highlight"><span class="nb">document</span></code> objects and their associated scope. As well, you're in the ES6 environment, so the way you import code into your page is important. </p>
+<h3 id="including-js-on-a-page">Including JS on a page</h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- Rest of body... --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;module&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;./scripts/app.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>Using this construct is one means of guaranteeing that your code is loaded after your HTML. This helps reduce any errors from trying to parse the document and not finding the expected HTML element. You can also use the <code class="highlight"><span class="nx">defer</span></code> tag in your script imports in your head to achieve the same thing. </p>
+<h3 id="accessing-elements-on-a-webpage">Accessing elements on a webpage</h3>
+<p>Almost all of your DOM manipulation will work off of CSS selectors, taking this form:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">const</span> <span class="nx">someIdElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;#some-id&quot;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">someClassList</span> <span class="o">=</span> <span class="p">[...</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s2">&quot;.some-class&quot;</span><span class="p">)];</span>
+<span class="c1">//Because querySelectorAll returns a nodeList, not an array, </span>
+<span class="c1">//use the spread operator to convert it to an array</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>With this, you can begin to modify your elements, such as with <code class="highlight"><span class="p">.</span><span class="nx">innerHTML</span></code>, <code class="highlight"><span class="p">.</span><span class="nx">setAttribute</span></code>, or any other API call you might need</p>
+<h3 id="creating-new-elements">Creating new elements</h3>
+<p>Often times you're not just modifying existing elements, but creating new elements as well. Here is an example of that process: we have a <code class="highlight">body</code> tag, we want to add to that tag a <code class="highlight">div</code> tag with a <code class="highlight">p</code> tag inside of it. </p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">const</span> <span class="nx">bodyContainer</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;body&quot;</span><span class="p">);</span>
+
+<span class="c1">//Created our new elements</span>
+<span class="kr">const</span> <span class="nx">newDiv</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">newPara</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">);</span>
+
+<span class="c1">//Let&#39;s give them some classes or ids, </span>
+<span class="nx">newDiv</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s2">&quot;my-div-class&quot;</span><span class="p">);</span>
+<span class="nx">newPara</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;unique-paragraph&quot;</span><span class="p">);</span>
+
+<span class="c1">//and some content for the paragraph</span>
+<span class="nx">newPara</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;Here is some text for our paragraph!&quot;</span><span class="p">;</span>
+
+<span class="c1">//Add the paragraph to the div and the div to the body</span>
+<span class="nx">newDiv</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">newPara</span><span class="p">);</span>
+<span class="nx">bodyContainer</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">newDiv</span><span class="p">);</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>With this, it's easy to create new elements with all forms of identifying elements and content. Remember, don't add CSS via JavaScript. Instead, have CSS defined with classes, and simply add or remove classes from the <code class="highlight"><span class="nx">classList</span></code> property of the new element.</p>
+<h3 id="binding-this-correctly-to-functions-in-classes">Binding <code class="highlight"><span class="k">this</span></code> correctly to functions in classes</h3>
+<p>Esoteric topic, but still very important. Let's say you have the following method and you want to link it to happen you click on a div</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="nx">makeFontRed</span><span class="p">(){</span>
+    <span class="kr">const</span> <span class="nx">myElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;object-to-color&quot;</span><span class="p">);</span>
+    <span class="c1">//Remove then add guarantees it&#39;s there only the once</span>
+    <span class="nx">myElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="s1">&#39;.red-font&#39;</span><span class="p">);</span>
+    <span class="nx">myElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;.red-font&#39;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;my-target-div&quot;</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&quot;click&quot;</span><span class="p">,</span> <span class="nx">makeFontRed</span><span class="p">);</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>This worked great! You did this no problem, because there were just a couple fo free-floating lines of JS. But what happens in a class? You're going to have a collision of the word <code class="highlight"><span class="k">this</span></code>, because what is <code class="highlight"><span class="k">this</span></code>? Is it the JS class that contains the function you want to call, or is HTML element that is calling the function? </p>
+<p>Technically, the HTML element wins. But you don't want that, because the HTML element doesn't have the function we want. How do we <code class="highlight"><span class="nx">bind</span></code> or <code class="highlight"><span class="nx">apply</span></code> the correct <code class="highlight"><span class="k">this</span></code> keyword? With the <code class="highlight"><span class="nx">bind</span></code> method!</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">class</span> <span class="nx">Example</span><span class="p">{</span>
+    <span class="nx">constructor</span><span class="p">(){</span>
+        <span class="c1">//bound method created as a named variable</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">boundRedMethod</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">makeFontRed</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="nx">makeFontRed</span><span class="p">(){</span>
+        <span class="c1">// Has a bunch of code containing our logic...</span>
+    <span class="p">}</span>
+
+    <span class="nx">bindMakeRedFunction</span><span class="p">(){</span>
+        <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;my-target-div&quot;</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&quot;click&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">boundRedMethod</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="nx">removeMakeRedFunction</span><span class="p">(){</span>
+       <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;my-target-div&quot;</span><span class="p">).</span><span class="nx">removeEventListener</span><span class="p">(</span><span class="s2">&quot;click&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">boundRedMethod</span><span class="p">);</span> 
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>So what did we do here? When we use the <code class="highlight"><span class="nx">bind</span></code> method, we actually create an anonymous function. Now, in some cases this isn't a problem, but if we ever want to remove that event listener, we need to be able to find it again, and if it's anonymous, we're hosed. So we bound the method inside of a named variable. This gives us a pointer in memory so that when we want to remove the function later on, it can actually point at the correct function.</p>
+<p>This may be a bit esoteric and a sudden jump in difficulty, but a deep understanding of this point will really help your ability to troubleshoot later problems of just what your JavaScript is doing to your HTML and how they two are crossing over. </p>
                 
               
               
