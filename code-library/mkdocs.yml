@@ -20,6 +20,7 @@ nav:
       - Git Reminders: git/reminders.md
   - Databases:
       - Basic DB Information: databases/intro-to-dbs.md
+      - Intro to MongoDB: databases/intro-to-mongodb.md
   - Other Tools:
       - VS Code Tools: other/vs-code-tools.md
       - Basic HTML: other/html.md

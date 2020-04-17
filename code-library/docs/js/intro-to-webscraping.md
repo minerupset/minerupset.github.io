@@ -52,6 +52,6 @@ scrapeUrl("https://minerupset.github.io/databases/intro-to-dbs/");
 
 To be clear, I have not yet done by homework on puppeteer, and am not sure that I am comfortable with all that it includes. However, it seems to be a legitimate enough package, and this is definitely an easy implementation. Obviously this code is not very DRY, but this should give you a basic idea of a few ways in which this works.
 
-In general, JavaScript is a great language for this kind of work, as it is uniquely designed for quickly traversing the DOM and acquiring information. This step didn't include any level of writing values to a DB for later consumption, but that would be a logical next step.
+It appears that you can in fact use CSS selectors with puppeteer, according to <a href='https://www.youtube.com/watch?v=rG_2A3jKyn8' target='_blank'>this video here</a>.
 
-<span style='font-size: 0.75em'>Accurate as of January 13, 2020</span>
+<span style='font-size: 0.75em'>Accurate as of April 8th, 2020</span>
