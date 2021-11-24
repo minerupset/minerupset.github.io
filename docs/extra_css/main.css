@@ -1,0 +1,32 @@
+:root {
+  --header-main-color: rgb(16, 107, 163);
+}
+
+.md-header {
+  background-color: var(--header-main-color);
+}
+
+/* Handles the menu bar when the screen is on a phone or just small*/
+@media only screen and (max-width: 76.1875em) {
+  html .md-nav--primary .md-nav__title--site {
+    background-color: var(--header-main-color);
+  }
+}
+
+#random-quote-block,
+.footer-p {
+  color: white;
+  font-size: 0.64rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.footer-p > a {
+  color: yellow;
+}
+
+.footer-container {
+  background-color: black;
+}
