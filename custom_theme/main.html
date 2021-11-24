@@ -1,0 +1,18 @@
+{% extends "base.html" %} 
+{% block extrahead%}
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+{% endblock %}
+{% block footer %}
+<hr />
+<div class="footer-container">
+  <p class="footer-p">
+    A training website intended to record learning. Visit
+    <a href="https://minerupset.github.io/legal/">Legal</a> page for more
+    information. Built with
+    <a href="https://www.mkdocs.org" target="_blank">MkDocs</a>
+  </p>
+  <p id="random-quote-block">
+    <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span>
+  </p>
+</div>
+{% endblock %}
