@@ -34,13 +34,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.smartsymbols
 
-# plugins:
-#   - tags:
-#       - tags_file: tags.md
-
 plugins:
   - tags:
       tags_file: tags.md
   - search
-# shortcuts:
-#   search: 83

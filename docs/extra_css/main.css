@@ -16,7 +16,8 @@
 .custom-post-date {
   margin: 0;
   padding: 0;
-  font-size: small;
+  margin-bottom: 5px;
+  /* font-size: small; */
 }
 
 #random-quote-block,
@@ -26,11 +27,23 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 50%;
+  width: 80%;
+}
+
+#random-quote-block {
+  font-size: 0.75rem;
 }
 
 .footer-p > a {
   color: yellow;
+}
+
+#refresh-quote {
+  font-family: Lucida Sans Unicode;
+  margin-left: 8px;
+  font-weight: bolder;
+  font-size: larger;
+  cursor: pointer;
 }
 
 .footer-container {
