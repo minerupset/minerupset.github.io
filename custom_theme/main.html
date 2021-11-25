@@ -1,13 +1,24 @@
 {% extends "base.html" %} 
 {% block extrahead%}
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+{% if page and page.meta and page.meta.specific_css %}
+<link rel="stylesheet" href="{{page.meta.specific_css}}">
+{% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page and page.meta and page.meta.date %}
+    <p class="custom-post-date">{{ page.meta.date}}</p>
+  {% endif %}
+  {{ super() }}
 {% endblock %}
 
 {% block footer %}
 <hr />
 <div class="footer-container">
   <p class="footer-p">
-       Built with <a href="https://www.mkdocs.org" target="_blank">MkDocs</a>
+       Built with <a href="https://www.mkdocs.org" target="_blank">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>
+
   </p>
   <p id="random-quote-block">
     <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span>

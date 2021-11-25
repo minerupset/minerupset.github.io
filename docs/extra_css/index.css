@@ -1,0 +1,4 @@
+.md-typeset__table > table {
+  border: none !important;
+  width: 600px !important;
+}

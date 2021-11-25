@@ -80,11 +80,4 @@ function addQuote() {
   document.getElementById("quotes-author").innerHTML = currentQuote.author;
 }
 
-function sayHiToConsoleGoers() {
-  console.log(`Hello there, friend. I don't think you'll find too much interesting here, but it is good to look around to try and learn new things. If you're curious, this site is built with MkDocs, which has some great documentation at their site.
-      
-  Isn't it kinda cool that you're just sending 0s and 1s through fiber optic and copper wires looped all around the world, but the 0s and 1s are coming at a speed your computer is programmed to handle so it can be decoded into actual valuable information? Or random cat videos, whichever you prefer`);
-}
-
 addQuote();
-sayHiToConsoleGoers();

@@ -13,6 +13,12 @@
   }
 }
 
+.custom-post-date {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+}
+
 #random-quote-block,
 .footer-p {
   color: white;
@@ -28,5 +34,5 @@
 }
 
 .footer-container {
-  background-color: black;
+  background-color: var(--header-main-color);
 }

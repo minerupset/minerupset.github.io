@@ -2,6 +2,9 @@ site_name: Miner Curiosity
 site_description: A blog for my many distractions
 site_author: Matt Miner
 
+nav:
+  - index.md
+
 extra_css:
   - extra_css/main.css
 extra_javascript:
@@ -19,6 +22,7 @@ theme:
   custom_dir: custom_theme
 
 markdown_extensions:
+  - footnotes
   - tables
   - meta
   - codehilite:
@@ -27,8 +31,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.details
   - pymdownx.tilde
+  - pymdownx.keys
   - pymdownx.smartsymbols
+
+# plugins:
+#   - tags:
+#       - tags_file: tags.md
+
 plugins:
-  - tags
+  - tags:
+      tags_file: tags.md
+  - search
 # shortcuts:
 #   search: 83
