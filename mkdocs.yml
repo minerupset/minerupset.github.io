@@ -1,9 +1,17 @@
+# Project Information
 site_name: Miner Curiosity
 site_description: A blog for my many distractions
 site_author: Matt Miner
 
+# Repository Information
+# repo_name: minerupset/mkdocs-blog
+# repo_url: https://github.com/minerupset/mkdocs-blog
+# edit_uri: ""
+
 nav:
   - Home: index.md
+  - By Topic: tags.md
+  - Legal: legal.md
 
 extra_css:
   - extra_css/main.css
@@ -14,36 +22,44 @@ extra_javascript:
 
 theme:
   name: material
+  # Colors
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=color#primary-color
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
       accent: blue
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue grey
       accent: blue grey
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
-  primary: indigo
-  accent: indigo
   favicon: assets/images/favicon.ico
   icon:
     logo: material/book
   custom_dir: custom_theme
   features:
     - navigation.tabs
+    - navigation.instant?
+    - navigation.indexes
 
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/minercuriosity/
+    - icon: fontawesome/brands/github
+      link: https://github.com/minerupset
 
 copyright: Copyright &copy Minercuriosity 2021 Matt Miner. All opinions expressed are my own
 
+# Improvements to the markdown processor
+# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=smartsymbols#highlight
 markdown_extensions:
   - footnotes
   - tables
@@ -51,7 +67,10 @@ markdown_extensions:
   - codehilite:
       linenums: true
   - admonition
+  - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
   - pymdownx.details
   - pymdownx.tilde
   - pymdownx.keys

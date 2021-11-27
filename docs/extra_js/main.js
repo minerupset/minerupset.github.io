@@ -616,4 +616,14 @@ function refreshQuote() {
   document.getElementById("quotes-author").innerHTML = currentQuote.author;
 }
 
+function hideNextPageNav() {
+  // Very rough, shouldn't be rendered in the first place, but we can deal with that later
+  const bottomNavBar = document.querySelector("footer > nav");
+  console.log(bottomNavBar);
+  if (bottomNavBar) {
+    bottomNavBar.setAttribute("hidden", "true");
+  }
+}
+
 refreshQuote();
+hideNextPageNav();
