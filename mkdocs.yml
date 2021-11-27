@@ -3,7 +3,7 @@ site_description: A blog for my many distractions
 site_author: Matt Miner
 
 nav:
-  - index.md
+  - Home: index.md
 
 extra_css:
   - extra_css/main.css
@@ -14,12 +14,35 @@ extra_javascript:
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   primary: indigo
   accent: indigo
   favicon: assets/images/favicon.ico
   icon:
     logo: material/book
   custom_dir: custom_theme
+  features:
+    - navigation.tabs
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/minercuriosity/
+
+copyright: Copyright &copy Minercuriosity 2021 Matt Miner. All opinions expressed are my own
 
 markdown_extensions:
   - footnotes

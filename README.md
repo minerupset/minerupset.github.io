@@ -2,20 +2,45 @@
 
 This is all well and good to see pretty content on the internet, but oftentimes, it can be helpful to see exactly how something is being written. This is where I keep the code for this blog, written in MkDocs, with some of the underlying elements as well.
 
-## Upcoming Post List
+## Active Post List
+
+1. Unpopular Opinion: Why Excel and VBA are the best ways to start coding
+
+- The environment comes pre-made
+- You can build useful things vs. theoretical things (talk about your own college vs. business experience)
+- When done correctly, can introduce useful coding concepts (OOP, SRP, even web development concepts of front end, backend, and database)
+- excel, software, VBA
+
+2.  How to build a rudimentary web scraper for fun & profit
+
+- Focus on screenshots, but show how to extract specific elements
+- Make an example puppeteer repo for this
+- software, javascript, node
+
+## INO Future Post List
 
 These are in no particular order, but these are posts that I will write:
 
 - How to solve a Rubik's Cube in under 2 minutes
+
+  - Solve it in layers, and the centers never change
+  - The top layers require the most logic
+  - The bottom layer is just algorithms (embed a YouTube video)
   - puzzles, games
-- Unpopular Opinion: Why Excel and VBA are the best ways to start coding
-  - excel, software, VBA
-- Buying a house is scary until you think like a bureaucrat
+
+- Unpermitted work and what they can actually do to you
+  - home ownership, diy
+- Things I wish I knew before buying a house
+  - Make your goals
   - home ownership, finance, adulting
 - What to do when your loan company is actually a scam
-  - home ownership, finance, adulting
-- How to build a rudimentary web scraper for fun & profit
-  - software, javascript, node
+
+  - May need to make this a series:
+    - How to handle getting a default notice (when you haven't defaulted)
+      - CFPB, state protections, etc.
+    - Why OneNote is the best tool for documenting ongoing BS
+  - home ownership, finance, adulting, Microsoft Office
+
 - What I know about chess so far (and what I need to learn next)
   - games, chess
 - Any example coding projects I've done lately (can put any of these as public github repos)
