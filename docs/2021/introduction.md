@@ -3,8 +3,7 @@ title: Blog Introduction
 description: Why write this
 date: 2021-11-24
 tags:
-  - logistics
-  - blog
+  - Miner Curiosity
 hide:
   - navigation
   # - toc

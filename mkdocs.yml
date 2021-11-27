@@ -11,6 +11,7 @@ site_author: Matt Miner
 nav:
   - Home: index.md
   - By Topic: tags.md
+  - About: about.md
   - Legal: legal.md
 
 extra_css:
@@ -34,8 +35,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: deep orange
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Switch to light mode
