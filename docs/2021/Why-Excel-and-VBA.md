@@ -1,7 +1,8 @@
 ---
 title: Unpopular Opinion - Why Excel & VBA are the best gateway to coding
 description: Excel and VBA introduce important aspects of software development in an easy to use package with real world application and a project-focused mindset
-date: 2021-12-6
+date: Dec. 6, 2021
+update_date: Dec. 13, 2021
 tags:
   - Excel
   - VBA
@@ -38,16 +39,15 @@ Range("C3").Interior.Color = 3
 
 ## Practicality From the Beginning
 
-When I was a freshman in college, I had a glorified view of what computer science must be, and took introductory computer science my very first term. It took less than a week for me to convince myself that this field wasn't for me (I've heard Java has that effect on people), and I can easily
+When I was a freshman in college, I had a glorified view of what computer science must be, and took introductory computer science my very first term. It took less than a week for me to convince myself that this field wasn't for me (I've heard Java has that effect on people), and I barely touched anything coding related for 7 years.
 
-- You can build useful things vs. theoretical things (talk about your own college vs. business experience)
-- Hard pressed to find a faster system to quickly model weather, supply chain, revenue, or your kid's math homework.
+Jump to my first _'real'_ job after after grad school, and I within 6 months of joining my company I was teaching myself how to code in the evenings to speed up my job and improve projects for our clients. It wasn't that I had more time on my hands (I didn't), nor was I suddenly smarter (I wasn't): what I had was a real and practical reason to be learning to code.
 
-<!-- ## Models: Expectations vs. Reality
+During that first course in Java, I remember one of our final projects for the year was building a maze solver that leveraged a number of different sorting algorithms. A generous friend of mine dragged me through that project kicking and screaming, largely because I couldn't see a practical application for the assignment. When would we ever need to solve a maze? Turns out he went on to become a software engineer for Garmin, so for him, that project was a phenomenal practice for his future career. For me, I may have preferred a root canal.
 
-A core concept that gets lost with any spreadsheet is the disconnect between fantasy and reality. Models are not supposed to capture the real world. They're models, just like a model train or a fashion model. That's not an actual train, and that's not how you'll look when you buy that product: they are meant to represent the world in part. Excel models are no different, and expecting 100% accuracy from one is an exercise in unhappiness.
+Because Excel is so widely used by individuals and businesses across so many projects, there is almost always a practical need for spreadsheets that are better, faster, & stronger. This means that there are training grounds as far as the eye can see, and you're only limited by your needs. Since I first started using Excel seriously, I've built retirement calculators, train schedule tools, an automated meeting scheduler, an investment portfolio tracker, a mortgage calculator, and countless others. I didn't go and convince myself that learning to send meeting invitations would somehow help me theoretically: I was staring down the barrel of needing to send 60+ unique but similar meeting emails every week for the foreseeable future, and I decided to spend my time solving a puzzle than completing a mindless task.
 
-Building an accurate model of the world is always a trade off between precision and usability. Good modelers are always asking themselves how much can I include vs. how much should I include, and hopefully landing at at a useful middle ground. -->
+If I had built that scheduler with Python, it would have been too intimidating to even begin. But since Excel already has the necessary components built in and a simple interface for storing data, it was simply a matter of trial and error, connecting the dots, and refining the user experience until I had a tool that saved me hours and my company tens of thousands of dollars a year.
 
 ## Big Concepts, Bite-Sized Projects
 

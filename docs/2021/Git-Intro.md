@@ -1,7 +1,7 @@
 ---
 title: Introduction to Version Control and `git`
 description: What is git and why do we care?
-date: 2021-12-13
+date: Dec. 13, 2021
 tags:
   - git
   - GitHub

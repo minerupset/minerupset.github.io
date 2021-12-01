@@ -11,8 +11,14 @@
 
 {% block content %}
   {% if page and page.meta and page.meta.date %}
-    <p class="post-date-wrapper"><a href="/" class="custom-post-date">{{ page.meta.date}}</a></p>
+    <p class="post-date-wrapper">
+      <a href="/" class="custom-post-date">{{ page.meta.date}}</a>
+      {% if page and page.meta and page.meta.update_date %}
+        <span class="updated-post-date">Updated {{ page.meta.update_date}}</span>
+      {% endif %}
+    </p>
   {% endif %}
+
   {{ super() }}
 {% endblock %}
 
