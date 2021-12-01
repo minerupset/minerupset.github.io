@@ -10,7 +10,7 @@ site_author: Matt Miner
 
 nav:
   - Home: index.md
-  - By Topic: tags.md
+  - By Tag: tags.md
   - About: about.md
   - Legal: legal.md
 
@@ -48,6 +48,7 @@ theme:
     - navigation.tabs
     - navigation.instant?
     - navigation.indexes
+    - content.code.annotate
 
 extra:
   generator: false
@@ -65,8 +66,8 @@ markdown_extensions:
   - footnotes
   - tables
   - meta
-  - codehilite:
-      linenums: true
+  # - codehilite:
+  #     linenums: true
   - admonition
   - pymdownx.highlight
   - pymdownx.inlinehilite
