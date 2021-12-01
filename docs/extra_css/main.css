@@ -16,11 +16,12 @@
     background-color: var(--header-main-color);
   }
 }
-*/ .custom-post-date {
+
+.post-date-wrapper {
   margin: 0;
   padding: 0;
-  margin-bottom: 5px;
-  /* font-size: small; */
+  padding-bottom: 15px;
+  padding-left: 3px;
 }
 
 #random-quote-block,
