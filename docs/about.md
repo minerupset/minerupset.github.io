@@ -5,7 +5,7 @@ description: Where did Miner Curiosity come from, and where is it going?
 hide:
   - navigation
   - toc
-  - tags
+  #- tags
 ---
 
 # About Miner Curiosity

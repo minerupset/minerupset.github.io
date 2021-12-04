@@ -16,6 +16,9 @@
       {% if page and page.meta and page.meta.update_date %}
         <span class="updated-post-date">Updated {{ page.meta.update_date}}</span>
       {% endif %}
+      {% if page and page.meta and page.meta.duration %}
+      <span class="post-duration">Read time: {{ page.meta.duration}}</span>
+    {% endif %}
     </p>
   {% endif %}
 

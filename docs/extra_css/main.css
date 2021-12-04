@@ -31,6 +31,11 @@
   font-style: italic;
 }
 
+.post-duration {
+  display: block;
+  font-style: italic;
+}
+
 #random-quote-block,
 .footer-p {
   font-size: 0.64rem;
