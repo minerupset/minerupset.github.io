@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ./minerupset.github.io && mkdocs gh-deploy --config-file ../blog-folder/mkdocs.yml --remote-branch master
