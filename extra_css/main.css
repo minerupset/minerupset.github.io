@@ -1,0 +1,74 @@
+:root {
+  --header-main-color: rgb(16, 107, 163);
+}
+
+/* .md-header {
+  background-color: var(--header-main-color);
+}
+
+.md-tabs {
+  background-color: var(--header-main-color);
+}
+
+/* Handles the menu bar when the screen is on a phone or just small*/
+@media only screen and (max-width: 76.1875em) {
+  html .md-nav--primary .md-nav__title--site {
+    background-color: var(--header-main-color);
+  }
+}
+
+.post-date-wrapper {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  padding-left: 3px;
+}
+
+.updated-post-date {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  font-style: italic;
+}
+
+.post-duration {
+  display: block;
+  font-style: italic;
+}
+
+#random-quote-block,
+.footer-p {
+  font-size: 0.64rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#random-quote-block {
+  font-size: 0.75rem;
+}
+
+.footer-p > a {
+  color: yellow;
+}
+
+#refresh-quote {
+  font-family: Lucida Sans Unicode;
+  margin-left: 8px;
+  margin-top: 5px;
+  font-weight: 1000;
+  font-size: larger;
+  cursor: pointer;
+  background-color: #2094f3;
+  color: rgba(255, 255, 255, 0.7) !important;
+  width: 50px !important;
+  border-radius: 5px;
+}
+
+.footer-container {
+  /* background-color: var(--header-main-color); */
+  /* background-color: rgba(0, 0, 0, 0.87); */
+  background-color: #16171d;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
