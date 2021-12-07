@@ -1,5 +1,5 @@
 // I'd like this to work a little more cleanly if possible
-// import "./quotes.json";
+// import * as quotes from "./quotes.json";
 
 const quotes = [
   {
@@ -602,6 +602,11 @@ const quotes = [
     author: "Anonymous",
     quote:
       "Remember: if you can't be replaced, you can't be promoted. So train your replacement and prove you can be a good manager",
+  },
+  {
+    author: "Dorothy",
+    quote:
+      "I don't care what family drama your generation has, it dies with you. Don't let that shit roll downhill",
   },
 ];
 

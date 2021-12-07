@@ -20,7 +20,6 @@ extra_javascript:
   - extra_js/main.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - extra_js/tablesort.js
-  - extra_js/quotes.json
 
 theme:
   name: material
