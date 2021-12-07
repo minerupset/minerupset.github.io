@@ -1,13 +1,13 @@
 ---
-title: Zugzwang: You don't have to go home, but you can't stay here
+title: Zugzwang
 description: Learn how this chess concept can force your opponents into unfavorable positions
-date:  January 3rd, 2022
+date: January 3rd, 2022
 duration: 5 min
-# update_date: 
-# specific_css: 
-# specific_js: 
+# update_date:
+# specific_css:
+# specific_js:
 tags:
-  -  Chess
+  - Chess
 hide:
   - navigation
   # - toc

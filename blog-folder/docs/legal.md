@@ -1,5 +1,5 @@
 ---
-title: Legal - Miner Curiosity
+title: Legal
 description: Legal Considerations
 # specific_css:
 hide:

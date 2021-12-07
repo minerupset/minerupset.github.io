@@ -1,5 +1,5 @@
 ---
-title: Miner Curiosity
+title: Home
 description: Welcome to the Blog
 specific_css: extra_css/2021/index.css
 hide:
@@ -7,8 +7,6 @@ hide:
   - toc
   - tags
 ---
-
-# Miner Curiosity
 
 ## Posts in Chronological Order
 

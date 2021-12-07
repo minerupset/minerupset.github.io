@@ -57,6 +57,13 @@ extra:
       link: https://www.linkedin.com/in/minercuriosity/
     - icon: fontawesome/brands/github
       link: https://github.com/minerupset
+  analytics:
+    provider: google
+    property: G-KN729B66EF
+  extra:
+  consent:
+    title: Cookie consent
+    description: We use cookies to recognize your repeated visits and preferences. We do not sell your data, because that's rude.
 
 copyright: Copyright &copy Minercuriosity 2021 Matt Miner. Opinions expressed are my own and do not reflect any employer
 

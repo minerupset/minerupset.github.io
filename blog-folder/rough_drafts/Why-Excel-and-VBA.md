@@ -16,7 +16,7 @@ hide:
 
 ## The Right Tool for the Job
 
-Spreadsheets get a lot of bad press in today's day and age, whether for drudgery or for scandal. Even though I occasionally laugh at the memes or cringe at the fraud, I think this general spreadsheet hate is a bit short-sighted. There is no doubt that data entry work is mind-numbing to the core, and that the modern spreadsheet has been implicated in the wrongdoings of executives at Theranos[^1], Enron[^2], and more. However, I think this misses the point: Excel (and by extension, Google Sheets) is here to stay[^3], and as long as they are used in the business world, having a grounding in the capabilities and basic functions will be an advantage to just about any employee.
+Spreadsheets get a lot of bad press in today's day and age, most often for drudgery or for scandal. There is no doubt that data entry work is mind-numbing to the core, and that the modern spreadsheet has been implicated in the wrongdoings of executives at Theranos[^1], Enron[^2], and more. However, I think this frustration with spreadsheets misses the point: Excel (and by extension, Google Sheets) is here to stay[^3], and as long as they are used in the business world, having a firm grounding in the capabilities and basic functions will be an advantage to just about any employee.
 
 More than that, I believe that for anyone looking to break into the world of software development, especially if you are coming from a more corporate job, Excel combined with its back-end language Visual Basic for Applications (VBA) is one of the best tools to learn practical skills and concepts needed for robust software development.
 
