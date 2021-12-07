@@ -1,7 +1,9 @@
 ---
 title: Introduction to Version Control and `git`
 description: What is git and why do we care?
-date: Dec. 13, 2021
+date: Dec. 20, 2021
+duration: 8 min
+#update_date:
 tags:
   - git
   - GitHub
@@ -14,7 +16,7 @@ hide:
 
 ## TL; DR
 
-- Instead of saving code version manually, you left software (`git`) manage your code versions
+- Instead of saving code manually, you let software (specifically `git`) manage your code versions
 - `git` is a local tool for version control, GitHub is the remote tool you pair with
 - `git` and GitHub both have command line and GUI based tools: I personally recommend learning `git` command line, and using a web tool for managing GitHub
 
@@ -43,16 +45,17 @@ git add .
 # Commit 'saves' a version. One should always have a descriptive message
 git commit -m "MESSAGE"
 
-# These 3 commands add a new remote and push your main branch the 1st time
-git remote add origin https://github.com/USERNAME/REPO_NAME.git
-git branch -M main
-git push -u origin main
-
-# Pushes your commit to the main branch on your remote
+# Pushes your commit to the main branch on your GitHub
 git push origin main
 
 # Creates a new branch (remove -b to access an existing branch)
 git checkout -b branch (-b to make new branch)
+
+# These 3 commands add a new remote and push your main branch the 1st time.
+# This assumes you have already created that branch on GitHub
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+git branch -M main
+git push -u origin main
 
 # Opposite of push: this pulls your main branch from your remote
 git pull origin main
@@ -60,7 +63,7 @@ git pull origin main
 
 ## Basic Workflow
 
-This workflow assumes everything goes right (which it never does), but it should ground you in how the basics
+This workflow assumes everything goes right (which it rarely does), but it should ground you in the basics
 
 ```bash title="Basic git workflow"
 git add .
@@ -78,10 +81,13 @@ git push origin branch_name
 git pull origin main
 
 # Merges your two branches so main is up to date locally
+#TODO Confirm that this is correct
 git checkout branch_name
 git merge main
 ```
 
 ## Closing Topics
+
+There are more references you'll want to have, specifically about what to do when something goes wrong (need to undo commits, merge with a teammate's code, etc.) but this should be enough to get you started on a solo project
 
 [^1]: This <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">tutorial here</a> from GitLab is a great introductory one to using `git` on the command line, and also references <a href='https://about.gitlab.com/images/press/git-cheat-sheet.pdf' target='_blank'>this great cheat sheet</a>.

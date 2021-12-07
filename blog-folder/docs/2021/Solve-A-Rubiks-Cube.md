@@ -1,7 +1,7 @@
 ---
 title: How to Solve a Rubik's Cube in 2 Minutes or Less
 description: Brief instructional guide on how to solve a Rubik's Cube
-date: 12/20/2021
+date: December 27, 2021
 duration: 20 min
 # update_date:
 # specific_css:

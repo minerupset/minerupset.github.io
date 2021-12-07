@@ -1,9 +1,9 @@
 ---
 title: Unpopular Opinion - Why Excel & VBA are the best gateway to coding
 description: Excel and VBA introduce important aspects of software development in an easy-to-use package with real-world applications and a project-focused mindset
-date: Dec. 6, 2021
-update_date: Dec. 13, 2021
-duration: 8 min
+date: Dec. 27, 2021
+#update_date:
+duration: 15 min
 tags:
   - Excel
   - VBA
@@ -16,11 +16,11 @@ hide:
 
 ## The Right Tool for the Job
 
-Spreadsheets get a lot of bad press in today's day and age, whether for drudgery or for scandal. Even though I occasionally laugh at the memes or cringe at the fraud, I think this general spreadsheet hate is a bit short-sighted. There is no doubt that data entry work is mind-numbing to the core, and that the modern spreadsheet has been implicated in the wrongdoings of executives at Theranos[^1], Enron[^2], and more.
+Spreadsheets get a lot of bad press in today's day and age, whether for drudgery or for scandal. Even though I occasionally laugh at the memes or cringe at the fraud, I think this general spreadsheet hate is a bit short-sighted. There is no doubt that data entry work is mind-numbing to the core, and that the modern spreadsheet has been implicated in the wrongdoings of executives at Theranos[^1], Enron[^2], and more. However, I think this misses the point: Excel (and by extension, Google Sheets) is here to stay[^3], and as long as they are used in the business world, having a grounding in the capabilities and basic functions will be an advantage to just about any employee.
 
-However, I think this misses the point: Excel (and by extension, Google Sheets) is here to stay[^3], and as long as they are used in the business world, having a grounding in the capabilities and basic functions will be an advantage to just about any employee. But even more than that, I believe that for anyone looking to break into the world of software development, especially if you are coming from a more corporate job, that Excel combined with its back-end language Visual Basic for Applications (VBA) is one of the best tools out there to learn practical skills needed for software development.
+More than that, I believe that for anyone looking to break into the world of software development, especially if you are coming from a more corporate job, Excel combined with its back-end language Visual Basic for Applications (VBA) is one of the best tools to learn practical skills and concepts needed for robust software development.
 
-Making this claim will likely make me enemies on both sides of the fence. Experienced developers can look down on the tinker-toys that Excel has to offer, with its static processing and point-and-click interface (not to mention the garbage pile that is VBA syntax compared to any modern language). Meanwhile, frustrated business users can point to Excel's inconsistent formula conventions and general feature sprawl as proof that Excel is simply too unwieldy to invest any more time than is necessary. To them I say: you're right (sort of).
+Making this claim will likely make me enemies on both sides of the fence. Experienced developers can look down on the tinker-toys that Excel has to offer, with its static processing, point-and-click interface, and the garbage pile that is VBA syntax compared to most modern languages. Meanwhile, frustrated business users can point to Excel's inconsistent formula conventions and general feature sprawl as proof that Excel is simply too unwieldy to invest any more time than is necessary. To them I say: you're right (sort of).
 
 Excel is hardly the be-all of software tools, nor should someone invest all of their time in only learning spreadsheets (unless they fancy themselves as a competitor in the Excel eSports realm [^4]). But as a practical tool for modeling the world and learning the basics of how software works, you'd be hard pressed to find something better. Here's why:
 
@@ -45,13 +45,15 @@ Jump to my first _'real'_ job after after grad school, and within 6 months of jo
 
 During that first course in Java, I remember one of our final projects for the year was building a maze solver that leveraged a number of different sorting algorithms. A generous friend of mine dragged me through that project kicking and screaming, largely because I couldn't see a practical application for the assignment. When would I ever need to solve a maze? For my friend, it was incredibly practical: turns out he went on to become a software engineer for Garmin, so for him that project was a phenomenal practice for his future career. For me, I may have preferred a root canal.
 
-Because Excel is so widely used by individuals and businesses across so many projects, there is almost always a practical need for spreadsheets that are cleaner, faster, and more powerful. This means that there are training grounds as far as the eye can see, and you're only limited by your needs. Since I first started using Excel seriously, I've built models and projects large and small, from retirement calculators and train schedule tools to an automated meeting scheduler, an investment portfolio tracker, a mortgage calculator, and countless others. I didn't go and convince myself that learning to send meeting invitations would somehow help me theoretically: I was staring down the barrel of needing to send 60+ unique but similar meeting emails every week for the foreseeable future, and I decided to spend my time solving a puzzle rather than completing a mindless task.
+Because Excel is so widely used by individuals and businesses across so many projects, there is always a practical need for spreadsheets that are cleaner, faster, and more powerful. This means training grounds abound, and you're only limited by your needs. Since I first started using Excel seriously, I've built models and projects large and small, from retirement calculators and train schedule tools to an automated meeting scheduler, an investment portfolio tracker, a mortgage calculator, and countless others. I didn't go and convince myself that learning to send meeting invitations would somehow help me theoretically: I was staring down the barrel of needing to send 60+ unique but similar meeting emails every week for the foreseeable future, and I decided to spend my time solving a puzzle rather than completing a mindless task.
 
 If I had built that scheduler with Python, it would have been too intimidating to even begin. But since Excel already has the necessary components built in and a simple interface for storing data, it was simply a matter of trial and error, connecting the dots, and refining the user experience until I had a tool that saved me hours and my company tens of thousands of dollars a year.
 
 ## Big Concepts, Bite-Sized Projects
 
-While Excel's claim to fame is financial modeling, its structure and backend language make it very useful for learning some higher level software concepts quickly and easily. Concepts like the Single Responsibility Principle (SRP), Object Oriented Programming (OOP), and even application architecture considerations of a front end, back end, and a databases can be utilized in Excel and VBA,
+While Excel's claim to fame is financial modeling, its structure and backend language make it very useful for learning some higher level software concepts quickly and easily. Concepts like the Single Responsibility Principle (SRP), Object Oriented Programming (OOP), and even application architecture considerations of a front end, back end, and a database can be utilized in Excel and VBA.
+
+ANd it's not just Excel: Google Sheets offers many of the same capabilities, only instead of VBA you can utilize JavaScript. JS is hardly everyone's favorite language, but if you're working with the web at all, you'll need the basics under your belt, and Google Sheets can offer an easy primer on how to use it.
 
 [^1]: <a href='https://www.techtosee.com/the-holmes-trial-gets-to-the-heart-of-the-excel-topic/' target='_blank'>Excel at the heart </a>of Holmes' case
 [^2]: <a href='https://incisive.com/spreadsheet-error-horror-stories/' target='_blank'>Spreadsheets played a role</a> for Enron too

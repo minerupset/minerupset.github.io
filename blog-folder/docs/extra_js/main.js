@@ -1,3 +1,6 @@
+// I'd like this to work a little more cleanly if possible
+// import "./quotes.json";
+
 const quotes = [
   {
     author: "Anonymous",
@@ -619,7 +622,6 @@ function refreshQuote() {
 function hideNextPageNav() {
   // Very rough, shouldn't be rendered in the first place, but we can deal with that later
   const bottomNavBar = document.querySelector("footer > nav");
-  console.log(bottomNavBar);
   if (bottomNavBar) {
     bottomNavBar.setAttribute("hidden", "true");
   }

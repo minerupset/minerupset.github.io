@@ -20,6 +20,7 @@ extra_javascript:
   - extra_js/main.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - extra_js/tablesort.js
+  - extra_js/quotes.json
 
 theme:
   name: material
@@ -58,7 +59,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/minerupset
 
-copyright: Copyright &copy Minercuriosity 2021 Matt Miner. All opinions expressed are my own
+copyright: Copyright &copy Minercuriosity 2021 Matt Miner. Opinions expressed are my own and do not reflect any employer
 
 # Improvements to the markdown processor
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=smartsymbols#highlight

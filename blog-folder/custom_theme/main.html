@@ -26,13 +26,10 @@
 {% endblock %}
 
 {% block footer %}
-{{ super() }}
 <div class="footer-container">
   <p id="random-quote-block" data-quote-index="">
-    <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span><span id="refresh-quote" onClick="refreshQuote()">&#x21bb;</span>
+    <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span><button id="refresh-quote" onClick="refreshQuote()">&#x21bb;</button>
   </p>
-  <!-- <p class="footer-p">
-       Built with <a href="https://www.mkdocs.org" target="_blank">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>
-  </p> -->
 </div>
+{{ super() }}
 {% endblock %}
