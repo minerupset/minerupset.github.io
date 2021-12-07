@@ -14,6 +14,6 @@ hide:
 
 <!-- Bite, Mixed Greens, Steak Dinner  -->
 
-| Title                                                                   | Article Length |     Publish Date |
-| :---------------------------------------------------------------------- | :------------: | ---------------: |
-| <a href="/2021/Blog-Introduction" target="_blank">Blog Introduction</a> |  Steak Dinner  | December 6, 2021 |
+| Title                                                   | Article Length |     Publish Date |
+| :------------------------------------------------------ | :------------: | ---------------: |
+| <a href="/2021/Blog-Introduction">Blog Introduction</a> |  Steak Dinner  | December 6, 2021 |

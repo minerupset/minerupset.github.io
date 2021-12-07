@@ -17,7 +17,7 @@ In Chinese, Tao roughly means 'absolute underlying principle of the universe'. I
 
 ## Why at All
 
-For years, I've wanted to write. Not necessarily because I wanted other people to listen - though that's always a nice thing - but instead because it was loud in the space between my ears and writing seemed to quiet things down. I've started and stopped I don't know how many journals and blogs and voice recording habits, and I'd be lying if I said I knew why. The best I can think of is this example:
+For years, I have wanted to write. Not necessarily because I wanted other people to listen (though it is always nice) but instead because it was loud in the space between my ears and writing seemed to quiet things down. I've started and stopped I don't know how many journals and blogs and voice recording habits, and I'd be lying if I said I knew why. The best I can think of is this example:
 
 When I was in my 5th year of college running, I was struggling to find motivation. I was running better than I ever had, and knew that success was within reach, but I ultimately felt detached from my goal. What finally clicked, or at least what coincided with good motivation and performance, was when I started trying to perform for other people. As unexpected as it was, convincing myself that running was a good thing for those around me helped me get out the door, do the right stretches, and mentally prepare for the races to come. I didn't achieve all I hoped to, but I certainly achieved enough to say that I "succeeded". Not only that, but when the wheels eventually came off, I can easily trace it back to how I had lost that focus and become more selfish in my pursuits.
 
@@ -27,11 +27,11 @@ Perhaps summed up better is a quote by John Green, author and Vlogbrother[^1]
 
     Don't make stuff because you want to make money: it will never make you enough money. Don't make stuff because you want to get famous, because you will never feel famous enough. Make gifts for people. And work hard on making those gifts in the hope that those people will notice. Maybe they will notice how hard you worked, and maybe they won't. ...But ultimately, that doesn't change anything because your responsibility isn't to the people you're making the gift for but to the gift itself.
 
-It didn't matter whether or not the people I was running for cared, but the fact that I wanted to deliver something for them gave me a focus I wouldn't have had otherwise. Keeping a private journal may be selfish, but posting my mistakes and learnings online might give a bit of that external motivation.
+It didn't matter whether or not the people I was running for cared about what I was doing, but the fact that I wanted to deliver something for them gave me a focus I wouldn't have had otherwise. Keeping a private journal may be selfish, but posting my mistakes and learnings online might give a bit of that external motivation.
 
 ## Why Now
 
-Whether it's the pandemic finally getting to me, my own fallible memory, or the fact that I've finally accept I actually do have a legitimate ADD diagnosis, I've got too many things rattling around in my head and no place to put them. I don't mean feelings to be journaled (though I have some of those too), but experiences. Experiences that feel unique but, when I dig deeper, I find out friends and family have similar questions or mistakes or learnings. Frustrating ones, satisfying ones, essentially just the ones you wish you could Google instead of messing up for yourself.
+Whether it's the pandemic finally getting to me, my own fallible memory, or the fact that I've finally accept I actually do have a legitimate ADD diagnosis, I have too many things rattling around in my head and no place to put them. I don't mean feelings to be journaled (though I have some of those too), but experiences. Experiences that feel unique but, when I dig deeper, I find out friends and family have similar questions or mistakes or learnings. Frustrating ones, satisfying ones, essentially just the ones you wish you could Google instead of messing up for yourself.
 
 I used to see others putting things out there and thought to myself, "they must have some experience or legitimacy to allow them to do that," but that's just not true. All you need is the experience to share, the willingness to do so, and enough of the knowhow to make it possible. Since diving more deeply into software these last few years the knowhow is easier, and as I've gotten older the experiences have come fast and furious, so the only missing ingredient has been that ever-gnawing willingness.
 
@@ -54,8 +54,6 @@ I can have grander aspirations to a broader audience and more impactful content,
 If I can meet those goals, I'll be a happy camper.
 
 See you next Monday.
-
-### Footnotes
 
 [^1]: <a href="https://www.zenpencils.com/comic/119-john-green-make-gifts-for-people/" target="_blank">This quote illustrated here by Gavin Than of <em>Zen Pencils</em></a>
 [^2]: <a href="https://jamesclear.com/sabbatical-improvements" target="_blank">An example of his James Clear's work here, with many more on his site</a>. (You'll notice I'm trying to use some of his good habits before I pick up any bad ones)

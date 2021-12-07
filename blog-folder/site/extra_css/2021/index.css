@@ -1,0 +1,10 @@
+.md-typeset__table > table {
+  border: none !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.md-typeset__table {
+  width: 100% !important;
+  margin: 0 auto;
+}
