@@ -12,6 +12,7 @@ hide:
 
 <!-- Bite, Mixed Greens, Steak Dinner  -->
 
-| Title                                                   | Article Length |     Publish Date |
-| :------------------------------------------------------ | :------------: | ---------------: |
-| <a href="/2021/Blog-Introduction">Blog Introduction</a> |  Steak Dinner  | December 6, 2021 |
+| Title                                                                | Article Length |      Publish Date |
+| :------------------------------------------------------------------- | :------------: | ----------------: |
+| <a href="/2021/Why-Excel-and-VBA">Excel and VBA are Gatway Drugs</a> |  Steak Dinner  | December 13, 2021 |
+| <a href="/2021/Blog-Introduction">Blog Introduction</a>              |  Steak Dinner  |  December 6, 2021 |
