@@ -632,5 +632,38 @@ function hideNextPageNav() {
   }
 }
 
+function checkForColorMode() {
+  let backgroundColor;
+  const thisIcon = document.querySelector("label[title='Switch to dark mode']");
+
+  thisIcon.hasAttribute("hidden")
+    ? (backgroundColor = "#2094f3")
+    : (backgroundColor = "#ff6e42");
+  document.querySelector("#refresh-quote").style.backgroundColor =
+    backgroundColor;
+}
+
+function logEvent(e) {
+  const element = e.target;
+  if (
+    element.getAttribute("id") === "__palette_2" ||
+    element.getAttribute("id") === "__palette_1"
+  ) {
+    checkForColorMode();
+  }
+}
+
+function initialColorMode() {
+  let backgroundColor;
+  const thisIcon = document.querySelector("label[title='Switch to dark mode']");
+  thisIcon.hasAttribute("hidden")
+    ? (backgroundColor = "#ff6e42")
+    : (backgroundColor = "#2094f3");
+  document.querySelector("#refresh-quote").style.backgroundColor =
+    backgroundColor;
+}
+
+document.addEventListener("click", logEvent);
 refreshQuote();
 hideNextPageNav();
+initialColorMode();
