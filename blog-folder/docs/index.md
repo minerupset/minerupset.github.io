@@ -10,6 +10,8 @@ hide:
 
 ## Posts in Chronological Order
 
+Welcome to my thoughts. I hope you find what you're looking for.
+
 <!-- Bite, Mixed Greens, Steak Dinner  -->
 
 | Title                                                                | Article Length |      Publish Date |
