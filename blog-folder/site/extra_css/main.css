@@ -70,8 +70,6 @@
 .footer-container {
   /* background-color: var(--header-main-color); */
   /* background-color: rgba(0, 0, 0, 0.87); */
-  /* background-color: #16171d; */
+  background-color: #16171d;
   color: rgba(255, 255, 255, 0.7) !important;
-  /* background-color: rgba(26, 27, 35, 0.87) !important; */
-  /* background-color: red; */
 }
