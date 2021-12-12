@@ -626,6 +626,18 @@ function refreshQuote() {
 
 function hideNextPageNav() {
   // Very rough, shouldn't be rendered in the first place, but we can deal with that later
+
+  // const customFooter = document.createElement("div");
+  // customFooter.classList.add("footer-container");
+  // const footerParagraph = document.createElement("p");
+  // footerParagraph.id = "random-quote-block";
+  // footerParagraph.setAttribute("data-quote-index", "");
+  // footerParagraph.innerHTML =
+  //   '<span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span><button id="refresh-quote" onClick="refreshQuote()">&#x21bb;</button>';
+  // customFooter.appendChild(footerParagraph);
+  // const bottomNavBar = document.querySelector("footer > .md-footer-meta");
+  // bottomNavBar.parentNode.insertBefore(customFooter, bottomNavBar);
+
   const bottomNavBar = document.querySelector("footer > nav");
   if (bottomNavBar) {
     bottomNavBar.setAttribute("hidden", "true");
@@ -664,6 +676,7 @@ function initialColorMode() {
 }
 
 document.addEventListener("click", logEvent);
-refreshQuote();
 hideNextPageNav();
+refreshQuote();
+// setTimeout(refreshQuote, 500);
 initialColorMode();
