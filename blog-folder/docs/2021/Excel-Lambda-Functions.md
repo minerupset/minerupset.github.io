@@ -14,7 +14,7 @@ hide:
 
 ## You Nerd
 
-I hadn't planned on one of my first posts being a moderate geekout over a brand new Excel function[^1], but I'll just think of this as a holiday miracle. Thanks non-denominational gift-bearing elderly gentleman!
+I hadn't planned on one of my first posts being a moderate geekout over a brand new Excel function[^1], but I'll just think of this as a holiday miracle. Thanks non-denominational gift-bearing elderly figure for this prize!
 
 ## Setting the Stage: Static Workbooks
 
@@ -25,10 +25,11 @@ Let me give an example of what I mean by 'you can't iterate':
 ```vbscript title='An Impossible formula'
 ' You cannot do this in an Excel Formula
 =WHILE(A1 < 5, B1 = B1 + 1)
+
 ' No no not allowed
 ```
 
-Once an Excel workbook is finished calculating, it needs to be static. You edit a cell, it recalculates, and then it stops. You edit another cell, it recalculates, then it stops. This is possible because Excel works off of a calculation chain to handle the dependencies[^2]. This chain is really a dependency chain: if A1 depends on B2 which depends on C3, then C3 is calculated first, then B2, then A1. This is how Excel determines if you have any circular formulas in the workbook, and in particularly large and nasty Excel files, if you make a change you mau see the program hang for 30 seconds while your computer fan spins up a jet engine to cool off.
+Once an Excel workbook is finished calculating, it needs to be static. You edit a cell, it recalculates, and then it stops. You edit another cell, it recalculates, then it stops. This is possible because Excel works off of a calculation chain to handle this order of events, called a dependency chain[^2]: if A1 depends on B2 which depends on C3, then C3 is calculated first, then B2, then A1. This is how Excel determines if you have any circular references in the workbook, and in particularly large and nasty Excel files, if you make a change you may see everything hang for 30 seconds while your computer fan spins up a jet engine to cool off.
 
 ## LAMBDA Function Breaks The Chain (Not Really)[^3]
 
@@ -42,40 +43,47 @@ Practically speaking, a lambda function allows you to define a function on the g
 =LAMBDA(x,y,x+y)(1,2)
 ```
 
-Now this example on its own isn't that special, but the real beauty of the LAMBDA function is two fold:
+Breaking down the components, you can see the arguments are made up of
+
+- The function call: `=LAMBDA(`
+- The parameters to the function: `x,y,`
+- The function formula: `x+y)`
+- and the specific values for this function `(1,2)`
+
+So this would return the result of 1+2 or 3. This example on its own isn't that special, but the real beauty of the LAMBDA function is two fold:
 
 1. You can name functions (using the Name Manager), so our function above could be called 'ADDTWOVALUES' if you'd like, and
 2. _You can call functions recursively_
 
 This second point is the real big change that Excel has never done before. Calling functions recursively is essentially a backdoor to writing new logical flow statements (while loops, for loops, etc.) that are more dynamic rather than Excel's traditional static structure. Let's look at some examples of what this would be like.
 
-## Some LAMBDA function examples
+## Some Recursive LAMBDA Function Examples
 
-Because you can call a function recursively, you can iterate down through a list of things. For example:
+Because you can call a function recursively, you can iterate in the function itself. For example:
 
 ```vbscript title='RECURSIVESUM - Sum numbers like a for loop'
-=LAMBDA(max, IF(max<=1,1,RECURSIVESUM(max-1) + max)
+=LAMBDA(max,IF(max<=1,1,RECURSIVESUM(max-1) + max)
 ```
 
 ```vbscript title='RECURSIVEPRODUCT - Multiply numbers like a for loop'
-=LAMBDA(max, IF(max<=1,1,RECURSIVEPRODUCT(max-1) * max)
+=LAMBDA(max,IF(max<=1,1,RECURSIVEPRODUCT(max-1) * max)
 ```
 
-```vbscript title='REVERSE STRING - Reversing a string'
+```vbscript title='REVERSESTRING - Read characters from front to back'
 =LAMBDA(string,IF(string="",string,REVERSESTRING(RIGHT(string,LEN(string)-1))&LEFT(string,1)))
 ```
 
-There are some helpful resources online for converting 'for-loop' logic to recursive logic which I've linked in the footnotes[^5].
+There are some helpful resources online for converting 'for loop' logic to recursive logic which I've linked in the footnotes[^5].
 
-## How create a named LAMBDA function
+## How To Create a Named LAMBDA Function
 
-As of now, you have to have the latest beta version of Excel installed on your machine. You can find instructions to do this in the footnotes[^1]. The process is essentially:
+As of now, you have to have the latest beta version of Excel installed on your machine. You can find instructions to do this in the footnotes[^1]. One you have it installed, the process is essentially:
 
-- Define your lambda function (like the 3 I have above)
+- Come up with a lambda function (like the 3 I have above)
 - Create a Named Range that is the exact name of what you have in your lambda expression (above, my 3 functions are named RECURSIVESUM, RECURSIVEPRODUCT, and REVERSESTRING, respectively)
 - Paste your lambda expression in the 'Refers To' section of the Named Range
 
-That's it. You should now be able to type `=YOUR_FUNCTION_NAME()' into a cell and have it execute your now recursive function.
+That's it. You should now be able to type `=YOUR_FUNCTION_NAME()' into a cell and have it execute your new recursive function.
 
 [^1]: <a href='https://techcommunity.microsoft.com/t5/excel-blog/announcing-lambda-turn-excel-formulas-into-custom-functions/ba-p/1925546' target='_blank'>Microsoft Announcement of the LAMBDA function</a>
 [^2]: <a href='https://docs.microsoft.com/en-us/office/client-developer/excel/excel-recalculation' target='_blank'>Excel's documentation on recalculation</a>
