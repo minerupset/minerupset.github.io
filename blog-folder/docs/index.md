@@ -12,10 +12,9 @@ hide:
 
 Welcome to my thoughts. I hope you find what you're looking for.
 
-<!-- Bite, Mixed Greens, Steak Dinner  -->
-
 | Title                                                                   | Article Length | Publish Date |
 | :---------------------------------------------------------------------- | :------------: | -----------: |
+| <a href="/2022/Zugzwang">Zugzwang: Don't Blink First</a>                |   Appetizer    |   03-01-2022 |
 | <a href="/2021/Excel-Lambda-Functions">Excel LAMBDA Functions</a>       |  Mixed Greens  |   27-12-2021 |
 | <a href="/2021/Git-Intro">Introduction to Version Control and `git`</a> |  Mixed Greens  |   20-12-2021 |
 | <a href="/2021/Why-Excel-and-VBA">Excel and VBA are Gateway Drugs</a>   |  Steak Dinner  |   13-12-2021 |
