@@ -41,7 +41,7 @@ End Sub
 
 ## Practicality From the Beginning
 
-When I was a freshman in college, I had a glorified view of what computer science must be, and took Comp Sci 5, Intro to Computer Science my very first term. In less than a week I was convinced the field wasn't for me (I've heard Java has that effect on people), and I barely touched anything coding related for 7 years.
+When I was a freshman in college, I had a glorified view of software development and took Intro to Computer Science my very first term. In less than a week I was convinced the field wasn't for me (I've heard Java has that effect on people), and I barely touched anything coding related for 7 years.
 
 Jump to my first 'real' job after after grad school, and within 6 months of joining I was teaching myself to code in the evenings, speeding up my job and improving outputs for clients. Within 2 years I had deployed multiple solutions company wide, automated several processes, and was leading the company training on Excel. It wasn't that I had more time on my hands (I didn't), nor was I suddenly smarter (I wasn't): instead, I had more problems that needed practical solutions.
 
