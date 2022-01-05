@@ -14,6 +14,7 @@ Welcome to my thoughts. I hope you find what you're looking for.
 
 | Title                                                                   | Article Length | Publish Date |
 | :---------------------------------------------------------------------- | :------------: | -----------: |
+| <a href="/2022/Git-and-Excel-VBA">GitHub and VBA Projects</a>           |       5k       |   10-01-2022 |
 | <a href="/2022/Zugzwang">Zugzwang: Don't Blink First</a>                |   Short Jog    |   03-01-2022 |
 | <a href="/2021/Excel-Lambda-Functions">Excel LAMBDA Functions</a>       |       5k       |   27-12-2021 |
 | <a href="/2021/Git-Intro">Introduction to Version Control and `git`</a> |       5k       |   20-12-2021 |
