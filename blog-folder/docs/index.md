@@ -10,7 +10,7 @@ hide:
 
 ## Posts in Chronological Order
 
-Welcome to my thoughts. I hope you find what you're looking for.
+Welcome to my various thoughts: I hope you find what you're looking for. I aim to post a new article every Monday, but the topic is always a mystery (usually to me as well). Feel free to <a href='/tags' target='_blank'>search by tag</a> if there's a specific topic you're looking for.
 
 | Title                                                                   | Article Length | Publish Date |
 | :---------------------------------------------------------------------- | :------------: | -----------: |
