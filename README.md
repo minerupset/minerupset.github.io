@@ -2,21 +2,6 @@
 
 This is all well and good to see pretty content on the internet, but oftentimes, it can be helpful to see exactly how something is being written. This is where I keep the code for this blog, written in MkDocs, with some of the underlying elements as well.
 
-## Active Post List
-
-1. Unpopular Opinion: Why Excel and VBA are the best ways to start coding
-
-- The environment comes pre-made
-- You can build useful things vs. theoretical things (talk about your own college vs. business experience)
-- When done correctly, can introduce useful coding concepts (OOP, SRP, even web development concepts of front end, backend, and database)
-- excel, software, VBA
-
-2.  How to build a rudimentary web scraper for fun & profit
-
-- Focus on screenshots, but show how to extract specific elements
-- Make an example puppeteer repo for this
-- software, javascript, node
-
 ## INO Future Post List
 
 These are in no particular order, but these are posts that I will write:
