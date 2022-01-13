@@ -14,6 +14,7 @@ Welcome to my various thoughts: I hope you find what you're looking for. I aim t
 
 | Title                                                                   | Article Length | Publish Date |
 | :---------------------------------------------------------------------- | :------------: | -----------: |
+| <a href="/2022/First-Nest-Egg">Investing Your First Nest Egg</a>        |    Marathon    |   01/17/2022 |
 | <a href="/2022/Git-and-Excel-VBA">GitHub and VBA Projects</a>           |       5k       |   01/10/2022 |
 | <a href="/2022/Zugzwang">Zugzwang: Don't Blink First</a>                |   Short Jog    |   01/03/2022 |
 | <a href="/2021/Excel-Lambda-Functions">Excel LAMBDA Functions</a>       |       5k       |   12/27/2021 |
