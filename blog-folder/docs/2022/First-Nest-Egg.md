@@ -38,6 +38,12 @@ Your first priority should be a _basic emergency fund_. This is money you've set
 
 This emergency fund should stay in the form of cash somewhere. You don't want that emergency to roll around and have to sell something to get your cash out. Preferably this money is in a high yield savings account. What's a high yield saving's account? Typically an online focused bank will give better rates than institutions like Chase, Bank of America, or other older banks. Below is a link to some options out there: I'm personally a fan of Ally Bank myself[^1].
 
+If you are looking to get a better view of your current financial standing, a tool I use and enjoy is <a href='https://pcap.link/m08596' target='_blank'>Personal Capital</a> (this is my personal link, we both get a bonus if you sign up with it). Personal Capital is a free-to-use aggregation software, much like Mint. However, they are much better than Mint in my book for a few reasons:
+
+1. I prefer their UI
+2. They aren't part of the Intuit family, a company that has allegedly made our tax code more and more cumbersome to their own benefit (so that you keep using their services)
+3. Their revenue stream is very clear: on Mint, it's not clear how they're selling your data. With Personal Capital, they're trying to get you to join with their wealth management tool, so selling your data to 3rd parties is not in their interest. Full disclosure, I recently signed up for their wealth management tool, but I preferred them over Mint well before I signed up
+
 ## Why Investing Matters
 
 Checking in on our math up above, I've assumed you've set aside ~$7,000 out of your $15,000 of cash. The question becomes what do we do with the remaining $8,000? While it would be understandable to keep all $15,000 as a larger emergency savings fund (a good rule of thumb is 3-6 months of expenses on hand in cash), I think it's important to have at least some exposure to the various markets out there. Here's why I think that:
