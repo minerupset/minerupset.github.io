@@ -87,6 +87,8 @@ Luckily, you don't need to buy your own house or storefront to invest in real es
 
 I said I wasn't going to preach and I won't. Cryptocurrency can be a complicated and polarizing topic. The best recommendation I have is to find a reputable platform (<a href='https://www.gemini.com/share/xq4mdd8tx' target='_blank'>Gemini</a> and Coinbase come to mind), invest only amounts that you are totally fine may disappear, and only invest in the broadly established currencies, like Bitcoin and Ethereum. No shit-coins: you're way better off going to Vegas in that case.
 
+Note, that is my personal link to Gemini: if you sign up using that link, we will both receive $10 in BTC (as of the time of this writing).
+
 ## How Much Would I Invest in These?
 
 Looking back at our scenario of $15,000 with $3,500 of monthly expenses, here would be my order of operations:
@@ -94,8 +96,8 @@ Looking back at our scenario of $15,000 with $3,500 of monthly expenses, here wo
 1. $10,000 immediately into an emergency fund (I said at least $7,000 above, but 3-6 months of expenses is better). Landing it in a high yield savings account would be great if you can
 2. $5,000 invested across those three asset classes like so:
     - $3,500 into the stock market invested in ETFs like <a href='https://www.google.com/search?q=VOO' target='_blank'>VOO</a>, <a href='https://www.google.com/search?q=SPY' target='_blank'>SPY</a>, <a href='https://www.google.com/search?q=VTSAX' target='_blank'>VTSAX</a>, etc. (a Roth IRA if I qualify, a standard brokerage account if I don't)
-    - $1,000 into <a href='https://www.fundrise.com/r/933o1x' target='_blank'>Fundrise</a> (here's my personal link to Fundrise)
-    - $500 into Bitcoin on <a href='https://www.gemini.com/share/xq4mdd8tx' target='_blank'>Gemini</a> (here's my personal link to Gemini)
+    - $1,000 into <a href='https://www.fundrise.com/r/933o1x' target='_blank'>Fundrise</a> (here again is my link to Fundrise)
+    - $500 into Bitcoin on <a href='https://www.gemini.com/share/xq4mdd8tx' target='_blank'>Gemini</a> (here again is my link to Gemini)
 
 I would also set up recurring transfers into each of these accounts. Even if it's only $5 a month, having a recurring buy is so important to get you in the right mindset. If you earn a raise (or if you have a larger nest egg) I think it's fair game to raise those contribution rates and start investing more, but the important thing is to always have at least some of your money growing. Future you will thank you.
 
