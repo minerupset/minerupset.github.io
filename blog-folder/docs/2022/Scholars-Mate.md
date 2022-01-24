@@ -11,8 +11,6 @@ tags:
     - Chess
 hide:
     - navigation
-    # - toc
-    - tags
 ---
 
 # Scholar's Mate: The Gut Punch
@@ -40,4 +38,4 @@ Black's moves to develop the e-file pawn and their two Knights is not itself a b
 
 This can be harder for newer players to spot because it relies on the long attack of white's light-square Bishop. That being said, if you can keep your eyes on both your and your opponents Bishops, you can exploit opportunities for this. But just remember, the f pawn is weak, both for you and your opponent.
 
-[^1]: https://en.wikipedia.org/wiki/Scholar%27s_mate
+[^1]: <a href='https://en.wikipedia.org/wiki/Scholar%27s_mate' target='_blank'>Scholar's Mate</a> history and details

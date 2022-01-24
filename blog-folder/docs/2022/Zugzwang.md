@@ -11,8 +11,6 @@ tags:
     - Chess
 hide:
     - navigation
-    # - toc
-    - tags
 ---
 
 # Zugzwang: Don't Blink First
