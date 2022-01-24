@@ -6,15 +6,25 @@ date: January 17, 2022
 # specific_css:
 # specific_js:
 tags:
-    - Software
-    - Deployment
+  - Software
+  - Deployment
 hide:
-    - navigation
+  - navigation
 ---
 
 # Basic Heroku Deployment
 
+HEROKU HAS REALLY GOOD DOCUMENTATION, IS THIS NECESSARY?
+
 I've heard the phrase, "Software you don't sell is a hobby". Now, that's all fine - not everything has to be a money making venture - but a deeper layer on that idea could easily be, "Software you don't deploy is just a text file". To that end, I'm going to go over the basics here of how to create a project to deploy to Heroku. I'll use a basic Node-Express server example so we can focus less on the code and more on the project itself.
+
+The overall steps are:
+
+1. Build the server
+2. Initialize a git repo
+3. Create a Heroku account and install the Heroku CLI
+4. Add Heroku as a remote location (similar to GitHub is a remote to git)
+5. Push your code to your Heroku remote
 
 ## Creating Our Server
 
@@ -35,7 +45,7 @@ const PORT = process.env.PORT || 3900;
 
 // A single endpoint confirming that the server is working
 app.get("/", (req, res) => {
-    res.send("Hello example server");
+  res.send("Hello example server");
 });
 
 // Start your server up with the app.listen(PORT,...) command
@@ -49,7 +59,7 @@ Assuming that's working for you, let's move on to the Heroku deployment part of 
 
 ## Install Heroku CLI
 
-## Add Heroku as a `git` Remote
+## Add Heroku as a git Remote
 
 ## Push Your Server to Heroku
 

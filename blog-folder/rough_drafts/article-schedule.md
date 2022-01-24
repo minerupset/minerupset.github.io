@@ -9,8 +9,14 @@
 | Zugzwang                                           |   Short jog    |   January 3, 2022 |
 | How to use git & GitHub with Excel VBA             |       5k       |  January 10, 2022 |
 | What to Do with your first nest egg                |       5k       |  January 17, 2022 |
-| Basic Heroku Deployment                            |       5k       |  January 24, 2022 |
+| Scholar's Mate                                     |   Short jog    |  January 24, 2022 |
 | How to Deal with an Attempted Scam                 |    Marathon    |  January 31, 2022 |
 | Build a rudimentary web scraper for fun and profit |    Marathon    |  February 7, 2022 |
 | Under the Hood: Excel Files as Zip Folders         |       5k       | February 14, 2022 |
-| Solve a Rubik's Cube                               |    Marathon    | February 21, 2022 |
+| How to Solve a Rubik's Cube                        |    Marathon    | February 21, 2022 |
+
+## Abandoned Posts
+
+| Title                   | Article Length |     Publish Date |
+| :---------------------- | :------------: | ---------------: |
+| Basic Heroku Deployment |       5k       | January 24, 2022 |

@@ -1,5 +1,5 @@
 ---
-title: Zugzwang
+title: Zugzwang &#58; Don't Blink First
 description: Learn how this chess concept can force your opponents into unfavorable positions
 date: January 3rd, 2022
 duration: 2 min
@@ -7,11 +7,11 @@ duration: 2 min
 # specific_css:
 # specific_js:
 tags:
-  - Chess
+    - Chess
 hide:
-  - navigation
-  # - toc
-  - tags
+    - navigation
+    # - toc
+    - tags
 ---
 
 # Zugzwang: Don't Blink First
