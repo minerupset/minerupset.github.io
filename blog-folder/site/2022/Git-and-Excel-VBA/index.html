@@ -476,22 +476,22 @@
                 
                 <h1 id="using-github-for-excel-vba-projects">Using GitHub for Excel VBA Projects</h1>
 <h2 id="vba-projects-are-real-projects">VBA Projects are Real Projects</h2>
-<p>Just because VBA is a bit of a garbage language doesn't mean it's not worthy of good tools to help maintain it. Setting up version control should be the first step in just about any code project, and with a few lines of VBA, you can integrate your Excel macro project with <code>git</code> and GitHub, the most widely used version control tool set available today.</p>
+<p>Just because VBA is a bit of a garbage language doesn't mean it's not worthy of good tools to help maintain it. Setting up version control should be the first step in just about any code project, and with a few lines of VBA, you can integrate your Excel macro project with git and GitHub, the most widely used version control tool set available today.</p>
 <p>To complete this, we'll:</p>
 <ol>
-<li>Install GitHub Desktop (if you already have <code>git</code> installed, we can skip this)</li>
+<li>Install GitHub Desktop (if you already have git installed, we can skip this)</li>
 <li>Use VBA to export our code files to an external folder for source control</li>
 <li>Use VBA to import the code files back in case we have multiple branches</li>
 </ol>
 <h2 id="set-up-github-desktop">Set Up GitHub Desktop</h2>
-<p>GitHub (and the underlying tool, <code>git</code>) are <a href='/2021/Git-Intro' target='_blank'>phenomenal version control tools</a>, and you don't need to know the command line to get started with them. We'll be using GitHub desktop to manage our VBA code repository (though if you are familiar with git on the command line, you can use that as well)</p>
+<p>GitHub (and the underlying tool, git) are <a href='/2021/Git-Intro' target='_blank'>phenomenal version control tools</a>, and you don't need to know the command line to get started with them. We'll be using GitHub desktop to manage our VBA code repository (though if you are familiar with git on the command line, you can use that as well)</p>
 <ol>
 <li>Go to <a href='https://desktop.github.com/' target='_blank'>this link</a> to download GitHub for Desktop</li>
 <li>Follow <a href='https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop' target='_blank'>this guide</a> to get set up</li>
 </ol>
 <p>GitHub accounts are free and you can have unlimited private repositories: you should feel comfortable signing up for an account if you haven't already.</p>
 <p>Once you have your GitHub Desktop account setup, create a new repository (basically a folder) in a good, consistent location. You don't need to store it with the Excel file: in fact, I'd recommend storing all of your repositories in a separate location.</p>
-<p>If you're newer to <code>git</code> and its capabilities, please see <a href='/2021/Git-Intro' target='_blank'>my other post</a> for an introduction and more reference materials.</p>
+<p>If you're newer to git and its capabilities, please see <a href='/2021/Git-Intro' target='_blank'>my other post</a> for an introduction and more reference materials.</p>
 <h2 id="exporting-project-files-to-your-repo">Exporting Project Files to Your Repo</h2>
 <p>The code below can be pasted as a new module into your VBA project. Whenever you want to copy your latest codebase to your folder, simply run this macro and all of your relevant files will be copied over. There are two additional elements to consider:</p>
 <ol>
@@ -538,7 +538,7 @@
 <span class="k">End</span><span class="w"> </span><span class="k">Sub</span><span class="w"></span>
 </code></pre></div>
 <h2 id="commit-and-push-your-code">Commit and Push Your Code</h2>
-<p>I'm not going to go in-depth on <code>git</code> or GitHub here, but there are plenty of resources covering the key topics of committing to a branch, pushing / pulling a branch, and merging a branch that will all be very useful in maintaining your VBA Project. See my <a href='/2021/Git-Intro' target='_blank'>previous post</a> on the topic for a brief primer on <code>git</code> for the command line and how it can help manage your code projects.</p>
+<p>I'm not going to go in-depth on git or GitHub here, but there are plenty of resources covering the key topics of committing to a branch, pushing / pulling a branch, and merging a branch that will all be very useful in maintaining your VBA Project. See my <a href='/2021/Git-Intro' target='_blank'>previous post</a> on the topic for a brief primer on git for the command line and how it can help manage your code projects.</p>
 <h2 id="import-project-files-from-your-repo">Import Project Files From Your Repo</h2>
 <p>Like the export code above, be sure and update your pathName variable to point to your repository. You'll notice I named the VBA Module that handles both import and export as <code>gitConnector</code>: whatever you name your file, make sure you handle that as an edge case. It may require you to do a bit more manual work anytime you edit this specific file, but that shouldn't be too frequent.</p>
 <div class="highlight"><span class="filename">VBA Script for Importing Files</span><pre><span></span><code><span class="kd">Sub</span><span class="w"> </span><span class="nf">ImportFilesToRepo</span><span class="p">()</span><span class="w"></span>

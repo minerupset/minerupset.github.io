@@ -64,7 +64,7 @@ const quotes = [
   {
     author: "Anonymous",
     quote:
-      'Few people wake up and say to themselves, "How can I be an asshole today?" Set people up to be a protagonist and they will help you',
+      "Few people wake up and say to themselves, 'How can I be an asshole today?' Set people up to be a protagonist and they will help you",
   },
   {
     author: "Benjamin Franklin",
@@ -113,7 +113,7 @@ const quotes = [
       "When you want to go fast, go alone. When you want to go far, go together",
   },
   {
-    author: "Benjamin Franklin (Anonymous)",
+    author: "Benjamin Franklin (Matt Miner)",
     quote:
       "In for a penny, in for a pound (but don't throw good money after bad)",
   },
@@ -282,16 +282,16 @@ const quotes = [
   },
   {
     author: "Jaqi Saleem",
-    quote: "The 6 o&rsquo;clock news starts at 6, not when we&rsquo;re ready",
+    quote: "The 6 o'clock news starts at 6, not when we're ready",
   },
   {
     author: "Karl Weick",
-    quote: "Argue like you&rsquo;re right, listen like you&rsquo;re wrong",
+    quote: "Argue like you're right, listen like you're wrong",
   },
   {
     author: "Lowell Kahn",
     quote:
-      "As a business owner, the work I do until 5 or 6 o&rsquo;clock doesn&rsquo;t make me any money: that keeps the lights on. It&rsquo;s the 2 hours of work I do afterwards that make me money",
+      "As a business owner, the work I do until 5 or 6 o'clock doesn't make me any money: that keeps the lights on. It's the 2 hours of work I do afterwards that make me money",
   },
   {
     author: "Anonymous",
@@ -314,8 +314,7 @@ const quotes = [
   },
   {
     author: "Anonymous",
-    quote:
-      "If you&rsquo;re not doing prehab, you&rsquo;re going to end up doing rehab",
+    quote: "If you're not doing prehab, you're going to end up doing rehab",
   },
   {
     author: "Lindsey Morgan",
@@ -419,7 +418,7 @@ const quotes = [
   {
     author: "Shel Silverstein",
     quote:
-      "All the woulda-coulda-shouldas layin' in the sun, talking 'bout the things they woulda-coulda-shoulda done. But all those woulda-coulda-shouldas all ran away and hid, from one little did",
+      "All the woulda-coulda-shouldas layin' in the sun<br />Talking 'bout the things they woulda-coulda-shoulda done. <br />But all those woulda-coulda-shouldas all ran away and hid,<br />From one little did",
   },
   {
     author: "Richard Feynman",
@@ -444,7 +443,7 @@ const quotes = [
   {
     author: "Stephen Fry",
     quote:
-      'Self pity will destroy relationships. It will destroy anything good. It will fulfill all the prophecies it makes and leave only itself...I almost wanted once to publish a self-help book saying, "How to be happy"...and the first page would just say, "Stop feeling sorry for yourself and you will be happy." And it would be true. It sounds like, "Oh that\'s so simple." But, of course, it\'s not simple to stop feeling sorry for yourself. It\'s bloody hard',
+      "Self pity will destroy relationships. It will destroy anything good. It will fulfill all the prophecies it makes and leave only itself...I almost wanted once to publish a self-help book saying, 'How to be happy'...and the first page would just say, 'Stop feeling sorry for yourself and you will be happy.' And it would be true. It sounds like, 'Oh that's so simple.' But, of course, it's not simple to stop feeling sorry for yourself. It's bloody hard",
   },
   {
     author: "Antoine de Saint-Exupery",
@@ -537,17 +536,16 @@ const quotes = [
   {
     author: "Anonymous",
     quote:
-      "Stop trying to be liked by everybody. You don&rsquo;t even like everybody",
+      "Stop trying to be liked by everybody. You don't even like everybody",
+  },
+  {
+    author: "Anonymous",
+    quote: "Kindness: It doesn't cost a thing. Sprinkle that sh*t everywhere",
   },
   {
     author: "Anonymous",
     quote:
-      "Kindness: It doesn&rsquo;t cost a thing. Sprinkle that sh*t everywhere",
-  },
-  {
-    author: "Anonymous",
-    quote:
-      "For that decision you&rsquo;re about to make, pretend future you is looking back on it as the best / worst decision you&rsquo;ve ever made. Why?",
+      "For that decision you're about to make, pretend future you is looking back on it as the best / worst decision you've ever made. Why?",
   },
   {
     author: "Voltaire",
@@ -573,7 +571,7 @@ const quotes = [
   {
     author: "Upton Sinclair",
     quote:
-      "It&rsquo;s difficult to get a man to understand something when his salary depends on him not understanding it",
+      "It's difficult to get a man to understand something when his salary depends on him not understanding it",
   },
   {
     author: "Mark Watney",
@@ -604,9 +602,42 @@ const quotes = [
       "Remember: if you can't be replaced, you can't be promoted. So train your replacement and prove you can be a good manager",
   },
   {
-    author: "Dorothy",
+    author: "Mike Tyson",
+    quote: "Everyone has a plan until they get punched in the face",
+  },
+  {
+    author: "James Clear",
     quote:
-      "I don't care what family drama your generation has, it dies with you. Don't let that shit roll downhill",
+      "It doesn't matter how successful or unsuccessful you are right now. What matters is whether your habits are putting you on the path toward success. You should be far more concerned with your current trajectory than with your current results",
+  },
+  {
+    author: "Anonymous",
+    quote: "Enough is as good as a feast",
+  },
+  {
+    author: "Anonymous",
+    quote: "Change happens at the speed of trust",
+  },
+  {
+    author: "The Good Place",
+    quote: "That's what both heaven and hell really are: time",
+  },
+  {
+    author: "Warren Buffet",
+    quote: "Rule #1: Never lose money. Rule #2: Don't forget Rule #1",
+  },
+  {
+    author: "John Madden",
+    quote:
+      "There are 3 kinds of people: 1. Those who don't understand what's happening: get rid of them. 2. Those who do understand what's happening: keep them. 3. Those who can make things happen: find them.",
+  },
+  {
+    author: "Chess Proverb",
+    quote: "Don't play the position it was or will be. Play the position it is",
+  },
+  {
+    author: "Jaqi Saleem",
+    quote: "If you want to make God laugh, tell him your plans",
   },
 ];
 
@@ -678,5 +709,4 @@ function initialColorMode() {
 document.addEventListener("click", logEvent);
 hideNextPageNav();
 refreshQuote();
-// setTimeout(refreshQuote, 500);
 initialColorMode();

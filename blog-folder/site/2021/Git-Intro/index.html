@@ -9,6 +9,8 @@
         <meta name="description" content="What is git and why do we care?">
       
       
+        <meta name="keywords" content="git, GitHub, Software">
+      
       
         <meta name="author" content="Matt Miner">
       
@@ -462,23 +464,23 @@
 
                 
                 
-                <h1 id="introduction-to-version-control-and-git">Introduction to Version Control and <code>git</code></h1>
+                <h1 id="introduction-to-version-control-and-git">Introduction to Version Control and git</h1>
 <h2 id="tl-dr">TL; DR</h2>
 <ul>
-<li>Instead of saving code manually, you let software (specifically <code>git</code>) manage your code versions</li>
-<li><code>git</code> is a local tool for version control, GitHub is an optional remote tool you pair with</li>
-<li><code>git</code> and GitHub both have command line and GUI based tools: I personally recommend learning <code>git</code> for the command line, and using a web tool for managing GitHub</li>
+<li>Instead of saving code manually, you let software (specifically git) manage your code versions</li>
+<li>git is a local tool for version control, GitHub is an optional remote tool you pair with</li>
+<li>git and GitHub both have command line and GUI based tools: I personally recommend learning git for the command line, and using a web tool for managing GitHub</li>
 </ul>
 <h2 id="why-should-you-care">Why Should You Care</h2>
 <p>Writing code is never just writing code. While it's the most fun step, writing code effectively is all about managing code, and for that you must make sure you're working on the right version. Whether you're on a team or a solo project, you'll make changes - hopefully good ones - and that means different versions floating around. The last thing you want is to have spent a day debugging, adding a new feature, or deploying only to find you've been working with an out-of-date codebase.</p>
-<p>Software developers like having automated tools for everything, and version control is no exception. <code>git</code> is not just one such tool, it is <em>the</em> tool. Instead of saving each version of your files as "_v1", "_v2", etc., you track changes with <code>git</code>, which can compare different versions and branches of files over time. This means you can always rollback changes, merge changes from others, and 'fast forward' code to include new features.</p>
+<p>Software developers like having automated tools for everything, and version control is no exception. git is not just one such tool, it is <em>the</em> tool. Instead of saving each version of your files as "_v1", "_v2", etc., you track changes with git, which can compare different versions and branches of files over time. This means you can always rollback changes, merge changes from others, and 'fast forward' code to include new features.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>It's important to note that <code>git</code> only works with text-based files: this is fine for most anything a developer is doing, but if you're working on things like Office Documents, it won't work. (I'll be posting later on about the nature of Office Documents and how they aren't what they seem: stay tuned).</p>
+<p>It's important to note that git only works with text-based files: this is fine for most anything a developer is doing, but if you're working on things like Office Documents, it won't work. (I'll be posting later on about the nature of Office Documents and how they aren't what they seem: stay tuned).</p>
 </div>
-<p><code>git</code> itself only runs locally on your machine, but that's why you extend <code>git</code> with an online tool, like <a href='https://github.com/' target='_blank'>GitHub</a>. GitHub allows you to push your codebase to an online site that so that you can work on the same files from multiple machines, share code with friends and teammates, or even deploy from a single spot. There are plenty of tutorials<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> on <code>git</code> and GitHub to refer to, but here are the basics I have found helpful.</p>
+<p>git itself only runs locally on your machine, but that's why you extend git with an online tool, like <a href='https://github.com/' target='_blank'>GitHub</a>. GitHub allows you to push your codebase to an online site that so that you can work on the same files from multiple machines, share code with friends and teammates, or even deploy from a single spot. There are plenty of tutorials<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> on git and GitHub to refer to, but here are the basics I have found helpful.</p>
 <h2 id="quick-overview">Quick Overview</h2>
-<p>Working with <code>git</code> in the command line can be hard if you're not used to using a terminal, but this is one tool where it really pays off to feel very comfortable in the command line. Working with these short commands allows you to commit code early and often, which will save you plenty of heartache in the long run.</p>
+<p>Working with git in the command line can be hard if you're not used to using a terminal, but this is one tool where it really pays off to feel very comfortable in the command line. Working with these short commands allows you to commit code early and often, which will save you plenty of heartache in the long run.</p>
 <div class="highlight"><span class="filename">Basic git commands</span><pre><span></span><code><span class="c1"># Creates a new git repository in the root folder</span>
 git init
 
@@ -508,7 +510,7 @@ git push -u origin main
 git pull origin main
 </code></pre></div>
 <h2 id="basic-workflow">Basic Workflow</h2>
-<p>This workflow assumes everything goes right (which it rarely does), but it should ground you in the basics of how you might use <code>git</code> and GitHub.</p>
+<p>This workflow assumes everything goes right (which it rarely does), but it should ground you in the basics of how you might use git and GitHub.</p>
 <div class="highlight"><span class="filename">Basic git workflow</span><pre><span></span><code>git add .
 
 git commit -m <span class="s2">&quot;I updated the MeaningOfLife function to return 42&quot;</span>
@@ -536,7 +538,7 @@ git merge main
 <hr />
 <ol>
 <li id="fn:1">
-<p>This <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">tutorial here</a> from GitLab is a great introduction to using <code>git</code> on the command line, and also references <a href='https://about.gitlab.com/images/press/git-cheat-sheet.pdf' target='_blank'>this dead-useful cheat sheet</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>This <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html" target="_blank">tutorial here</a> from GitLab is a great introduction to using git on the command line, and also references <a href='https://about.gitlab.com/images/press/git-cheat-sheet.pdf' target='_blank'>this dead-useful cheat sheet</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
