@@ -1,6 +1,7 @@
 ---
 title: Scholar's Mate &#58; The Gut Punch
 description: Learning to recognize the Scholar's Mate is a great way to avoid (or inflict) a game ender before it's even started
+keywords: Chess, Trick Mate, Scholar's Mate
 date: January 24th, 2022
 duration: 3 min
 # update_date:

@@ -1,14 +1,15 @@
 ---
 title: Blog Introduction
 description: Why write this in the first place
+keywords: Miner Curiosity
 date: December 6th, 2021
 duration: 10 min
 tags:
-  - Miner Curiosity
+    - Miner Curiosity
 hide:
-  - navigation
-  # - toc
-  - tags
+    - navigation
+    # - toc
+    - tags
 ---
 
 # Tao of Miner Curiosity

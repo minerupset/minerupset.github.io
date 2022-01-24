@@ -1,6 +1,7 @@
 ---
 title: Zugzwang &#58; Don't Blink First
 description: Learn how this chess concept can force your opponents into unfavorable positions
+keywords: Chess, Theory
 date: January 3rd, 2022
 duration: 2 min
 # update_date:

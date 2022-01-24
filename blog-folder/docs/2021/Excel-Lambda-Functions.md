@@ -1,13 +1,14 @@
 ---
 title: Excel LAMBDA Function
 description: The introduction of the Excel LAMBDA Function is a fundamental shift in what users could do with Excel as a statically calculating system
+keywords: Excel, Functions
 date: Dec. 27, 2021
 duration: 10 min
 # update_date:
 tags:
-  - Excel
+    - Excel
 hide:
-  - navigation
+    - navigation
 ---
 
 # Excel LAMBDA Functions
@@ -45,10 +46,10 @@ Practically speaking, a lambda function allows you to define a function on the g
 
 Breaking down the components, you can see the arguments are made up of
 
-- The function call: `=LAMBDA(`
-- The parameters to the function: `x,y,`
-- The function formula: `x+y)`
-- and the specific values for this function `(1,2)`
+-   The function call: `=LAMBDA(`
+-   The parameters to the function: `x,y,`
+-   The function formula: `x+y)`
+-   and the specific values for this function `(1,2)`
 
 So this would return the result of 1+2 or 3. This example on its own isn't that special, but the real beauty of the LAMBDA function is two fold:
 
@@ -79,9 +80,9 @@ There are some helpful resources online for converting 'for loop' logic to recur
 
 As of now, you have to have the latest beta version of Excel installed on your machine. You can find instructions to do this in the footnotes[^1]. One you have it installed, the process is essentially:
 
-- Come up with a lambda function (like the 3 I have above)
-- Create a Named Range that is the exact name of what you have in your lambda expression (above, my 3 functions are named RECURSIVESUM, RECURSIVEPRODUCT, and REVERSESTRING, respectively)
-- Paste your lambda expression in the 'Refers To' section of the Named Range
+-   Come up with a lambda function (like the 3 I have above)
+-   Create a Named Range that is the exact name of what you have in your lambda expression (above, my 3 functions are named RECURSIVESUM, RECURSIVEPRODUCT, and REVERSESTRING, respectively)
+-   Paste your lambda expression in the 'Refers To' section of the Named Range
 
 That's it. You should now be able to type `=YOUR_FUNCTION_NAME()' into a cell and have it execute your new recursive function.
 

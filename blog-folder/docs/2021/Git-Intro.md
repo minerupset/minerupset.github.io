@@ -1,24 +1,25 @@
 ---
 title: Introduction to Version Control and git
 description: What is git and why do we care?
+keywords: git, GitHub, Software
 date: Dec. 20, 2021
 duration: 8 min
 #update_date:
 tags:
-  - git
-  - GitHub
-  - Software
+    - git
+    - GitHub
+    - Software
 hide:
-  - navigation
+    - navigation
 ---
 
 # Introduction to Version Control and `git`
 
 ## TL; DR
 
-- Instead of saving code manually, you let software (specifically `git`) manage your code versions
-- `git` is a local tool for version control, GitHub is an optional remote tool you pair with
-- `git` and GitHub both have command line and GUI based tools: I personally recommend learning `git` for the command line, and using a web tool for managing GitHub
+-   Instead of saving code manually, you let software (specifically `git`) manage your code versions
+-   `git` is a local tool for version control, GitHub is an optional remote tool you pair with
+-   `git` and GitHub both have command line and GUI based tools: I personally recommend learning `git` for the command line, and using a web tool for managing GitHub
 
 ## Why Should You Care
 
