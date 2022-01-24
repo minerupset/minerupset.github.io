@@ -21,12 +21,12 @@ In chess, zugzwang (pronounced _Tsug-svang_), describes a situation where every 
 
 See the following board as an example:
 
-![Basic Zugzwang Example](../assets/images/2022/Zugzwang/Initial-position.png "Simple zugzwang presentation")
+![Basic Zugzwang Example](../assets/images/2022/Zugzwang/Initial-position.jpg "Simple zugzwang presentation")
 
 Whichever King moves first will lose their pawn, and almost certainly the game. This becomes a situation to avoid, but also one to drive opponents towards if possible.
 
 In a more baked-out example game (like the game below), whichever side can safely drag out their moves with the Queen-side pawns will eventually force zugzwang and gain the upper hand.
 
-![Detailed Zugzwang Example](../assets/images/2022/Zugzwang/Example-position.png "Pending zugzwang once the dust settles")
+![Detailed Zugzwang Example](../assets/images/2022/Zugzwang/Example-position.jpg "Pending zugzwang once the dust settles")
 
 I hope this has been helpful, and that you can avoid (or intentionally cause) zugzwang when it arises.

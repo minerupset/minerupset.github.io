@@ -21,7 +21,7 @@ The Scholar's Mate[^1] is one of the first 'trick mate' patterns a novice player
 
 Here is how the the Scholar's Mate looks when the dust has settled:
 
-![Scholar's Mate Example](../assets/images/2022/Scholars-Mate/scholars-mate.png "Example scholar's mate after white's final move")
+![Scholar's Mate Example](../assets/images/2022/Scholars-Mate/scholars-mate.jpg "Example scholar's mate after white's final move")
 
 While there are a few different ways a Scholar's Mate can be set up, here are the moves (and a brief GIF) of the mate:
 
