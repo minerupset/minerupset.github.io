@@ -37,6 +37,6 @@ The core idea of the Scholar's Mate is setting both the Queen and the Bishop on 
 
 Black's moves to develop the e-file pawn and their two Knights is not itself a bad idea, but their moves do nothing to protect the f7 square, while White develops two separate pieces to attack. The moves 3...g6, 3...Qe7, or 3...Qf6 are all acceptable ways to block the attack, defend the square, or both.
 
-This can be harder for newer players to spot because it relies on the long attack of white's light-square Bishop. That being said, if you can keep your eyes on both your and your opponents bishops, you can exploit opportunities for this. But just remember, the f pawn is weak, both for you and your opponent.
+This can be harder for newer players to spot because it relies on the long attack of white's light-square Bishop. That being said, if you can keep your eyes on both your and your opponents Bishops, you can exploit opportunities for this. But just remember, the f pawn is weak, both for you and your opponent.
 
 [^1]: https://en.wikipedia.org/wiki/Scholar%27s_mate
