@@ -18,9 +18,8 @@
 | Damiano Defense                                     |   Short jog    |  January 24, 2022 |
 | Philidor Defense                                    |   Short jog    |  January 24, 2022 |
 | Ruy Lopez Opening                                   |   Short jog    |  January 24, 2022 |
-| Blunder Checking                                    |   Short jog    |  January 24, 2022 |
-| How We Planned Our Wedding                          |    Marathon    |  January 24, 2022 |
-| How I Search For Rita                               |    Marathon    |  January 24, 2022 |
+| Blunder Checking                                    |       5k       |  January 24, 2022 |
+| How I Search For Rita / Berlin                      |    Marathon    |  January 24, 2022 |
 
 ## Abandoned Posts
 

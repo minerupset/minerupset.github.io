@@ -1,5 +1,5 @@
 ---
-title: How I Managed To Avoid a Scam Foreclosure
+title: How I Avoided a Scam Foreclosure
 description: If you think you're being scammed by a company, there are some simple  protection steps you can take to mitigate the impacts and set yourself up for legal action if necessary
 keywords: Scam, Foreclosure, Real Estate
 date: January 31, 2022
@@ -14,60 +14,65 @@ hide:
     - navigation
 ---
 
-# How I Managed To Avoid a Scam Foreclosure
+# How I Avoided a Scam Foreclosure
 
-_I'm not a lawyer, and nothing here constitutes legal advice. Instead, this is a description of how I myself dealt with a potential scam attempt and how I would do so again in the future._
+_I'm not a lawyer, and nothing here should constitute legal advice. Instead, this is a description of how I dealt with a scam attempt and how I would do so again in the future._
 
-In early 2021, my partner and I were victims of an attempted scam from our new home loan servicing company. I won't be able to list their name here, but we'll call them ABC Servicers as a pseudonym. ABC sent us a bogus foreclosure notice in an attempt to get several thousand dollars out of us of 'back payments', using the fact that we were changing loan servicers to prey on us and people like us.
+In early 2021, my partner and I were victims of an attempted scam from our new home loan servicing company. I won't list their name here, but we'll call them ABC Servicers. ABC sent us a bogus foreclosure notice in an attempt to wring several thousand dollars out of us for 'missed payments', using the fact that we were changing loan servicers as the reasoning for their bogus claim.
 
-If this has happened to you, I'm sorry: it's not fun, but I'll show you the steps we took to organize our information and stop them from taking advantage of us. Although this happened to us around a home loan, this same process could help protect you from any kind of attempted scam where you can't escape from the other party, like a contractor, warranty, car loan, or other type of agreement.
+If this has happened to you, I'm sorry: it's not fun, but I'll show you the steps we took to organize our information and stop them from taking advantage of us. Although this happened to us around a home loan, this same process could help protect you from any kind of attempted scam where you can't escape from the other party, like a contractor, warranty provider, a car loan, or some other type of agreement.
 
 ## Quick Background
 
-We refinanced our house in October of 2020, when interest rates were at their lowest. We locked in a great rate with a loan originator company, knowing that they would one day sell our loan to a servicing organization. You have no control who your loan is transferred to, but we didn't care. We had been with Wells Fargo for the first portion of our loan, and with all the bad press they had received, we figured we'd seen the worst of the bunch.
+We refinanced our house in October of 2020, when interest rates were at their lowest. We locked in a great rate with a loan originator company, knowing that they would one day sell our loan to a servicing organization. You have no control who your loan is transferred to in this process, but we didn't care. We had been with Wells Fargo for the first portion of our loan, and with all the bad press they had received, we figured we'd seen the worst of the bunch.
 
 We were so very wrong.
 
-We received notice in February that our loan had been transferred to ABC Servicers, and that we would receive a welcome letter, complete with all of the necessary information. We were also told that we could legally continue paying our previous servicer for 60 days, and that those payments could not be viewed as late by ABC, per the law. After two weeks had passed with no information, we payed our monthly payment to our previous servicer, as we were allowed to do, and we kept on the lookout for information from ABC.
+We received notice in February that our loan had been transferred to ABC Servicers, and that we would receive a welcome letter, complete with all of the necessary information to start paying them. We were also told that we could legally continue paying our previous servicer for 60 days, and that those payments could not be treated as late by ABC. After two weeks had passed with no welcome letter, we payed our monthly payment to our previous servicer and we kept on the lookout for information from ABC.
 
-The first communication we got from them wasn't an email, or a welcome letter: it came two weeks after that first payment was due, and it was a foreclosure notice. We were told we were 45 days behind on payments (?), and that they would be beginning foreclosure proceedings against us (?!?!).
+The first communication we got from them wasn't an email, or a welcome letter: it came two weeks after that first payment was due, and it was a foreclosure notice. We were told we were 45 days behind on payments (?), and that they would be beginning foreclosure proceedings against us (?!), but not to worry because everyone goes through hard times and if we just paid them a few extra fees, this would all go away (?!?!). Although they had never provided us with any account login information, I was able to track down their website, create an account, and find that not only did they have the incorrect loan value listed for our property, but also the name of the property owner was someone else (a 'Vanessa J\*\*\*\* F\*\*\*\*').
 
 ## Step #0: Take a Deep Breath
 
 A quote that I have used time and again has been, "Once you've decided to be angry, it doesn't help being angry anymore."
 
-When we first received the foreclosure notice, our emotions were running high. Now, if ABC Servicers had been a sabertooth tiger and we were an early hominid tribe, that wouldn't be so bad. Direct threat (sabertooth tiger), direct response (scream / stab). However, 21st century threats are far more indirect, and so a different approach is needed. Emotions can be very useful for getting you to a decision point, but once you've made the decision, they don't always help much on the follow through.
+When we first received the foreclosure notice, our emotions were running high. Now, if ABC Servicers had been a sabertooth tiger and we were an early hominid tribe, that wouldn't be so bad. Direct threat (_sabertooth tiger_) &#8594; direct response (_scream / stab_). However, 21st century threats are far more indirect, and so a different approach is needed. Emotions can be very useful for getting you to a decision point, but once you've made the decision, they don't always help much on the follow through.
 
 The best thing I was able to do was take a deep breath. I can't pretend it fixed everything, but that wasn't the point: it gave me the space to think through the next steps. When someone is trying to use the legal system against you, it can be very disorienting. Keep your head about you and you increase your chances of making it through.
 
 ## Step #1: Build Your System
 
-The way you beat these things is by being organized. The moment this kind of situation happens, it becomes a playground stand off of "Did to! Did not!" The best way to get out of this loop and get points on your side is clear, concrete evidence. For this evidence, you need:
+The way you beat these things is by being organized. The moment this kind of situation happens, it becomes a playground stand-off of "Did to! Did not!" The best way to get out of this loop and get points on your side is clear, concrete evidence. For this evidence, you need:
 
 -   What is the evidence
 -   What does it mean (what wrongdoing does it point to)
 -   When did it happen
 -   Who sent it / by what mechanism (email, call, etc.)
 
-Just saying someone did you wrong isn't going to help much, but screenshots, recordings, and documents are very hard to deny, especially when it has the other party's letterhead at the top. To pull this off, you need a consistent system to store all of your thoughts and information on what's going on, and you'll want to be able to search for it as well.
+Just saying someone did you wrong isn't going to help much, but screenshots, recordings, and documents are very hard to deny, especially when it has the other party's letterhead at the top. To pull this off, you need a consistent system to store all of your thoughts and information on what's going on, and you'll want to be able to search through this system quickly and easily.
 
-For this particular situation with ABC, I used Microsoft OneNote. That said, there are other free and paid services you can use. If I were to do it again, I would probably go with Notion: it's free to use, has a clean UI, works on mobile and desktop, and is very easy to search. Next, let's talk about how I used this system.
+For this particular situation with ABC, I used Microsoft OneNote. That said, there are other free and paid services you can use. If I were to do it again, I would probably go with Notion: it's free to use, has a clean UI, works on mobile and desktop, and is very easy to search. Next, let's talk about how we used this system.
 
 ## Step #2: Information is Your Friend
 
-Scammers try and pressure you with short time and big, scary sounding repercussions if you don't do what they say. That first contact from ABC certainly hit that tone. No welcome email, no introduction, nothing. Just a letter stating we owed them over $7,000 and that we would lose the house in 45 days. That can be a frightening thing to wake up to any day of the week, but in the middle of a pandemic that was far less than welcome.
+Scammers try and pressure you with short time frames and scary-sounding repercussions if you don't do what they say. That first contact from ABC certainly hit that tone. No welcome email, no introduction, nothing. Just a letter stating we owed them over $7,000 and/or that we would lose the house in 45 days. That can be a frightening thing to wake up to any day of the week, but in the middle of a pandemic it was a whole lot worse.
 
-hey're trying to make you move quickly and make a mistake. The way you take back power in a situation like that is to get educated. Now that you have a system for storing all your information (from Step 1), let's use it.
+They're trying to make you move quickly and make a mistake. The way you take back power in a situation like this is to get educated. Now that you have a system for storing all your information (from Step 1), let's use it.
 
-Andy and every day there was any interaction with ABC in any capacity, I made a daily post, titled with the date, detailing all the activity that happened. If I logged in to their website, if I had a phone call, if I got a form or a letter or email: everything was stored there. It doesn't need to be long or well written, just recorded so that you can look back, know what happened, and share that information with the right people.
+Any and every day there was an interaction with ABC in any capacity, I made a daily post, titled it with the date, and detailed all the activity that happened. If I logged in to their website, if I had a phone call, if I got a form or a letter or email: everything was stored there. It doesn't need to be long or well written, just recorded so that you can look back, know what happened, and share that information with the right people.
 
 When making these logs, don't just say what happened. You can also make notes saying how you are interpreting the events and what you plan to do next. Things will change and adjust over time, and you want to be able to look back on what you were thinking and why. Don't write any threats or anything aggressive: this is not the place for your emotions, this is the place for the facts.
 
-## Step #3 Be Clear About What Resolution is
+## Step #3 Be Clear About What Resolution Looks Like
 
-I have a lawyer friend who told me, "I'm not here to make someone feel better: that's a therapist's job. I'm here to get them justice." For my partner and I, someone was trying to take our home (or at least, using that as a threat to extort us). The two main things we wanted were for that foreclosure notice to go away and for them to refund our escrow account, since we couldn't trust them to pay our bills anymore. While I had all kinds of frustrations with who they were as people, as my lawyer friend said, that's a conversation best for a therapist. I had to be very clear in all of my communications both with ABC and anyone else about what a 'correct' resolution would look like.
+I have a lawyer friend who told me, "I'm not here to make someone feel better: that's a therapist's job. I'm here to get them justice." For my partner and I, someone was trying to take our home (or at least, use that as a threat to extort us). The two main things we wanted were:
 
-This can be a bit challenging because to find a resolution, you have to get very concrete about what they did that was wrong. ABC sending me an email that scared me isn't illegal: that's a purely subjective thing. ABC ignoring a legal payment I made as ground for delivering a foreclosure notice, that's illegal. Sounds more boring, but it's a very concrete wrongdoing. I took the time, read up on the law (if you're in this situation, the law you're looking for is RESPA[^1]) and found clear clauses that they had violated, such as not honoring payments during the transition period between servicers. You're not going after the soft fuzzy thing they did that bothered you: your focus should be on the very clear, one sentence statement, "They did X, and that is illegal because of Y, and I want them to do Z to make up for it".
+1. For that foreclosure notice to go away, and
+2. For them to refund our escrow account, since we couldn't trust them to pay our bills anymore.
+
+While I had all kinds of frustrations with who they were as people, as my lawyer friend said, that's a conversation best for a therapist. I had to be very clear in all of my communications both with ABC and anyone else about what a 'correct' resolution would look like.
+
+This can be a bit challenging because to find a resolution, you have to get very concrete about what they did that was wrong. ABC sending me an email that scared me isn't illegal: that's a purely subjective thing. ABC ignoring a legal and acceptable payment I made as ground for delivering a foreclosure notice, that's illegal. More boring accusation, but it's a very concrete wrongdoing. I took the time, read up on the law (if you're in this situation, the law you're looking for is RESPA[^1]) and found clear clauses that they had violated, such as not honoring payments during the transition period between servicers. You're not going after the soft fuzzy thing they did that bothered you: your focus should be on the very clear, one sentence statement, "They did X, and that is illegal because of Y, and I want them to do Z to make up for it".
 
 Once you have that vision of what a resolution is, make that the clear goal. I wouldn't have said no to dunking their C-suite in a vat of acid, but that's not a goal the legal system would have been behind. I had to set my sights to a lower, more realistic outcome.
 
