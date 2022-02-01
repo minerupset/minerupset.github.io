@@ -4,7 +4,7 @@ keywords: Chess, Damiano Defense, Mate
 description: The Damiano Defense is one of the best ways to lose a game quickly 
 date: Mon. DD, YYYY
 duration: ## mins
-# update_date: 
+# original_date: 
 # specific_css: 
 # specific_js: 
 tags:

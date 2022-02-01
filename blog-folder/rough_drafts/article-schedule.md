@@ -11,15 +11,16 @@
 | What to Do with your first nest egg                 |       5k       |  January 17, 2022 |
 | Scholar's Mate                                      |   Short jog    |  January 24, 2022 |
 | How to Deal with an Attempted Scam                  |    Marathon    |  January 31, 2022 |
+| Under the Hood: Excel Files as Zip Folders          |       5k       | February 14, 2022 |
 | Build a rudimentary web scraper for fun and profit  |    Marathon    |  February 7, 2022 |
 | How We Planned a (Relatively) Cheap and Fun Wedding |    Marathon    |  February 7, 2022 |
-| Under the Hood: Excel Files as Zip Folders          |       5k       | February 14, 2022 |
 | How to Solve a Rubik's Cube                         |    Marathon    | February 21, 2022 |
 | Damiano Defense                                     |   Short jog    |  January 24, 2022 |
 | Philidor Defense                                    |   Short jog    |  January 24, 2022 |
 | Ruy Lopez Opening                                   |   Short jog    |  January 24, 2022 |
 | Blunder Checking                                    |       5k       |  January 24, 2022 |
 | How I Search For Rita / Berlin                      |    Marathon    |  January 24, 2022 |
+| Masterclass: Daniel Pink                            |    Marathon    |  January 24, 2022 |
 
 ## Abandoned Posts
 

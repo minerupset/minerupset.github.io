@@ -12,8 +12,8 @@
     page.meta.date %}
     <p class="post-date-wrapper">
       <a href="/" class="custom-post-date">{{ page.meta.date}}</a>
-      {% if page and page.meta and page.meta.update_date %}
-      <span class="updated-post-date">Updated {{ page.meta.update_date}}</span>
+      {% if page and page.meta and page.meta.original_date %}
+      <span class="updated-post-date">Updated {{ page.meta.original_date}}</span>
       {% endif %} {% if page and page.meta and page.meta.duration %}
       <span class="post-duration">Read time: {{ page.meta.duration}}</span>
       {% endif %}
@@ -28,7 +28,7 @@
       <span id="quotes-quote"></span><br/></span> - <span id="quotes-author"></span><button id="refresh-quote" onClick="refreshQuote()">&#x21bb;</button>
     </p>
     <div class="bmac-footer">
-      <a class="bmac-button" href="https://www.buymeacoffee.com/minercuriosity" target="_blank">📚 Support my writing</a>
+      <a class="bmac-button" href="https://www.buymeacoffee.com/minercuriosity" target="_blank">📚 Support this blog</a>
     </div>
   </div>
   {{ super() }}

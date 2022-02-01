@@ -4,7 +4,7 @@ description: The introduction of the Excel LAMBDA Function is a fundamental shif
 keywords: Excel, Functions
 date: Dec. 27, 2021
 duration: 10 min
-# update_date:
+# original_date:
 tags:
     - Excel
 hide:

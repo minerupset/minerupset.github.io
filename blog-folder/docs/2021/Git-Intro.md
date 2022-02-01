@@ -4,7 +4,7 @@ description: What is git and why do we care?
 keywords: git, GitHub, Software
 date: Dec. 20, 2021
 duration: 8 min
-#update_date:
+#original_date:
 tags:
     - git
     - GitHub

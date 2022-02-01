@@ -4,7 +4,7 @@ description: There comes a time when
 keywords: Personal Finance, Investing
 date: January 17th, 2022
 duration: 15 min
-# update_date:
+# original_date:
 # specific_css:
 # specific_js:
 tags:

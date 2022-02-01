@@ -4,7 +4,7 @@ description: Learn how this chess concept can force your opponents into unfavora
 keywords: Chess, Theory
 date: January 3rd, 2022
 duration: 2 min
-# update_date:
+# original_date:
 # specific_css:
 # specific_js:
 tags:

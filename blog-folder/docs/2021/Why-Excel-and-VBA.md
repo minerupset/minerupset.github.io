@@ -3,7 +3,7 @@ title: Excel & VBA are Gateway Drugs
 description: Excel and VBA introduce important aspects of software development in an easy-to-use package with real-world applications and a project-focused mindset
 keywords: Excel, VBA, Software
 date: Dec. 13, 2021
-#update_date: Dec. 20, 2021
+#original_date: Dec. 20, 2021
 duration: 15 min
 tags:
     - Excel

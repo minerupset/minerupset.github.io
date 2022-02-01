@@ -4,7 +4,7 @@ description: Learning to recognize the Scholar's Mate is a great way to avoid (o
 keywords: Chess, Trick Mate, Scholar's Mate
 date: January 24th, 2022
 duration: 3 min
-# update_date:
+# original_date:
 # specific_css:
 # specific_js:
 tags:

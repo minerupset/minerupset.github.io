@@ -2,7 +2,7 @@
 title: Basic Heroku Deployment
 description: Meta Description
 date: January 17, 2022
-# update_date:
+# original_date:
 # specific_css:
 # specific_js:
 tags:
