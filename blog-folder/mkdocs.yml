@@ -58,6 +58,8 @@ extra:
       link: https://www.linkedin.com/in/minercuriosity/
     - icon: fontawesome/brands/github
       link: https://github.com/minerupset
+    - icon: fontawesome/solid/coffee
+      link: https://www.buymeacoffee.com/minercuriosity
   analytics:
     provider: google
     property: G-KN729B66EF
