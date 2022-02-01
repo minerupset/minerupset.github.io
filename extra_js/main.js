@@ -684,6 +684,8 @@ function checkForColorMode() {
     : (backgroundColor = "#ff6e42");
   document.querySelector("#refresh-quote").style.backgroundColor =
     backgroundColor;
+  document.querySelector(".bmac-button").style.backgroundColor =
+    backgroundColor;
 }
 
 function logEvent(e) {
@@ -703,6 +705,8 @@ function initialColorMode() {
     ? (backgroundColor = "#ff6e42")
     : (backgroundColor = "#2094f3");
   document.querySelector("#refresh-quote").style.backgroundColor =
+    backgroundColor;
+  document.querySelector(".bmac-button").style.backgroundColor =
     backgroundColor;
 }
 
