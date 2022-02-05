@@ -24,20 +24,38 @@ Dealing with the plumbing in Excel is like dealing with any other problem in plu
 
 If you've ever tried to open an Excel file with a note editor (Notepad, Notepad++, etc.) you'll notice that you don't get much of anything legible. (INSERT PHOTO). This is because when Excel saves your document, there's no clean way to represent a spreadsheet as a single text document: the relationships and features are too complex. Instead, you need to bring together a larger package of information, each one its own discrete text file, but combined into a greater picture.
 
-The way Microsoft chose to tackle this problem was to use XML, or eXtensible Markup Language. Similar to how HyperText Markup Language (HTML) is the underlying language of a website, XML offers a way to organize content in a consistent, simple manner with different files handling different distinct elements of a workbook.
+The way Microsoft chose to tackle this problem was to use XML, or _eXtensible Markup Language_. Similar to how HyperText Markup Language (HTML) is the underlying language of a website, XML offers a way to organize content in a consistent, simple manner with different files handling different distinct elements of a workbook.
 
-Why does this matter? Because you can't treat Excel files like normal files (can't edit without Excel, can't use git, etc.)
-What does it mean?
-How will you use it?
+This means that a single Excel file isn't actually a file: it's a folder (specifically a Zip folder) of all of these various XML and other files that define what its components (INSERT PHOTO).
+
+## Taking a Look
+
+There is far too much detail to go into here, but I'll point out a few of the key elements to keep track of.
+
+### Fragility of the System
+
+It's very easy to break these files by editing small elements of the underlying XML. If you do feel like tinkering, I recommend you make a copy of the Excel file, then change the file extension from ".xlsx" to ".zip" and extract the files. You can reverse that process, but depending on what you edit, the file may not work as expected when you do.
+
+### Shared Strings
+
+If you type a string value into a cell, it's not actually stored 'in' the cell, so to speak. Instead, the Excel document has an XML sheet that acts as a database of all the unique strings in the file, and the the cell has a reference to whichever unique string it needs. This allows you to save space in the (likely) scenario that you are repeating content across multiple cells or sheets, but it makes tracking down values complicated.
+
+### Calculations and Chains
+
+The calculation chain for Excel is a large topic in the way that it is managed, and that's for good reason: at its core, Excel is a calculation engine. It's what is so hard to reproduce and why Microsoft has made so much money from the software. A key component of that calculation engine is the calculation chain, which is the ordered list of cells to calculate. it ignores cells with entered values (e.g. 2) and instead determines which formulas must be calculated first if there are any dependencies. This is what allows the Excel engine to detect circular references, and hopefully, optimize the chain.
 
 ## When Does This Come Up?
 
 With any luck, you should never have to dive in and modify this garbage by hand. In the same way that you never need to write HTML to visit and use a website, you should never have to jump into XML in the normal day to day of any kind of Microsoft Office work. That being said, here are a few times where it may come up:
 
-- Borked files (repair should work, btu you can log in an find a value if you dig well enough)
-- Hidden content (can't access VBA, but can access hidden rows)
-- Programmatically creating Office documents (OpenXML SDK)
+- **Borked files**
+  - Excel has a built in repair functionality that should work, but if it's not and you need to go extract a specific value, then XML may be the way to go
+- **Hidden content**
+  - (can't access VBA, but can access hidden rows)
+- **Programmatically creating Office documents**
+  - (OpenXML SDK)
 
-## [First Heading]
-
+Links: Open XML SDK
 [^1]:
+[^2]:
+[^3]:
