@@ -53,9 +53,8 @@ With any luck, you should never have to dive in and modify this garbage by hand.
 - **Hidden content**
   - (can't access VBA, but can access hidden rows)
 - **Programmatically creating Office documents**
-  - (OpenXML SDK)
+  - While there are some Python libraries that can edit Excel files, they come with significant trade offs of efficiency and capability. Microsoft's own Open XML SDK is the best way to edit these files at the native level, though it there is a significant learning curve to the system.
 
-Links: Open XML SDK
-[^1]:
-[^2]:
+[^1]: Further reading on the<a href='https://docs.microsoft.com/en-us/office/client-developer/excel/excel-recalculation' target='_blank'>Calculation Chain</a> available here
+[^2]: The <a href='https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk' target='_blank'>Open XML SDK</a> is a .NET library for programmatically editing Excel files
 [^3]:
