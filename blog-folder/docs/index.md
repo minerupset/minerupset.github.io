@@ -14,6 +14,7 @@ Welcome to my various thoughts: I hope you find what you're looking for. I aim t
 
 | Title                                                                               | Article Length | Publish Date |
 | :---------------------------------------------------------------------------------- | :------------: | -----------: |
+| <a href="/2022/Excel-Files-As-Zip-Folders">Excel Files as Zip Folders</a>           |       5k       |   02/07/2022 |
 | <a href="/2022/Dealing-With-An-Attempted-Scam">How I Avoided a Scam Foreclosure</a> |    Marathon    |   01/31/2022 |
 | <a href="/2022/Scholars-Mate">Scholar's Mate: The Gut Punch</a>                     |   Short Jog    |   01/24/2022 |
 | <a href="/2022/First-Nest-Egg">Investing Your First Nest Egg</a>                    |    Marathon    |   01/17/2022 |
