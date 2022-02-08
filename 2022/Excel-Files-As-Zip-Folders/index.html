@@ -6,8 +6,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Welcome to the Blog">
+        <meta name="description" content="Knowing how Excel files are actually constructed can help you in those times when you really need to dive in to the weeds">
       
+      
+        <meta name="keywords" content="Excel, Zip, XML, Compression, Microsoft Office">
       
       
         <meta name="author" content="Matt Miner">
@@ -16,22 +18,22 @@
       
         
       
-      <link rel="icon" href="assets/images/favicon.ico">
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6+insiders-3.2.3">
     
     
       
-        <title>Home - Miner Curiosity</title>
+        <title>Under the Hood&#58; Excel Files as Zip Folders - Miner Curiosity</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.256c23dd.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.256c23dd.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.fe799546.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fe799546.min.css">
         
       
-      <link rel="preload" as="style" href="assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      <link rel="preload" as="style" href="../../assets/stylesheets/vendor/mermaid.733f213f.min.css">
       
     
     
@@ -45,9 +47,9 @@
     
     
     
-      <link rel="stylesheet" href="extra_css/main.css">
+      <link rel="stylesheet" href="../../extra_css/main.css">
     
-    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?".":"."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"../..":"../.."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
     
       
 
@@ -69,8 +71,6 @@
     
     
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    
-    <link rel="stylesheet" href="extra_css/2021/index.css" />
       
   
   </head>
@@ -95,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#posts-in-chronological-order" class="md-skip">
+        <a href="#under-the-hood-excel-files-as-zip-folders" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Miner Curiosity" class="md-header__button md-logo" aria-label="Miner Curiosity" data-md-component="logo">
+    <a href="../.." title="Miner Curiosity" class="md-header__button md-logo" aria-label="Miner Curiosity" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12z"/></svg>
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Under the Hood&#58; Excel Files as Zip Folders
             
           </span>
         </div>
@@ -211,12 +211,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="." class="md-tabs__link md-tabs__link--active">
+    <a href="../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -228,7 +226,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="tags/" class="md-tabs__link">
+    <a href="../../tags/" class="md-tabs__link">
       By Tag
     </a>
   </li>
@@ -240,7 +238,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="about/" class="md-tabs__link">
+    <a href="../../about/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -252,7 +250,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="legal/" class="md-tabs__link">
+    <a href="../../legal/" class="md-tabs__link">
       Legal
     </a>
   </li>
@@ -281,7 +279,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Miner Curiosity" class="md-nav__button md-logo" aria-label="Miner Curiosity" data-md-component="logo">
+    <a href="../.." title="Miner Curiosity" class="md-nav__button md-logo" aria-label="Miner Curiosity" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12z"/></svg>
@@ -298,49 +296,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#posts-in-chronological-order" class="md-nav__link">
-    Posts in Chronological Order
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -353,7 +313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tags/" class="md-nav__link">
+      <a href="../../tags/" class="md-nav__link">
         By Tag
       </a>
     </li>
@@ -368,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -383,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="legal/" class="md-nav__link">
+      <a href="../../legal/" class="md-nav__link">
         Legal
       </a>
     </li>
@@ -400,7 +360,7 @@
               
                 
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -410,6 +370,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -418,8 +380,56 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#posts-in-chronological-order" class="md-nav__link">
-    Posts in Chronological Order
+  <a href="#markup-language-for-office" class="md-nav__link">
+    Markup Language for Office
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diving-in-deeper" class="md-nav__link">
+    Diving in Deeper
+  </a>
+  
+    <nav class="md-nav" aria-label="Diving in Deeper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overall-navigation" class="md-nav__link">
+    Overall Navigation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-fragility" class="md-nav__link">
+    System Fragility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-strings" class="md-nav__link">
+    Shared Strings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculations-and-chains" class="md-nav__link">
+    Calculations and Chains
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-does-this-come-up" class="md-nav__link">
+    When Does This Come Up?
   </a>
   
 </li>
@@ -435,6 +445,13 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
                
+    
+    <p class="post-date-wrapper">
+      <a href="/" class="custom-post-date">February 7th, 2022</a>
+       
+      <span class="post-duration">Read time: 12 mins</span>
+      
+    </p>
      
     
                 
@@ -443,73 +460,79 @@
   
 
 
+  <nav class="md-tags" >
+    
+      
+        <a href="../../tags/#excel" class="md-tag">
+          Excel
+        </a>
+      
+    
+      
+        <a href="../../tags/#vba" class="md-tag">
+          VBA
+        </a>
+      
+    
+      
+        <a href="../../tags/#software" class="md-tag">
+          Software
+        </a>
+      
+    
+  </nav>
+
                 
                 
-                  <h1>Home</h1>
-                
-                <h2 id="posts-in-chronological-order">Posts in Chronological Order</h2>
-<p>Welcome to my various thoughts: I hope you find what you're looking for. I aim to post a new article every Monday, but the topic is always a mystery (usually to me as well). Feel free to <a href='/tags'>search by tag</a> if there's a specific topic you're looking for.</p>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="center">Article Length</th>
-<th align="right">Publish Date</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><a href="/2022/Excel-Files-As-Zip-Folders">Excel Files as Zip Folders</a></td>
-<td align="center">5k</td>
-<td align="right">02/07/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2022/Dealing-With-An-Attempted-Scam">How I Avoided a Scam Foreclosure</a></td>
-<td align="center">Marathon</td>
-<td align="right">01/31/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2022/Scholars-Mate">Scholar's Mate: The Gut Punch</a></td>
-<td align="center">Short Jog</td>
-<td align="right">01/24/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2022/First-Nest-Egg">Investing Your First Nest Egg</a></td>
-<td align="center">Marathon</td>
-<td align="right">01/17/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2022/Git-and-Excel-VBA">GitHub and VBA Projects</a></td>
-<td align="center">5k</td>
-<td align="right">01/10/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2022/Zugzwang">Zugzwang: Don't Blink First</a></td>
-<td align="center">Short Jog</td>
-<td align="right">01/03/2022</td>
-</tr>
-<tr>
-<td align="left"><a href="/2021/Excel-Lambda-Functions">Excel LAMBDA Functions</a></td>
-<td align="center">5k</td>
-<td align="right">12/27/2021</td>
-</tr>
-<tr>
-<td align="left"><a href="/2021/Git-Intro">Introduction to Version Control and <code>git</code></a></td>
-<td align="center">5k</td>
-<td align="right">12/20/2021</td>
-</tr>
-<tr>
-<td align="left"><a href="/2021/Why-Excel-and-VBA">Excel and VBA are Gateway Drugs</a></td>
-<td align="center">Marathon</td>
-<td align="right">12/13/2021</td>
-</tr>
-<tr>
-<td align="left"><a href="/2021/Blog-Introduction">Blog Introduction</a></td>
-<td align="center">Marathon</td>
-<td align="right">12/06/2021</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="under-the-hood-excel-files-as-zip-folders">Under the Hood: Excel Files as Zip Folders</h1>
+<p>Dealing with the plumbing in Excel is like dealing with any other problem in plumbing: you don't think about it until something is leaking and stinking up the place, and then it's the only thing you can think about. I'm going to show you a bit of how Excel spreadsheets (but also Word and PPT files as well) are constructed so that you can work with them in some unsanitary ways when you have no other option.</p>
+<h2 id="markup-language-for-office">Markup Language for Office</h2>
+<p>If you've ever tried to open an Excel file with a note editor (Notepad, Notepad++, etc.) you'll notice that you don't get much of anything legible.</p>
+<p><img alt="Excel file in a text editor" src="../../assets/images/2022/Excel-Files-As-Zip-Folders/Excel-as-text-file.JPG" /></p>
+<p>This is because when Excel saves your document, there's no clean way to represent a spreadsheet as a single text document: the relationships and features are too complex. Instead, you need to bring together a larger package of information, each one its own discrete text file, but combined into a greater picture.</p>
+<p>The way Microsoft chose to tackle this problem was to use XML, or <em>eXtensible Markup Language</em>. Similar to how HyperText Markup Language (HTML) is the underlying language of a website, XML offers a way to organize content in a consistent, simple manner with different files handling different distinct elements of a workbook.</p>
+<p><img alt="Folder structure of a decompressed Excel file" src="../../assets/images/2022/Excel-Files-As-Zip-Folders/Excel-as-folder.JPG" /></p>
+<p>This means that a single Excel file isn't actually a file: it's a zipped (compressed) folder of all of these various XML and other files that define what its components are and how they interact. Here is an example of one of the files, specifically a "rels" file that shows all the files relationships.</p>
+<p><img alt="Example XML structure detailing a file" src="../../assets/images/2022/Excel-Files-As-Zip-Folders/Example-rels-XML.JPG" /></p>
+<p>XML is a particularly useful format for storing this kind of information: it naturally has a parent/child relationship outline allowing for the kind of nesting required for such a document structure, and it is relatively light on overall required material. Were people to create Excel today there would undoubtedly be a discussion about XML vs. JSON, but this is the route Microsoft chose back in the 2000s and it appears to have paid off.</p>
+<h2 id="diving-in-deeper">Diving in Deeper</h2>
+<p>There is far too much detail to go all the way through, but I'll point out a few of the key elements to keep track of.</p>
+<h3 id="overall-navigation">Overall Navigation</h3>
+<p>Take a look for yourself in the folder structure, but the bulk of what you're looking for is within the 'xl' folder: that contains the various sheet objects, styling guides, and all the other components that make up the workbook. These will be bound together by the relationship files, which define how these pieces fit interconnect.</p>
+<h3 id="system-fragility">System Fragility</h3>
+<p>It's very easy to break these files by editing small elements of the underlying XML. If you do feel like tinkering, I recommend you make a copy of the Excel file, then change the file extension from ".xlsx" to ".zip" and extract the folder. You can reverse that process by zipping the folder and changing the extension back to ".xlsx", but depending on what you edit, the Excel file may not work as expected when you do.</p>
+<h3 id="shared-strings">Shared Strings</h3>
+<p>If you type a string value into a cell, it's not actually stored 'in' the cell. Instead, the Excel document has an XML sheet that acts as a database of all the unique strings in the file, and the cell has a reference to whichever unique string it needs. This allows you to save space in the likely scenario that you are repeating content across multiple cells or sheets, but it makes tracking down values complicated.</p>
+<h3 id="calculations-and-chains">Calculations and Chains</h3>
+<p>The calculation chain for Excel presents a singularly large and complicated topic<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>: at its core, Excel is a calculation engine. It's one of the secret sauces and part of why Microsoft has made so much money from the software. A key component of that calculation engine is the calculation chain, which is the ordered list of cells to process. It ignores cells with entered decimal values and instead determines which formulas must be calculated first so that you can always calculate in a straight line. This is what allows the Excel engine to detect circular references, and hopefully, optimize the chain.</p>
+<h2 id="when-does-this-come-up">When Does This Come Up?</h2>
+<p>With any luck, you should never have to dive in and modify this garbage by hand. In the same way that you never need to write HTML to visit and use a website, you should never have to jump into XML in the normal day to day of any kind of Microsoft Office work. That being said, here are a few times where it may come up:</p>
+<ul>
+<li><strong>Borked files</strong><ul>
+<li>Excel has a built in repair functionality that should work, but if it's not and you need to go extract a specific value, then XML may be the way to go</li>
+</ul>
+</li>
+<li><strong>Hidden content</strong><ul>
+<li>VBA projects are not rendered as XML files: instead, they're stored as binaries, and Microsoft has made it very hard to crack those open, for good reason. There are professional tools built in VBA that Microsoft doesn't want to make easy to decompile. In addition, a significant number of computer viruses are VBA based, and binary packages are treated differently by the system, allowing them to be sequestered so that you can consume a workbook without activating any underlying code.</li>
+</ul>
+</li>
+<li><strong>Programmatically creating Office documents</strong><ul>
+<li>While there are some Python libraries that can edit Excel files, they come with significant trade offs of efficiency and capability. Microsoft's own Open XML SDK<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> is the best way to edit these files at the native level, though it there is a significant learning curve to the system. You'll need to be experienced in C# or VB.NET, and already be comfortable with basic software development practices.</li>
+</ul>
+</li>
+</ul>
+<p>I hope this was helpful if you're finding yourself staring down the barrel of an ongoing or programmatic Excel problem. The underlying architecture is clunky, but it may be the best way to solve your particular problem (though I would always start with vanilla Excel or VBA).</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Further reading on the <a href='https://docs.microsoft.com/en-us/office/client-developer/excel/excel-recalculation' target='_blank'>Calculation Chain</a> available here&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>The <a href='https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk' target='_blank'>Open XML SDK</a> is a .NET library for programmatically editing Excel files&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
                 
   
 
@@ -548,26 +571,6 @@
   
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-      
-        
-        <a href="tags/" class="md-footer__link md-footer__link--next" aria-label="Next: By Tag" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              By Tag
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -656,16 +659,16 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var form=document.forms.consent;form.addEventListener("submit",function(n){n.preventDefault(),__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(n){return[n,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.instant", "navigation.indexes", "navigation.top", "content.code.annotate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.fe1b17b2.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.indexes", "navigation.top", "content.code.annotate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fe1b17b2.min.js", "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.99f3d1a5.min.js"></script>
+      <script src="../../assets/javascripts/bundle.99f3d1a5.min.js"></script>
       
-        <script src="extra_js/main.js"></script>
+        <script src="../../extra_js/main.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
       
-        <script src="extra_js/tablesort.js"></script>
+        <script src="../../extra_js/tablesort.js"></script>
       
     
   </body>
