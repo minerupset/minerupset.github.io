@@ -21,7 +21,9 @@
 | Blunder Checking                                    |       5k       |  January 24, 2022 |
 | How I Search For Rita / Berlin                      |    Marathon    |  January 24, 2022 |
 | Masterclass: Daniel Pink                            |    Marathon    |  January 24, 2022 |
-| ADHD - how I got diagnosed at 30                    |    Marathon    |  January 24, 2022 |
+| ADHD - How I Got Diagnosed at 30                    |    Marathon    |  January 24, 2022 |
+| Millenials as a Bridge Between Worlds               |    Marathon    |  January 24, 2022 |
+| Giving a F\*\*\* Means More Than We Thought         |       5k       |  January 24, 2022 |
 
 ## Abandoned Posts
 
