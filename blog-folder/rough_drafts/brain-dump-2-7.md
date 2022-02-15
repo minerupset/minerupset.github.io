@@ -2,13 +2,13 @@ Industrial vs. digital revolution and why millennials sit in a shit spot. You ha
 
 ... ->
 
-Giving a fuck means time, energy, $, and space. This last one has become key in the spaces in which we live. (Even the explosion of different adaptors, slowly solidifying into a single USB-C type).
+Giving a fuck means time, energy, $, and space. This last one has become key in the spaces in which we live. (Even the explosion of different adaptors, slowly solidifying into a single USB-C type). Ah, but she was derivative of Marie Kondo, so really she was the first one to cover spaces.
 
 We're seeing this in the digital space: there is currently a divergence of players who will store our information in the cloud, and we have to wonder how that will change. I was there as the cloud grew, and I have files strewn about in OneDrive, Google Drive, Dropbox, and more. Where are younger generations storing their information? Is it diverging? Will we see it converge?
 
 Article #1:
 
-- Speak to the concept of 'giving a fuck' (https://www.youtube.com/watch?v=GwRzjFQa_Og - rewatch to make sure you know what's going on) and note that she missed a key detail of space: the space something occupies is big.
+- Speak to the concept of 'giving a fuck' (https://www.youtube.com/watch?v=GwRzjFQa_Og - rewatch to make sure you know what's going on) and bring that back to Marie Kondo and the ideas of space.
 - How will space matter in the digital world? Tune in next time
 
 Article #2:
