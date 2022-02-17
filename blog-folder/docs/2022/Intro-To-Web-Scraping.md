@@ -69,7 +69,7 @@ screenshotPage("https://google.com");
 
 ## More Advanced Scraping
 
-Puppeteer has a very rich toolset, allowing you to access specific elements of a webpage, extract values from the DOM (Document Object Model), and even run Javascript on the page itself if the need should arise. It's a tool that's easy to get started with but very hard to master, so experiment with what you feel is most interesting.
+Puppeteer has a very rich toolset, allowing you to access specific elements of a webpage, extract values from the DOM (Document Object Model), and even run Javascript on the page itself if the need should arise. It's a tool that's easy to get started with but very hard to master, so experiment with what you feel is most interesting. Like any coding project, the best way to do it is to try something you've never done and see how it breaks. Fix that problem, then onto the next.
 
 You should note that many large websites have deterrents to this kind of programmatic scraping (Zillow, for example, will not allow you on with a bot-controlled browser), and the only advice I can give you is don't push your luck. If they've locked their sites to bots, then trying to circumvent that could put you in a world of legal trouble. That being said, if you want to test your own websites or verify information on a regular basis, this is one of the best custom solutions available to you.
 
